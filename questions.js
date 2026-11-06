@@ -343,7 +343,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "During scoring, how close may a competitor approach a target without Range Officer authorization?",
+        "prompt": "During scoring, what minimum distance must a competitor keep from a target unless the Range Officer gives permission to approach?",
         "correct": "1 m",
         "options": [
           "1 m",
@@ -357,7 +357,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "A competitor approaches a target to within 1 m without authorization during scoring. What is the sanction for a first offense?",
+        "prompt": "A competitor approaches a target closer than 1 m without authorization during scoring. What is the sanction for a first offense?",
         "correct": "A warning",
         "options": [
           "A warning",
@@ -371,7 +371,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.4",
-        "prompt": "An unrestored target has questionable hits that the Range Officer cannot attribute to the competitor being scored. What is required?",
+        "prompt": "An unrestored target has extra scoring hits. The Range Officer cannot tell which hits belong to the competitor being scored. What is required?",
         "correct": "A reshoot of the course of fire",
         "options": [
           "A reshoot of the course of fire",
@@ -879,9 +879,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "7.0000",
+          "6.0000",
+          "9.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -1075,9 +1075,9 @@ const disciplines = [
         "correct": "3.3333",
         "options": [
           "3.3333",
-          "3.5833",
-          "3.0833",
-          "3.8333"
+          "6.6667",
+          "5.0000",
+          "10.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -1271,9 +1271,9 @@ const disciplines = [
         "correct": "2.1429",
         "options": [
           "2.1429",
-          "2.3929",
-          "1.8929",
-          "2.6429"
+          "6.4286",
+          "4.2857",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -1467,9 +1467,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "6.2500",
+          "5.6250",
+          "7.5000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -1663,9 +1663,9 @@ const disciplines = [
         "correct": "7.0000",
         "options": [
           "7.0000",
-          "7.2500",
-          "6.7500",
-          "7.5000"
+          "11.0000",
+          "9.0000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -1859,9 +1859,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "10.0000",
+          "7.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -2055,9 +2055,9 @@ const disciplines = [
         "correct": "7.8571",
         "options": [
           "7.8571",
-          "8.1071",
-          "7.6071",
-          "8.3571"
+          "9.2857",
+          "8.5714",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -2251,9 +2251,9 @@ const disciplines = [
         "correct": "6.2500",
         "options": [
           "6.2500",
-          "6.5000",
-          "6.0000",
-          "6.7500"
+          "8.7500",
+          "7.5000",
+          "11.2500"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -2447,9 +2447,9 @@ const disciplines = [
         "correct": "9.0000",
         "options": [
           "9.0000",
-          "9.2500",
-          "8.7500",
-          "9.5000"
+          "15.0000",
+          "12.0000",
+          "21.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -2643,9 +2643,9 @@ const disciplines = [
         "correct": "11.6667",
         "options": [
           "11.6667",
-          "11.9167",
-          "11.4167",
-          "12.1667"
+          "13.3333",
+          "12.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -2839,9 +2839,9 @@ const disciplines = [
         "correct": "9.2857",
         "options": [
           "9.2857",
-          "9.5357",
-          "9.0357",
-          "9.7857"
+          "12.1429",
+          "10.7143",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -3375,7 +3375,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "During scoring, how close may a competitor approach a target without Range Officer authorization?",
+        "prompt": "During scoring, what minimum distance must a competitor keep from a target unless the Range Officer gives permission to approach?",
         "correct": "1 m",
         "options": [
           "1 m",
@@ -3389,7 +3389,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "A competitor approaches a target to within 1 m without authorization during scoring. What is the sanction for a first offense?",
+        "prompt": "A competitor approaches a target closer than 1 m without authorization during scoring. What is the sanction for a first offense?",
         "correct": "A warning",
         "options": [
           "A warning",
@@ -3403,7 +3403,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.4",
-        "prompt": "An unrestored target has questionable hits that the Range Officer cannot attribute to the competitor being scored. What is required?",
+        "prompt": "An unrestored target has extra scoring hits. The Range Officer cannot tell which hits belong to the competitor being scored. What is required?",
         "correct": "A reshoot of the course of fire",
         "options": [
           "A reshoot of the course of fire",
@@ -3879,13 +3879,13 @@ const disciplines = [
       },
       {
         "rule": "1.2.1.3",
-        "prompt": "A proposed Long Course requires 34 rounds to complete. What is the maximum required count?",
-        "correct": "32",
+        "prompt": "What is the maximum number of scoring hits a Long Course may require from a single location or view?",
+        "correct": "9",
         "options": [
-          "32",
-          "30",
-          "31",
-          "33"
+          "9",
+          "8",
+          "10",
+          "11"
         ],
         "note": "",
         "family": "1.2.1.3",
@@ -3911,9 +3911,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "7.0000",
+          "6.0000",
+          "9.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -4107,9 +4107,9 @@ const disciplines = [
         "correct": "3.3333",
         "options": [
           "3.3333",
-          "3.5833",
-          "3.0833",
-          "3.8333"
+          "6.6667",
+          "5.0000",
+          "10.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -4303,9 +4303,9 @@ const disciplines = [
         "correct": "2.1429",
         "options": [
           "2.1429",
-          "2.3929",
-          "1.8929",
-          "2.6429"
+          "6.4286",
+          "4.2857",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -4499,9 +4499,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "6.2500",
+          "5.6250",
+          "7.5000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -4695,9 +4695,9 @@ const disciplines = [
         "correct": "7.0000",
         "options": [
           "7.0000",
-          "7.2500",
-          "6.7500",
-          "7.5000"
+          "11.0000",
+          "9.0000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -4891,9 +4891,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "10.0000",
+          "7.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -5087,9 +5087,9 @@ const disciplines = [
         "correct": "7.8571",
         "options": [
           "7.8571",
-          "8.1071",
-          "7.6071",
-          "8.3571"
+          "9.2857",
+          "8.5714",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -5283,9 +5283,9 @@ const disciplines = [
         "correct": "6.2500",
         "options": [
           "6.2500",
-          "6.5000",
-          "6.0000",
-          "6.7500"
+          "8.7500",
+          "7.5000",
+          "11.2500"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -5479,9 +5479,9 @@ const disciplines = [
         "correct": "9.0000",
         "options": [
           "9.0000",
-          "9.2500",
-          "8.7500",
-          "9.5000"
+          "15.0000",
+          "12.0000",
+          "21.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -5675,9 +5675,9 @@ const disciplines = [
         "correct": "11.6667",
         "options": [
           "11.6667",
-          "11.9167",
-          "11.4167",
-          "12.1667"
+          "13.3333",
+          "12.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -5871,9 +5871,9 @@ const disciplines = [
         "correct": "9.2857",
         "options": [
           "9.2857",
-          "9.5357",
-          "9.0357",
-          "9.7857"
+          "12.1429",
+          "10.7143",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -6211,7 +6211,7 @@ const disciplines = [
       },
       {
         "rule": "9.5.2",
-        "prompt": "A hit on a scoring paper target touches the line between two scoring zones. Which value counts?",
+        "prompt": "A slug hit on a scoring paper target touches the line between two scoring zones. Which value counts?",
         "correct": "The higher of the two zone values",
         "options": [
           "The higher of the two zone values",
@@ -6407,7 +6407,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "During scoring, how close may a competitor approach a target without Range Officer authorization?",
+        "prompt": "During scoring, what minimum distance must a competitor keep from a target unless the Range Officer gives permission to approach?",
         "correct": "1 m",
         "options": [
           "1 m",
@@ -6421,7 +6421,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "A competitor approaches a target to within 1 m without authorization during scoring. What is the sanction for a first offense?",
+        "prompt": "A competitor approaches a target closer than 1 m without authorization during scoring. What is the sanction for a first offense?",
         "correct": "A warning",
         "options": [
           "A warning",
@@ -6435,7 +6435,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.4",
-        "prompt": "An unrestored target has questionable hits that the Range Officer cannot attribute to the competitor being scored. What is required?",
+        "prompt": "An unrestored target has extra scoring hits. The Range Officer cannot tell which hits belong to the competitor being scored. What is required?",
         "correct": "A reshoot of the course of fire",
         "options": [
           "A reshoot of the course of fire",
@@ -6449,7 +6449,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.5.1",
-        "prompt": "A shot passes wholly through the scoring area of a paper target and then strikes the scoring area of a second paper scoring target. How is the second hit treated?",
+        "prompt": "A slug passes wholly through the scoring area of a paper target and then strikes the scoring area of a second paper scoring target. How is the second hit treated?",
         "correct": "It does not count for score",
         "options": [
           "It does not count for score",
@@ -6943,9 +6943,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "7.0000",
+          "6.0000",
+          "9.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -7125,9 +7125,9 @@ const disciplines = [
         "correct": "3.3333",
         "options": [
           "3.3333",
-          "3.5833",
-          "3.0833",
-          "3.8333"
+          "6.6667",
+          "5.0000",
+          "10.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -7307,9 +7307,9 @@ const disciplines = [
         "correct": "2.1429",
         "options": [
           "2.1429",
-          "2.3929",
-          "1.8929",
-          "2.6429"
+          "6.4286",
+          "4.2857",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -7489,9 +7489,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "6.2500",
+          "5.6250",
+          "7.5000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -7671,9 +7671,9 @@ const disciplines = [
         "correct": "7.0000",
         "options": [
           "7.0000",
-          "7.2500",
-          "6.7500",
-          "7.5000"
+          "11.0000",
+          "9.0000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -7853,9 +7853,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "10.0000",
+          "7.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -8035,9 +8035,9 @@ const disciplines = [
         "correct": "7.8571",
         "options": [
           "7.8571",
-          "8.1071",
-          "7.6071",
-          "8.3571"
+          "9.2857",
+          "8.5714",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -8217,9 +8217,9 @@ const disciplines = [
         "correct": "6.2500",
         "options": [
           "6.2500",
-          "6.5000",
-          "6.0000",
-          "6.7500"
+          "8.7500",
+          "7.5000",
+          "11.2500"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -8399,9 +8399,9 @@ const disciplines = [
         "correct": "9.0000",
         "options": [
           "9.0000",
-          "9.2500",
-          "8.7500",
-          "9.5000"
+          "15.0000",
+          "12.0000",
+          "21.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -8581,9 +8581,9 @@ const disciplines = [
         "correct": "11.6667",
         "options": [
           "11.6667",
-          "11.9167",
-          "11.4167",
-          "12.1667"
+          "13.3333",
+          "12.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -8763,9 +8763,9 @@ const disciplines = [
         "correct": "9.2857",
         "options": [
           "9.2857",
-          "9.5357",
-          "9.0357",
-          "9.7857"
+          "12.1429",
+          "10.7143",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -8945,9 +8945,9 @@ const disciplines = [
         "correct": "7.5000",
         "options": [
           "7.5000",
-          "7.7500",
-          "7.2500",
-          "8.0000"
+          "11.2500",
+          "9.3750",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -9439,7 +9439,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "During scoring, how close may a competitor approach a target without Range Officer authorization?",
+        "prompt": "During scoring, what minimum distance must a competitor keep from a target unless the Range Officer gives permission to approach?",
         "correct": "1 m",
         "options": [
           "1 m",
@@ -9453,7 +9453,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "A competitor approaches a target to within 1 m without authorization during scoring. What is the sanction for a first offense?",
+        "prompt": "A competitor approaches a target closer than 1 m without authorization during scoring. What is the sanction for a first offense?",
         "correct": "A warning",
         "options": [
           "A warning",
@@ -9467,7 +9467,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.4",
-        "prompt": "An unrestored target has questionable hits that the Range Officer cannot attribute to the competitor being scored. What is required?",
+        "prompt": "An unrestored target has extra scoring hits. The Range Officer cannot tell which hits belong to the competitor being scored. What is required?",
         "correct": "A reshoot of the course of fire",
         "options": [
           "A reshoot of the course of fire",
@@ -9915,7 +9915,7 @@ const disciplines = [
       },
       {
         "rule": "1.2.1.1",
-        "prompt": "A proposed Short Course requires 11 rounds to complete in Semi Auto Division. To what maximum must the required count be reduced?",
+        "prompt": "What is the maximum number of rounds a Rifle Short Course may require in Semi Auto when one hit per paper target is required?",
         "correct": "10",
         "options": [
           "10",
@@ -9975,9 +9975,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "7.0000",
+          "6.0000",
+          "9.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -10171,9 +10171,9 @@ const disciplines = [
         "correct": "3.3333",
         "options": [
           "3.3333",
-          "3.5833",
-          "3.0833",
-          "3.8333"
+          "6.6667",
+          "5.0000",
+          "10.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -10367,9 +10367,9 @@ const disciplines = [
         "correct": "2.1429",
         "options": [
           "2.1429",
-          "2.3929",
-          "1.8929",
-          "2.6429"
+          "6.4286",
+          "4.2857",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -10563,9 +10563,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "6.2500",
+          "5.6250",
+          "7.5000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -10759,9 +10759,9 @@ const disciplines = [
         "correct": "7.0000",
         "options": [
           "7.0000",
-          "7.2500",
-          "6.7500",
-          "7.5000"
+          "11.0000",
+          "9.0000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -10955,9 +10955,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "10.0000",
+          "7.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -11151,9 +11151,9 @@ const disciplines = [
         "correct": "7.8571",
         "options": [
           "7.8571",
-          "8.1071",
-          "7.6071",
-          "8.3571"
+          "9.2857",
+          "8.5714",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -11347,9 +11347,9 @@ const disciplines = [
         "correct": "6.2500",
         "options": [
           "6.2500",
-          "6.5000",
-          "6.0000",
-          "6.7500"
+          "8.7500",
+          "7.5000",
+          "11.2500"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -11543,9 +11543,9 @@ const disciplines = [
         "correct": "9.0000",
         "options": [
           "9.0000",
-          "9.2500",
-          "8.7500",
-          "9.5000"
+          "15.0000",
+          "12.0000",
+          "21.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -11739,9 +11739,9 @@ const disciplines = [
         "correct": "11.6667",
         "options": [
           "11.6667",
-          "11.9167",
-          "11.4167",
-          "12.1667"
+          "13.3333",
+          "12.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -11935,9 +11935,9 @@ const disciplines = [
         "correct": "9.2857",
         "options": [
           "9.2857",
-          "9.5357",
-          "9.0357",
-          "9.7857"
+          "12.1429",
+          "10.7143",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -12471,7 +12471,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "During scoring, how close may a competitor approach a target without Range Officer authorization?",
+        "prompt": "During scoring, what minimum distance must a competitor keep from a target unless the Range Officer gives permission to approach?",
         "correct": "1 m",
         "options": [
           "1 m",
@@ -12485,7 +12485,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "A competitor approaches a target to within 1 m without authorization during scoring. What is the sanction for a first offense?",
+        "prompt": "A competitor approaches a target closer than 1 m without authorization during scoring. What is the sanction for a first offense?",
         "correct": "A warning",
         "options": [
           "A warning",
@@ -12499,7 +12499,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.4",
-        "prompt": "An unrestored target has questionable hits that the Range Officer cannot attribute to the competitor being scored. What is required?",
+        "prompt": "An unrestored target has extra scoring hits. The Range Officer cannot tell which hits belong to the competitor being scored. What is required?",
         "correct": "A reshoot of the course of fire",
         "options": [
           "A reshoot of the course of fire",
@@ -12961,13 +12961,13 @@ const disciplines = [
       },
       {
         "rule": "1.2.1.2",
-        "prompt": "A proposed Medium Course requires 22 rounds to complete. What maximum required count applies?",
-        "correct": "20",
+        "prompt": "A Mini Rifle Medium Course can be completed entirely from one location and view. Is that stage design permitted?",
+        "correct": "No, the stage cannot allow every target to be shot from one location or view",
         "options": [
-          "20",
-          "18",
-          "19",
-          "21"
+          "No, the stage cannot allow every target to be shot from one location or view",
+          "Yes, if there are no more than five scoring targets",
+          "Yes, if the stage requires no more than 20 rounds",
+          "Yes, if the written stage briefing permits it"
         ],
         "note": "",
         "family": "1.2.1.2",
@@ -13007,9 +13007,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "7.0000",
+          "6.0000",
+          "9.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -13203,9 +13203,9 @@ const disciplines = [
         "correct": "3.3333",
         "options": [
           "3.3333",
-          "3.5833",
-          "3.0833",
-          "3.8333"
+          "6.6667",
+          "5.0000",
+          "10.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -13399,9 +13399,9 @@ const disciplines = [
         "correct": "2.1429",
         "options": [
           "2.1429",
-          "2.3929",
-          "1.8929",
-          "2.6429"
+          "6.4286",
+          "4.2857",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -13595,9 +13595,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "6.2500",
+          "5.6250",
+          "7.5000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -13791,9 +13791,9 @@ const disciplines = [
         "correct": "7.0000",
         "options": [
           "7.0000",
-          "7.2500",
-          "6.7500",
-          "7.5000"
+          "11.0000",
+          "9.0000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -13987,9 +13987,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "10.0000",
+          "7.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -14183,9 +14183,9 @@ const disciplines = [
         "correct": "7.8571",
         "options": [
           "7.8571",
-          "8.1071",
-          "7.6071",
-          "8.3571"
+          "9.2857",
+          "8.5714",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -14379,9 +14379,9 @@ const disciplines = [
         "correct": "6.2500",
         "options": [
           "6.2500",
-          "6.5000",
-          "6.0000",
-          "6.7500"
+          "8.7500",
+          "7.5000",
+          "11.2500"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -14575,9 +14575,9 @@ const disciplines = [
         "correct": "9.0000",
         "options": [
           "9.0000",
-          "9.2500",
-          "8.7500",
-          "9.5000"
+          "15.0000",
+          "12.0000",
+          "21.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -14771,9 +14771,9 @@ const disciplines = [
         "correct": "11.6667",
         "options": [
           "11.6667",
-          "11.9167",
-          "11.4167",
-          "12.1667"
+          "13.3333",
+          "12.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -14967,9 +14967,9 @@ const disciplines = [
         "correct": "9.2857",
         "options": [
           "9.2857",
-          "9.5357",
-          "9.0357",
-          "9.7857"
+          "12.1429",
+          "10.7143",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -15503,7 +15503,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "During scoring, how close may a competitor approach a target without Range Officer authorization?",
+        "prompt": "During scoring, what minimum distance must a competitor keep from a target unless the Range Officer gives permission to approach?",
         "correct": "1 m",
         "options": [
           "1 m",
@@ -15517,7 +15517,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "A competitor approaches a target to within 1 m without authorization during scoring. What is the sanction for a first offense?",
+        "prompt": "A competitor approaches a target closer than 1 m without authorization during scoring. What is the sanction for a first offense?",
         "correct": "A warning",
         "options": [
           "A warning",
@@ -15531,7 +15531,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.4",
-        "prompt": "An unrestored target has questionable hits that the Range Officer cannot attribute to the competitor being scored. What is required?",
+        "prompt": "An unrestored target has extra scoring hits. The Range Officer cannot tell which hits belong to the competitor being scored. What is required?",
         "correct": "A reshoot of the course of fire",
         "options": [
           "A reshoot of the course of fire",
@@ -16007,13 +16007,13 @@ const disciplines = [
       },
       {
         "rule": "1.2.1.3",
-        "prompt": "A proposed Long Course requires 42 rounds to complete. What is the maximum required count?",
-        "correct": "40",
+        "prompt": "What is the maximum number of scoring hits a Long Course may require from a single location or view?",
+        "correct": "10",
         "options": [
-          "40",
-          "38",
-          "39",
-          "41"
+          "10",
+          "9",
+          "11",
+          "12"
         ],
         "note": "",
         "family": "1.2.1.3",
@@ -16039,9 +16039,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "7.0000",
+          "6.0000",
+          "9.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -16235,9 +16235,9 @@ const disciplines = [
         "correct": "3.3333",
         "options": [
           "3.3333",
-          "3.5833",
-          "3.0833",
-          "3.8333"
+          "6.6667",
+          "5.0000",
+          "10.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -16431,9 +16431,9 @@ const disciplines = [
         "correct": "2.1429",
         "options": [
           "2.1429",
-          "2.3929",
-          "1.8929",
-          "2.6429"
+          "6.4286",
+          "4.2857",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -16627,9 +16627,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "6.2500",
+          "5.6250",
+          "7.5000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -16823,9 +16823,9 @@ const disciplines = [
         "correct": "7.0000",
         "options": [
           "7.0000",
-          "7.2500",
-          "6.7500",
-          "7.5000"
+          "11.0000",
+          "9.0000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -17019,9 +17019,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "10.0000",
+          "7.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -17215,9 +17215,9 @@ const disciplines = [
         "correct": "7.8571",
         "options": [
           "7.8571",
-          "8.1071",
-          "7.6071",
-          "8.3571"
+          "9.2857",
+          "8.5714",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -17411,9 +17411,9 @@ const disciplines = [
         "correct": "6.2500",
         "options": [
           "6.2500",
-          "6.5000",
-          "6.0000",
-          "6.7500"
+          "8.7500",
+          "7.5000",
+          "11.2500"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -17607,9 +17607,9 @@ const disciplines = [
         "correct": "9.0000",
         "options": [
           "9.0000",
-          "9.2500",
-          "8.7500",
-          "9.5000"
+          "15.0000",
+          "12.0000",
+          "21.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -17803,9 +17803,9 @@ const disciplines = [
         "correct": "11.6667",
         "options": [
           "11.6667",
-          "11.9167",
-          "11.4167",
-          "12.1667"
+          "13.3333",
+          "12.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -17999,9 +17999,9 @@ const disciplines = [
         "correct": "9.2857",
         "options": [
           "9.2857",
-          "9.5357",
-          "9.0357",
-          "9.7857"
+          "12.1429",
+          "10.7143",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -18535,7 +18535,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "During scoring, how close may a competitor approach a target without Range Officer authorization?",
+        "prompt": "During scoring, what minimum distance must a competitor keep from a target unless the Range Officer gives permission to approach?",
         "correct": "1 m",
         "options": [
           "1 m",
@@ -18549,7 +18549,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "A competitor approaches a target to within 1 m without authorization during scoring. What is the sanction for a first offense?",
+        "prompt": "A competitor approaches a target closer than 1 m without authorization during scoring. What is the sanction for a first offense?",
         "correct": "A warning",
         "options": [
           "A warning",
@@ -18563,7 +18563,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.4",
-        "prompt": "An unrestored target has questionable hits that the Range Officer cannot attribute to the competitor being scored. What is required?",
+        "prompt": "An unrestored target has extra scoring hits. The Range Officer cannot tell which hits belong to the competitor being scored. What is required?",
         "correct": "A reshoot of the course of fire",
         "options": [
           "A reshoot of the course of fire",
@@ -19039,13 +19039,13 @@ const disciplines = [
       },
       {
         "rule": "1.2.1.3",
-        "prompt": "A proposed Long Course requires 34 projectiles to complete. What is the maximum required count?",
-        "correct": "32",
+        "prompt": "What is the maximum number of scoring hits a Long Course may require from a single location or view?",
+        "correct": "9",
         "options": [
-          "32",
-          "30",
-          "31",
-          "33"
+          "9",
+          "8",
+          "10",
+          "11"
         ],
         "note": "",
         "family": "1.2.1.3",
@@ -19071,9 +19071,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "7.0000",
+          "6.0000",
+          "9.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -19267,9 +19267,9 @@ const disciplines = [
         "correct": "3.3333",
         "options": [
           "3.3333",
-          "3.5833",
-          "3.0833",
-          "3.8333"
+          "6.6667",
+          "5.0000",
+          "10.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -19463,9 +19463,9 @@ const disciplines = [
         "correct": "2.1429",
         "options": [
           "2.1429",
-          "2.3929",
-          "1.8929",
-          "2.6429"
+          "6.4286",
+          "4.2857",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -19659,9 +19659,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "6.2500",
+          "5.6250",
+          "7.5000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -19855,9 +19855,9 @@ const disciplines = [
         "correct": "7.0000",
         "options": [
           "7.0000",
-          "7.2500",
-          "6.7500",
-          "7.5000"
+          "11.0000",
+          "9.0000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -20051,9 +20051,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "10.0000",
+          "7.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -20247,9 +20247,9 @@ const disciplines = [
         "correct": "7.8571",
         "options": [
           "7.8571",
-          "8.1071",
-          "7.6071",
-          "8.3571"
+          "9.2857",
+          "8.5714",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -20443,9 +20443,9 @@ const disciplines = [
         "correct": "6.2500",
         "options": [
           "6.2500",
-          "6.5000",
-          "6.0000",
-          "6.7500"
+          "8.7500",
+          "7.5000",
+          "11.2500"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -20639,9 +20639,9 @@ const disciplines = [
         "correct": "9.0000",
         "options": [
           "9.0000",
-          "9.2500",
-          "8.7500",
-          "9.5000"
+          "15.0000",
+          "12.0000",
+          "21.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -20835,9 +20835,9 @@ const disciplines = [
         "correct": "11.6667",
         "options": [
           "11.6667",
-          "11.9167",
-          "11.4167",
-          "12.1667"
+          "13.3333",
+          "12.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -21031,9 +21031,9 @@ const disciplines = [
         "correct": "9.2857",
         "options": [
           "9.2857",
-          "9.5357",
-          "9.0357",
-          "9.7857"
+          "12.1429",
+          "10.7143",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -21567,7 +21567,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "During scoring, how close may a competitor approach a target without Range Officer authorization?",
+        "prompt": "During scoring, what minimum distance must a competitor keep from a target unless the Range Officer gives permission to approach?",
         "correct": "1 m",
         "options": [
           "1 m",
@@ -21581,7 +21581,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "A competitor approaches a target to within 1 m without authorization during scoring. What is the sanction for a first offense?",
+        "prompt": "A competitor approaches a target closer than 1 m without authorization during scoring. What is the sanction for a first offense?",
         "correct": "A warning",
         "options": [
           "A warning",
@@ -21595,7 +21595,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.4",
-        "prompt": "An unrestored target has questionable hits that the Range Officer cannot attribute to the competitor being scored. What is required?",
+        "prompt": "An unrestored target has extra scoring hits. The Range Officer cannot tell which hits belong to the competitor being scored. What is required?",
         "correct": "A reshoot of the course of fire",
         "options": [
           "A reshoot of the course of fire",
@@ -22057,13 +22057,13 @@ const disciplines = [
       },
       {
         "rule": "1.2.1.2",
-        "prompt": "A proposed Medium Course requires 26 projectiles to complete. What maximum required count applies?",
-        "correct": "24",
+        "prompt": "What is the maximum number of scoring hits a Medium Course may require from a single location or view?",
+        "correct": "10",
         "options": [
-          "24",
-          "22",
-          "23",
-          "25"
+          "10",
+          "9",
+          "11",
+          "12"
         ],
         "note": "",
         "family": "1.2.1.2",
@@ -22103,9 +22103,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "7.0000",
+          "6.0000",
+          "9.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -22299,9 +22299,9 @@ const disciplines = [
         "correct": "3.3333",
         "options": [
           "3.3333",
-          "3.5833",
-          "3.0833",
-          "3.8333"
+          "6.6667",
+          "5.0000",
+          "10.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -22495,9 +22495,9 @@ const disciplines = [
         "correct": "2.1429",
         "options": [
           "2.1429",
-          "2.3929",
-          "1.8929",
-          "2.6429"
+          "6.4286",
+          "4.2857",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -22691,9 +22691,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "6.2500",
+          "5.6250",
+          "7.5000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -22887,9 +22887,9 @@ const disciplines = [
         "correct": "7.0000",
         "options": [
           "7.0000",
-          "7.2500",
-          "6.7500",
-          "7.5000"
+          "11.0000",
+          "9.0000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -23083,9 +23083,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "10.0000",
+          "7.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -23279,9 +23279,9 @@ const disciplines = [
         "correct": "7.8571",
         "options": [
           "7.8571",
-          "8.1071",
-          "7.6071",
-          "8.3571"
+          "9.2857",
+          "8.5714",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -23475,9 +23475,9 @@ const disciplines = [
         "correct": "6.2500",
         "options": [
           "6.2500",
-          "6.5000",
-          "6.0000",
-          "6.7500"
+          "8.7500",
+          "7.5000",
+          "11.2500"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -23671,9 +23671,9 @@ const disciplines = [
         "correct": "9.0000",
         "options": [
           "9.0000",
-          "9.2500",
-          "8.7500",
-          "9.5000"
+          "15.0000",
+          "12.0000",
+          "21.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -23867,9 +23867,9 @@ const disciplines = [
         "correct": "11.6667",
         "options": [
           "11.6667",
-          "11.9167",
-          "11.4167",
-          "12.1667"
+          "13.3333",
+          "12.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -24063,9 +24063,9 @@ const disciplines = [
         "correct": "9.2857",
         "options": [
           "9.2857",
-          "9.5357",
-          "9.0357",
-          "9.7857"
+          "12.1429",
+          "10.7143",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -24599,7 +24599,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "During scoring, how close may a competitor approach a target without Range Officer authorization?",
+        "prompt": "During scoring, what minimum distance must a competitor keep from a target unless the Range Officer gives permission to approach?",
         "correct": "1 m",
         "options": [
           "1 m",
@@ -24613,7 +24613,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.1",
-        "prompt": "A competitor approaches a target to within 1 m without authorization during scoring. What is the sanction for a first offense?",
+        "prompt": "A competitor approaches a target closer than 1 m without authorization during scoring. What is the sanction for a first offense?",
         "correct": "A warning",
         "options": [
           "A warning",
@@ -24627,7 +24627,7 @@ const disciplines = [
       },
       {
         "rule": "9.1.4",
-        "prompt": "An unrestored target has questionable hits that the Range Officer cannot attribute to the competitor being scored. What is required?",
+        "prompt": "An unrestored target has extra scoring hits. The Range Officer cannot tell which hits belong to the competitor being scored. What is required?",
         "correct": "A reshoot of the course of fire",
         "options": [
           "A reshoot of the course of fire",
@@ -25089,13 +25089,13 @@ const disciplines = [
       },
       {
         "rule": "1.2.1.2",
-        "prompt": "A proposed Medium Course requires 22 projectiles to complete. What maximum required count applies?",
-        "correct": "20",
+        "prompt": "What is the maximum number of scoring targets a Medium Course may require from a single location or view?",
+        "correct": "5",
         "options": [
-          "20",
-          "18",
-          "19",
-          "21"
+          "5",
+          "4",
+          "6",
+          "7"
         ],
         "note": "",
         "family": "1.2.1.2",
@@ -25135,9 +25135,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "7.0000",
+          "6.0000",
+          "9.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -25331,9 +25331,9 @@ const disciplines = [
         "correct": "3.3333",
         "options": [
           "3.3333",
-          "3.5833",
-          "3.0833",
-          "3.8333"
+          "6.6667",
+          "5.0000",
+          "10.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -25527,9 +25527,9 @@ const disciplines = [
         "correct": "2.1429",
         "options": [
           "2.1429",
-          "2.3929",
-          "1.8929",
-          "2.6429"
+          "6.4286",
+          "4.2857",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -25723,9 +25723,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "6.2500",
+          "5.6250",
+          "7.5000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -25919,9 +25919,9 @@ const disciplines = [
         "correct": "7.0000",
         "options": [
           "7.0000",
-          "7.2500",
-          "6.7500",
-          "7.5000"
+          "11.0000",
+          "9.0000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -26115,9 +26115,9 @@ const disciplines = [
         "correct": "5.0000",
         "options": [
           "5.0000",
-          "5.2500",
-          "4.7500",
-          "5.5000"
+          "10.0000",
+          "7.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -26311,9 +26311,9 @@ const disciplines = [
         "correct": "7.8571",
         "options": [
           "7.8571",
-          "8.1071",
-          "7.6071",
-          "8.3571"
+          "9.2857",
+          "8.5714",
+          "10.7143"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -26507,9 +26507,9 @@ const disciplines = [
         "correct": "6.2500",
         "options": [
           "6.2500",
-          "6.5000",
-          "6.0000",
-          "6.7500"
+          "8.7500",
+          "7.5000",
+          "11.2500"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -26703,9 +26703,9 @@ const disciplines = [
         "correct": "9.0000",
         "options": [
           "9.0000",
-          "9.2500",
-          "8.7500",
-          "9.5000"
+          "15.0000",
+          "12.0000",
+          "21.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -26899,9 +26899,9 @@ const disciplines = [
         "correct": "11.6667",
         "options": [
           "11.6667",
-          "11.9167",
-          "11.4167",
-          "12.1667"
+          "13.3333",
+          "12.5000",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",
@@ -27095,9 +27095,9 @@ const disciplines = [
         "correct": "9.2857",
         "options": [
           "9.2857",
-          "9.5357",
-          "9.0357",
-          "9.7857"
+          "12.1429",
+          "10.7143",
+          "15.0000"
         ],
         "note": "Subtract penalties from target points before dividing by time.",
         "family": "comstock-hit-factor",

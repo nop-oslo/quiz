@@ -58,3 +58,6 @@ h1{font-size:clamp(2.6rem,8vw,6rem);letter-spacing:-.06em;line-height:.98;margin
 .feedback p,.feedback a{margin-top:4px}
 .feedback a{display:inline-block}
 .score-breakdown{font-weight:750}
+
+.rule-explanation{margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}
+.rule-explanation a{display:inline-block;margin-top:6px}

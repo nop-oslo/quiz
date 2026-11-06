@@ -189,16 +189,22 @@ function questionView() {
       node('p', `Your answer: ${submitted}`),
       node('p', `Correct answer: ${question.correct}`));
     if (question.note) feedback.append(node('p', question.note, 'muted'));
-    feedback.append(ruleLink(question, discipline));
+    feedback.append(ruleExplanation(question, discipline));
     view.append(feedback);
   } else view.append(options);
   view.append(actions);
   show(view, true, locked ? '.feedback h2' : 'h1');
 }
 
-function ruleLink(question, discipline) {
+function ruleExplanation(question, discipline) {
   const interpretation = Object.keys(interpretations).find(month => question.rule.includes(month));
-  return link(question.rule, interpretations[interpretation] ?? discipline.book);
+  const summary = disciplineRuleNotes[discipline.id]?.[question.rule] ?? commonRuleNotes[question.rule];
+  const section = node('div', undefined, 'rule-explanation');
+  section.append(node('p', `Rule in brief · ${question.rule}`, 'meta'),
+    node('p', summary),
+    link(interpretation ? 'Open official interpretation ↗' : 'Open official rule book ↗',
+      interpretations[interpretation] ?? discipline.book));
+  return section;
 }
 
 function resultImage(discipline, score, total, percent) {
@@ -286,11 +292,9 @@ function results() {
     const correct = question.correct === answers[index];
     const detail = node('details');
     const body = node('div', undefined, 'review-body');
-    const reference = node('p');
-    reference.append(ruleLink(question, discipline));
     body.append(node('p', `Your answer: ${answers[index]}`), node('p', `Correct answer: ${question.correct}`));
     if (question.note) body.append(node('p', question.note, 'muted'));
-    body.append(reference);
+    body.append(ruleExplanation(question, discipline));
     detail.append(node('summary', `${index + 1}. ${correct ? 'Correct' : 'Incorrect'} · ${question.prompt}`), body);
     review.append(detail);
   });
