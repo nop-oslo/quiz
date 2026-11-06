@@ -20,7 +20,10 @@ h1{font-size:clamp(2.6rem,8vw,6rem);letter-spacing:-.06em;line-height:.98;margin
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,225px),1fr));gap:10px}
 .tile,.option{color:var(--text);background:var(--panel);border:1px solid var(--line);text-align:left;border-radius:12px}
 .tile{padding:17px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:4px 8px;min-height:86px}
-.tile:hover,.option:hover{border-color:var(--accent)}
+@media (hover: hover) and (pointer: fine){
+  .tile:hover{border-color:var(--accent)}
+  .option:hover:not([aria-pressed=true]){border-color:var(--muted)}
+}
 .tile strong{font-size:1.04rem;line-height:1.25}
 .tile .meta{grid-column:1;font-size:.63rem}
 .arrow{grid-column:2;grid-row:1/span 2;color:var(--accent)}
