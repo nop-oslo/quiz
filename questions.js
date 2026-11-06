@@ -49,7 +49,7 @@ const disciplines = [
       },
       {
         "rule": "Appendix D1, item 1",
-        "prompt": "What is the minimum Major power factor in Open Division?",
+        "prompt": "At chronograph, you declared Major in Handgun Open. What minimum power factor must your ammunition meet for Major scoring?",
         "correct": "160",
         "options": [
           "160",
@@ -63,7 +63,7 @@ const disciplines = [
       },
       {
         "rule": "2.1.3",
-        "prompt": "While metal targets are being shot, what minimum distance must be maintained?",
+        "prompt": "You are checking the stage layout. Where metal targets will be shot, what minimum distance must be maintained while they are being shot?",
         "correct": "7 m",
         "options": [
           "7 m",
@@ -161,7 +161,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.2",
-        "prompt": "To how many decimal places are individual stage points calculated for stage ranking?",
+        "prompt": "Two competitors are very close on a stage. To how many decimal places are their stage points calculated for ranking?",
         "correct": "4",
         "options": [
           "4",
@@ -175,7 +175,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Who sets the duration of the squad’s stage walkthrough?",
+        "prompt": "A squad wants extra walkthrough time before its first run. Who sets the walkthrough duration?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -189,7 +189,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Moving targets are demonstrated during walkthroughs. What must be consistent across competitors?",
+        "prompt": "Two squads are shown the same moving target during their walkthroughs. What should be the same about the demonstrations?",
         "correct": "Both duration and frequency",
         "options": [
           "Both duration and frequency",
@@ -245,7 +245,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.1",
-        "prompt": "Who declares a competitor’s time, scores and penalties on the stage and verifies they are recorded correctly?",
+        "prompt": "The run is over and the score sheet is open. Which official announces the competitor’s time, score and penalties and checks the entries?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -259,7 +259,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.2",
-        "prompt": "Which official has primary authority over the courses of fire specifically assigned to them, under the Range Master?",
+        "prompt": "Two squads report that a stage is being run differently in the same bay. Which official has primary authority over that stage under the Range Master?",
         "correct": "Chief Range Officer",
         "options": [
           "Chief Range Officer",
@@ -273,7 +273,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.3",
-        "prompt": "Who supervises the team that processes score sheets and produces provisional and final results?",
+        "prompt": "Score sheets have been submitted and the provisional results are being prepared. Which official supervises the team processing them?",
         "correct": "Stats Officer",
         "options": [
           "Stats Officer",
@@ -287,7 +287,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.4",
-        "prompt": "Who is responsible for distributing and maintaining targets, timers and other range equipment?",
+        "prompt": "The stage crew runs out of target patches and a timer needs replacing. Which official is responsible for supplying and maintaining that equipment?",
         "correct": "Quartermaster",
         "options": [
           "Quartermaster",
@@ -301,7 +301,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.5",
-        "prompt": "Which official has overall authority for range safety and rule application across the entire match range?",
+        "prompt": "A safety issue affects several bays and requires a match-wide ruling. Which official has overall authority across the range?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -399,7 +399,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Under Comstock, which calculation produces a hit factor?",
+        "prompt": "You have the target points, penalty points and elapsed time for a Comstock run. In what order do you use them to calculate hit factor?",
         "correct": "Target points minus penalties, then divide by time",
         "options": [
           "Target points minus penalties, then divide by time",
@@ -413,7 +413,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Which competitor receives the maximum stage points available under Comstock?",
+        "prompt": "One competitor shoots the fastest time and another records the highest hit factor. Who gets the full stage points under Comstock?",
         "correct": "The competitor with the highest hit factor",
         "options": [
           "The competitor with the highest hit factor",
@@ -427,7 +427,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.3",
-        "prompt": "Which quantity determines the final ranking within a Division?",
+        "prompt": "You are checking the final standings after the last stage. Which total determines each competitor’s ranking within their division?",
         "correct": "The sum of individual stage points",
         "options": [
           "The sum of individual stage points",
@@ -511,7 +511,7 @@ const disciplines = [
       },
       {
         "rule": "9.7.4",
-        "prompt": "A score sheet is signed by both the competitor and Range Officer. With no mutual consent and no arbitration decision, which change is explicitly permitted?",
+        "prompt": "Both the competitor and the Range Officer have signed. They have not agreed to a change, and there is no arbitration decision. Which of these corrections can still be made?",
         "correct": "Correcting an arithmetic error",
         "options": [
           "Correcting an arithmetic error",
@@ -637,7 +637,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.1",
-        "prompt": "What must be recorded for procedural penalties on the score sheet?",
+        "prompt": "A Range Officer assesses three procedurals for a stage procedure breach. What must be written on the score sheet about those penalties?",
         "correct": "Both the number and the reason",
         "options": [
           "Both the number and the reason",
@@ -651,7 +651,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.4",
-        "prompt": "A competitor fires while faulting a line, then fires at the same target from inside the line. What happens to the original applicable fault penalty?",
+        "prompt": "A competitor fires while touching the ground beyond a fault line, then shoots the same target again from inside the line. What happens to the original fault penalty?",
         "correct": "It still applies",
         "options": [
           "It still applies",
@@ -679,7 +679,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.2",
-        "prompt": "A competitor ignores a written stage procedure and gains a significant advantage. What penalty basis may apply in place of a single penalty for the occurrence?",
+        "prompt": "A competitor shoots from standing where the written briefing requires kneeling and gains a significant advantage. How may the procedural penalties be counted?",
         "correct": "One per shot fired during the breach, subject to the applicable cap",
         "options": [
           "One per shot fired during the breach, subject to the applicable cap",
@@ -721,7 +721,7 @@ const disciplines = [
       },
       {
         "rule": "10.3.2",
-        "prompt": "After issuing a disqualification, who must be notified as soon as possible?",
+        "prompt": "A Range Officer has just disqualified a competitor. Who must be notified as soon as possible?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -749,7 +749,7 @@ const disciplines = [
       },
       {
         "rule": "11.3.2",
-        "prompt": "When must the Arbitration Committee reach its decision?",
+        "prompt": "The arbitration request has been filed, and the Match Director plans to declare the results final soon. Which deadline governs the committee’s decision?",
         "correct": "Within 24 hours of the request or before final results are declared, whichever comes first",
         "options": [
           "Within 24 hours of the request or before final results are declared, whichever comes first",
@@ -777,7 +777,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.2",
-        "prompt": "Who implements and posts the Arbitration Committee’s decision?",
+        "prompt": "The Arbitration Committee has issued its decision. Which official puts it into effect and posts it for competitors?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -791,7 +791,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.4",
-        "prompt": "For what can a recorded Arbitration Committee decision serve as precedent?",
+        "prompt": "The same issue comes up again later in the match after an arbitration decision has been recorded. When can that decision be used as precedent?",
         "correct": "A similar subsequent incident at the same match",
         "options": [
           "A similar subsequent incident at the same match",
@@ -805,7 +805,7 @@ const disciplines = [
       },
       {
         "rule": "11.7.1",
-        "prompt": "May someone other than the competitor involved submit an appeal on a third-party basis?",
+        "prompt": "A competitor witnesses an incident involving someone else and wants to submit an appeal. Can the competitor appeal as a third party?",
         "correct": "Yes, under the same Chapter 11 provisions",
         "options": [
           "Yes, under the same Chapter 11 provisions",
@@ -931,7 +931,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -987,7 +987,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:00, but were actually posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:00, but they were posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:11",
         "options": [
           "13:11",
@@ -1015,7 +1015,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "20 points",
         "options": [
           "20 points",
@@ -1043,7 +1043,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "2",
         "options": [
           "2",
@@ -1127,7 +1127,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -1183,7 +1183,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:17, but were actually posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:17, but they were posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:29",
         "options": [
           "13:29",
@@ -1211,7 +1211,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -1239,7 +1239,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "3",
         "options": [
           "3",
@@ -1323,7 +1323,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -1379,7 +1379,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:34, but were actually posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:34, but they were posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:47",
         "options": [
           "13:47",
@@ -1407,7 +1407,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -1435,7 +1435,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "4",
         "options": [
           "4",
@@ -1519,7 +1519,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -1575,7 +1575,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:51, but were actually posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:51, but they were posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:05",
         "options": [
           "14:05",
@@ -1603,7 +1603,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -1631,7 +1631,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "5",
         "options": [
           "5",
@@ -1715,7 +1715,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -1771,7 +1771,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:08, but were actually posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:08, but they were posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:19",
         "options": [
           "14:19",
@@ -1799,7 +1799,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -1827,7 +1827,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "6",
         "options": [
           "6",
@@ -1911,7 +1911,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -1967,7 +1967,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:25, but were actually posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:25, but they were posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:37",
         "options": [
           "14:37",
@@ -1995,7 +1995,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -2023,7 +2023,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "7",
         "options": [
           "7",
@@ -2107,7 +2107,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -2163,7 +2163,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:42, but were actually posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:42, but they were posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:55",
         "options": [
           "14:55",
@@ -2191,7 +2191,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -2219,7 +2219,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "8",
         "options": [
           "8",
@@ -2303,7 +2303,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -2359,7 +2359,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:59, but were actually posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:59, but they were posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "15:13",
         "options": [
           "15:13",
@@ -2387,7 +2387,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "50 points",
         "options": [
           "50 points",
@@ -2415,7 +2415,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "9",
         "options": [
           "9",
@@ -2499,7 +2499,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 3. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -2540,493 +2540,493 @@ const disciplines = [
         "id": "0fdc8b40955167f4"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:04. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:04",
+        "rule": "3.2.1",
+        "prompt": "The online stage preview says to start seated. The written stage briefing approved by the Range Master and posted at the stage says to start standing. Which start position applies?",
+        "correct": "Standing, as specified in the posted briefing",
         "options": [
-          "12:04",
-          "11:49",
-          "12:19",
-          "12:34"
+          "Standing, as specified in the posted briefing",
+          "Seated, because the preview was published first",
+          "Either position, if used consistently within the squad",
+          "The position used by the first competitor"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "3.2.1",
         "id": "74c72e17cf94ace9"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:16, but were actually posted at 14:27. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:27",
+        "rule": "3.2.2",
+        "prompt": "The Range Officer has read out the briefing but has not shown the start position. A competitor asks to see it. What should the Range Officer do?",
+        "correct": "Show the acceptable position in person or using a picture",
         "options": [
-          "15:27",
-          "15:12",
-          "15:42",
-          "15:57"
+          "Show the acceptable position in person or using a picture",
+          "Show it only at Level III or above",
+          "Repeat the text without showing the position",
+          "Let the first competitor decide what the position looks like"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "3.2.2",
         "id": "7218042e14ad7648"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$74. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$74",
+        "rule": "2.2.1.5",
+        "prompt": "On a clearly marked path between shooting positions, a competitor takes a shortcut outside the markings. They fire twice after re-entering the path. How many procedural penalties apply for the shortcut?",
+        "correct": "Two",
         "options": [
-          "US$74",
-          "US$100",
-          "US$69",
-          "US$79"
+          "Two",
+          "One",
+          "Zero",
+          "Three"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "2.2.1.5",
         "id": "84a17151ec6235aa"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "4.7.1",
+        "prompt": "A moving target activates early because its latch fails before the competitor operates it. How should the latch failure be classified?",
+        "correct": "Range equipment failure",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Range equipment failure",
+          "A competitor equipment malfunction",
+          "A failure to engage the target",
+          "A breach of the start position"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "4.7.1",
         "id": "9362ece878e6df51"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 3 non-disappearing scoring targets completely unengaged. They engage the other 10 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "3",
+        "rule": "4.7.2",
+        "prompt": "A moving target was left unset after the previous competitor. The Range Officer discovers this during the next attempt. What must happen after the target is reset?",
+        "correct": "The competitor must reshoot the entire stage",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor must reshoot the entire stage",
+          "The competitor must shoot only the affected target",
+          "The competitor can choose whether to keep the first run",
+          "The first run stands and the affected target is removed from scoring"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "4.7.2",
         "id": "f187f41432c19f9e"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 15 shots and gains a significant advantage. From that position a maximum of 10 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "10",
+        "rule": "4.7.2",
+        "prompt": "A stage prop breaks and prevents the competitor from completing the stage. The Range Officer confirms range equipment failure. What is the remedy?",
+        "correct": "Repair the prop and require a full reshoot",
         "options": [
-          "10",
-          "9",
-          "11",
-          "12"
+          "Repair the prop and require a full reshoot",
+          "Repair the prop and restart from where the competitor stopped",
+          "Keep the score and ignore any targets that could not be shot",
+          "Keep the score and remove the misses for those targets"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "4.7.2",
         "id": "1d0b8f7c31502eb7"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:32 on Saturday. Final results are scheduled to be declared at 12:12 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:12 on Sunday",
+        "rule": "5.4.3",
+        "prompt": "During a run, the Range Officer sees the competitor’s safety glasses fall off. What should the Range Officer do?",
+        "correct": "Stop the competitor immediately and require a reshoot once eye protection is restored",
         "options": [
-          "Before 12:12 on Sunday",
-          "By 12:32 on Sunday",
-          "By 12:52 on Sunday",
-          "Before 12:12 on Monday"
+          "Stop the competitor immediately and require a reshoot once eye protection is restored",
+          "Let the competitor finish and then offer a reshoot",
+          "Pause the timer and resume the same run after the glasses are restored",
+          "Stop the competitor and score the run as shot"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "5.4.3",
         "id": "0a04767b90011120"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 80 target points, receives 10 penalty points and finishes in 6.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "11.6667",
+        "rule": "5.4.4",
+        "prompt": "A competitor notices that their safety glasses have slipped off during the run. What can the competitor do?",
+        "correct": "Stop, point the firearm safely and tell the Range Officer",
         "options": [
-          "11.6667",
-          "13.3333",
-          "12.5000",
-          "15.0000"
+          "Stop, point the firearm safely and tell the Range Officer",
+          "Continue and ask for a reshoot after seeing the score",
+          "Pause, restore the glasses and resume the same attempt",
+          "Move to the next position before reporting the problem"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "5.4.4",
         "id": "0a8487a56defd7d4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 130-point stage is won with a hit factor of 8. A competitor records a hit factor of 6.00. How many stage points does the competitor earn?",
-        "correct": "97.50",
+        "rule": "5.4.5",
+        "prompt": "A competitor deliberately removes their safety glasses to get another attempt after a poor run. How is that conduct treated?",
+        "correct": "As unsportsmanlike conduct",
         "options": [
-          "97.50",
-          "95.50",
-          "96.50",
-          "98.50"
+          "As unsportsmanlike conduct",
+          "As accidental loss of eye protection",
+          "As range equipment failure",
+          "As a start-position violation"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "5.4.5",
         "id": "581a8fb3529e434e"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 49.2750, 33.6425 and 46.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "129.3025",
+        "rule": "5.7.5",
+        "prompt": "A competitor’s own firearm malfunctions during a run and cannot be put back into service. The Range Officer confirms there was no range equipment failure. Is a reshoot allowed for the malfunction?",
+        "correct": "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
         "options": [
-          "129.3025",
-          "129.4025",
-          "129.2025",
-          "130.3025"
+          "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
+          "Yes, if the firearm failed before half the targets were engaged",
+          "Yes, if a replacement firearm is available",
+          "Yes, if the malfunction was the first one in that match"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "5.7.5",
         "id": "24a2902d339963fb"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 2 shots before a mandatory reload point, 4 shots after it without reloading, and 2 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "8.3.2",
+        "prompt": "The Range Officer asks “Are You Ready?” The competitor has not settled into the required start position and needs more time. What should they say?",
+        "correct": "Not Ready",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Not Ready",
+          "Standby",
+          "Stop",
+          "Range Is Clear"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "8.3.2",
         "id": "a63d7cb694c1e4e7"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "2",
+        "rule": "8.3.3",
+        "prompt": "You are operating the timer as the Range Officer. How long after saying “Standby” should the start signal sound?",
+        "correct": "1 to 4 seconds",
         "options": [
-          "2",
-          "1",
-          "3",
-          "4"
+          "1 to 4 seconds",
+          "1 to 2 seconds",
+          "2 to 5 seconds",
+          "3 to 6 seconds"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "8.3.3",
         "id": "d4412d59638309cc"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 12 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "120 points",
+        "rule": "8.3.4",
+        "prompt": "The timer beeps, but the competitor does not react. The Range Officer confirms the competitor is ready. Which command restarts the sequence?",
+        "correct": "Are You Ready?",
         "options": [
-          "120 points",
-          "100 points",
-          "110 points",
-          "130 points"
+          "Are You Ready?",
+          "Make Ready",
+          "Standby",
+          "If You Are Finished, Unload And Show Clear"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "8.3.4",
         "id": "2da427e627a18668"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 3 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "8.6.1",
+        "prompt": "During a run, an assigned Range Officer gives a safety warning. The competitor asks for a reshoot solely because of the warning. Is that a valid reason?",
+        "correct": "No, the safety warning alone does not justify a reshoot",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "No, the safety warning alone does not justify a reshoot",
+          "Yes, whenever a warning is given after the start signal",
+          "Yes, if the warning was audible to the squad",
+          "Yes, if the competitor took action in response to the warning"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "8.6.1",
         "id": "21bc41077313a1fb"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:27. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:27",
+        "rule": "8.6.2",
+        "prompt": "A squad member calls out a missed target during the run without Range Officer approval. The competitor hears and uses the help. Who may receive a procedural penalty?",
+        "correct": "Both the person who gave the help and the competitor",
         "options": [
-          "12:27",
-          "12:12",
-          "12:42",
-          "12:57"
+          "Both the person who gave the help and the competitor",
+          "Only the person who gave the help",
+          "Only the competitor",
+          "Neither person if the target was then hit"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "8.6.2",
         "id": "8b94d01c354e3638"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:33, but were actually posted at 14:45. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:45",
+        "rule": "8.6.3",
+        "prompt": "A spectator shouts to distract a competitor mid-stage. The Range Officer believes this significantly affected the run. Who decides whether to offer a reshoot for that interference?",
+        "correct": "Range Master",
         "options": [
-          "15:45",
-          "15:30",
-          "16:00",
-          "16:15"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "8.6.3",
         "id": "7aba270f1596c966"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$139. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$100",
+        "rule": "8.6.4",
+        "prompt": "The Range Officer accidentally bumps a competitor during the run and offers a reshoot. When must the competitor decide whether to take it?",
+        "correct": "Before seeing either the time or the score",
         "options": [
-          "US$100",
-          "US$139",
-          "US$95",
-          "US$105"
+          "Before seeing either the time or the score",
+          "After seeing the time but before seeing the score",
+          "After seeing the score but before seeing the time",
+          "After seeing both, but before signing the score sheet"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "8.6.4",
         "id": "5bb2c4fc1e28915c"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "40 points",
+        "rule": "9.1.2",
+        "prompt": "While a paper target is being scored, the competitor’s delegate wants to touch the target to inspect a hole. What must the delegate do first?",
+        "correct": "Obtain the Range Officer’s permission",
         "options": [
-          "40 points",
-          "30 points",
-          "45 points",
-          "50 points"
+          "Obtain the Range Officer’s permission",
+          "Ask the competitor to confirm the hit",
+          "Ask the target patcher for permission",
+          "Wait until the time is entered, then touch it without asking"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "9.1.2",
         "id": "2ce804cf7d3c65a5"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 4 non-disappearing scoring targets completely unengaged. They engage the other 11 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "4",
+        "rule": "9.1.6.1",
+        "prompt": "The Range Officer identifies a hit on a paper scoring target made by a shot that passed entirely through hard cover. How should that identified hit be scored?",
+        "correct": "Ignore the hit",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Ignore the hit",
+          "Award its normal zone value",
+          "Award the lowest zone value",
+          "Treat the hit as a no-shoot penalty"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "9.1.6.1",
         "id": "6a197c545df016c0"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 16 shots and gains a significant advantage. From that position a maximum of 11 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "11",
+        "rule": "9.5.3",
+        "prompt": "A paper scoring target overlaps a paper no-shoot. The diameter of a hit touches the scoring area of both. What should be recorded for that hit?",
+        "correct": "The applicable scoring hit and no-shoot penalty",
         "options": [
-          "11",
-          "10",
-          "12",
-          "13"
+          "The applicable scoring hit and no-shoot penalty",
+          "The scoring hit only",
+          "The no-shoot penalty only",
+          "Neither the scoring hit nor the no-shoot penalty"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "9.5.3",
         "id": "ee190b22289ebab1"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:51 on Saturday. The Match Director will declare the results final at 13:11 on Sunday. What deadline applies to the committee’s decision?",
-        "correct": "By 12:51 on Sunday",
+        "rule": "9.5.4",
+        "prompt": "A hit hole sits entirely in the lower-value zone. A tear extends from the hole into the higher-value zone, but the hole itself does not touch the scoring line. Which value counts?",
+        "correct": "The lower zone value",
         "options": [
-          "By 12:51 on Sunday",
-          "Before 13:11 on Sunday",
-          "By 12:31 on Sunday",
-          "By 12:51 on Monday"
+          "The lower zone value",
+          "The higher zone value",
+          "Both zone values",
+          "Neither zone value"
         ],
-        "note": "The 24-hour deadline arrives before the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.5.4",
         "id": "87475e17dc3ff41f"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 85 target points, receives 20 penalty points and finishes in 7.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "9.2857",
+        "rule": "9.5.5",
+        "prompt": "A competitor’s penalties exceed their scoring points on a stage. What is the lowest stage score that can be recorded?",
+        "correct": "Zero",
         "options": [
-          "9.2857",
-          "12.1429",
-          "10.7143",
-          "15.0000"
+          "Zero",
+          "Minus the amount by which penalties exceeded points",
+          "Minus 10 points",
+          "The lowest positive stage score in the division"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "9.5.5",
         "id": "b85cb293f700cca4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 140-point stage is won with a hit factor of 9. A competitor records a hit factor of 7.2. How many stage points does the competitor earn?",
-        "correct": "112.00",
+        "rule": "9.6.5",
+        "prompt": "The Range Officer has scored a disputed paper hit as C and upholds that call. The target is still available. Who should the competitor ask next for a ruling?",
+        "correct": "Chief Range Officer",
         "options": [
-          "112.00",
-          "110.00",
-          "111.00",
-          "113.00"
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director",
+          "Arbitration Committee"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "9.6.5",
         "id": "80da1262251a8622"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 51.2750, 34.6425 and 49.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "135.3025",
+        "rule": "9.6.6",
+        "prompt": "The Range Master rules that a disputed hit touched the no-shoot scoring area. Can the competitor appeal that hit-scoring decision further?",
+        "correct": "No, the Range Master’s ruling on the hit is final",
         "options": [
-          "135.3025",
-          "135.4025",
-          "135.2025",
-          "136.3025"
+          "No, the Range Master’s ruling on the hit is final",
+          "Yes, to the Arbitration Committee",
+          "Yes, to the Match Director",
+          "Yes, to the Stats Officer when provisional results are posted"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "9.6.6",
         "id": "dc93ed95ac38a11e"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 3 shots before a mandatory reload point, 4 shots after it without reloading, and 3 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "9.6.7",
+        "prompt": "A paper target is under a scoring challenge. A patcher is about to cover the disputed hole. What should happen?",
+        "correct": "Keep the target untouched until the challenge is settled",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Keep the target untouched until the challenge is settled",
+          "Patch only the disputed hole after photographing it",
+          "Patch the whole target after recording the Range Officer’s first call",
+          "Patch the target once the competitor has seen the hole"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "9.6.7",
         "id": "ff81f0ebb90fa7fe"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "9.6.7",
+        "prompt": "The Range Officer removes a disputed paper target so the squad can continue. Who must sign the target and mark which hits are disputed?",
+        "correct": "The competitor and the Range Officer",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor and the Range Officer",
+          "The Range Officer and the Chief Range Officer",
+          "The competitor and the Stats Officer",
+          "The Range Officer and the Match Director"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "9.6.7",
         "id": "a69a26a0962324c0"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 13 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "130 points",
+        "rule": "9.6.8",
+        "prompt": "A hit lies close to a scoring line and an overlay is needed. Which overlay may the official use?",
+        "correct": "An overlay approved by the Range Master",
         "options": [
-          "130 points",
-          "110 points",
-          "120 points",
-          "140 points"
+          "An overlay approved by the Range Master",
+          "Any overlay supplied by the competitor",
+          "Any overlay of the right calibre, regardless of approval",
+          "An overlay approved only by the squad leader"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "9.6.8",
         "id": "f2b4498c35093061"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 4 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "4",
+        "rule": "9.7.1",
+        "prompt": "You are checking the score sheet before signing it. The official elapsed time is 16.20 seconds. How should that time be recorded?",
+        "correct": "16.20 seconds",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "16.20 seconds",
+          "16.2 seconds",
+          "16 seconds",
+          "16.200 seconds"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "9.7.1",
         "id": "bcbc115517493d04"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:50. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:50",
+        "rule": "9.7.2",
+        "prompt": "Before signing a paper score sheet, the competitor and Range Officer agree that the recorded hits need correcting. What should they do?",
+        "correct": "Enter the correction on the original and copies and both initial it",
         "options": [
-          "12:50",
-          "12:35",
-          "13:05",
-          "13:20"
+          "Enter the correction on the original and copies and both initial it",
+          "Change only the original and have only the Range Officer initial it",
+          "Change only the competitor’s copy and both initial it",
+          "Change the copies without initialling the correction"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "9.7.2",
         "id": "5fa6865654c74be5"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:50, but were actually posted at 15:03. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "16:03",
+        "rule": "9.7.3",
+        "prompt": "A competitor refuses to sign a score sheet. Who reviews the matter before deciding whether the unsigned sheet may be submitted?",
+        "correct": "Range Master",
         "options": [
-          "16:03",
-          "15:48",
-          "16:18",
-          "16:33"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "9.7.3",
         "id": "2bb26fd96d3d99e0"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$78. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$78",
+        "rule": "9.10.1",
+        "prompt": "The Range Officer confirms the official timing equipment is faulty. No accurate elapsed time can be assigned to the run. What must happen?",
+        "correct": "The competitor must reshoot",
         "options": [
-          "US$78",
-          "US$100",
-          "US$73",
-          "US$83"
+          "The competitor must reshoot",
+          "Use a spectator’s stopwatch time",
+          "Use the average time of the squad",
+          "Keep the target points and record no time"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "9.10.1",
         "id": "b0c07a4dded3ae57"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "10.1.3",
+        "prompt": "A competitor challenges the number of procedural penalties, and the Chief Range Officer and Range Master have considered the matter. Which avenue remains if the competitor is still dissatisfied?",
+        "correct": "Arbitration",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Arbitration",
+          "A fresh ruling by the Stats Officer",
+          "A new scoring decision by the squad leader",
+          "A tiebreaker stage"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "10.1.3",
         "id": "b8d2a9da680ff132"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 5 non-disappearing scoring targets completely unengaged. They engage the other 12 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "5",
+        "rule": "10.3.1",
+        "prompt": "A competitor has been disqualified for a safety violation and is waiting for an arbitration decision. Can they shoot the remaining stages in the meantime?",
+        "correct": "No, they may not shoot the remaining stages while the appeal is pending",
         "options": [
-          "5",
-          "4",
-          "6",
-          "7"
+          "No, they may not shoot the remaining stages while the appeal is pending",
+          "Yes, but only on stages in a different bay",
+          "Yes, if the remaining scores are marked provisional",
+          "Yes, if a Range Officer supervises their remaining attempts"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "10.3.1",
         "id": "6027dec45b5000f3"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 17 shots and gains a significant advantage. From that position a maximum of 12 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "12",
+        "rule": "2.4.4",
+        "prompt": "At a Safety Area, a competitor takes out a loaded magazine to check it. Is that permitted there?",
+        "correct": "No, a loaded magazine may not be handled in the Safety Area",
         "options": [
-          "12",
-          "11",
-          "13",
-          "14"
+          "No, a loaded magazine may not be handled in the Safety Area",
+          "Yes, provided it stays separate from the firearm",
+          "Yes, if it is pointed toward the designated safe direction",
+          "Yes, if no ammunition or projectiles are removed from it"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "2.4.4",
         "id": "8ba2c28d0727460d"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 13:10 on Saturday. Final results are scheduled to be declared at 12:50 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:50 on Sunday",
+        "rule": "9.8.1",
+        "prompt": "Provisional results are posted. Who is responsible for checking that a competitor’s own scores are recorded accurately?",
+        "correct": "The competitor",
         "options": [
-          "Before 12:50 on Sunday",
-          "By 13:10 on Sunday",
-          "By 13:30 on Sunday",
-          "Before 12:50 on Monday"
+          "The competitor",
+          "The squad leader",
+          "The Range Officer from the final stage",
+          "The Match Director"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.8.1",
         "id": "75069bcdc82cd29e"
       }
     ]
@@ -3095,7 +3095,7 @@ const disciplines = [
       },
       {
         "rule": "2.1.3",
-        "prompt": "While metal targets are being shot, what minimum distance must be maintained?",
+        "prompt": "You are checking the stage layout. Where metal targets will be shot, what minimum distance must be maintained while they are being shot?",
         "correct": "7 m",
         "options": [
           "7 m",
@@ -3193,7 +3193,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.2",
-        "prompt": "To how many decimal places are individual stage points calculated for stage ranking?",
+        "prompt": "Two competitors are very close on a stage. To how many decimal places are their stage points calculated for ranking?",
         "correct": "4",
         "options": [
           "4",
@@ -3207,7 +3207,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Who sets the duration of the squad’s stage walkthrough?",
+        "prompt": "A squad wants extra walkthrough time before its first run. Who sets the walkthrough duration?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -3221,7 +3221,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Moving targets are demonstrated during walkthroughs. What must be consistent across competitors?",
+        "prompt": "Two squads are shown the same moving target during their walkthroughs. What should be the same about the demonstrations?",
         "correct": "Both duration and frequency",
         "options": [
           "Both duration and frequency",
@@ -3277,7 +3277,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.1",
-        "prompt": "Who declares a competitor’s time, scores and penalties on the stage and verifies they are recorded correctly?",
+        "prompt": "The run is over and the score sheet is open. Which official announces the competitor’s time, score and penalties and checks the entries?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -3291,7 +3291,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.2",
-        "prompt": "Which official has primary authority over the courses of fire specifically assigned to them, under the Range Master?",
+        "prompt": "Two squads report that a stage is being run differently in the same bay. Which official has primary authority over that stage under the Range Master?",
         "correct": "Chief Range Officer",
         "options": [
           "Chief Range Officer",
@@ -3305,7 +3305,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.3",
-        "prompt": "Who supervises the team that processes score sheets and produces provisional and final results?",
+        "prompt": "Score sheets have been submitted and the provisional results are being prepared. Which official supervises the team processing them?",
         "correct": "Stats Officer",
         "options": [
           "Stats Officer",
@@ -3319,7 +3319,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.4",
-        "prompt": "Who is responsible for distributing and maintaining targets, timers and other range equipment?",
+        "prompt": "The stage crew runs out of target patches and a timer needs replacing. Which official is responsible for supplying and maintaining that equipment?",
         "correct": "Quartermaster",
         "options": [
           "Quartermaster",
@@ -3333,7 +3333,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.5",
-        "prompt": "Which official has overall authority for range safety and rule application across the entire match range?",
+        "prompt": "A safety issue affects several bays and requires a match-wide ruling. Which official has overall authority across the range?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -3431,7 +3431,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Under Comstock, which calculation produces a hit factor?",
+        "prompt": "You have the target points, penalty points and elapsed time for a Comstock run. In what order do you use them to calculate hit factor?",
         "correct": "Target points minus penalties, then divide by time",
         "options": [
           "Target points minus penalties, then divide by time",
@@ -3445,7 +3445,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Which competitor receives the maximum stage points available under Comstock?",
+        "prompt": "One competitor shoots the fastest time and another records the highest hit factor. Who gets the full stage points under Comstock?",
         "correct": "The competitor with the highest hit factor",
         "options": [
           "The competitor with the highest hit factor",
@@ -3459,7 +3459,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.3",
-        "prompt": "Which quantity determines the final ranking within a Division?",
+        "prompt": "You are checking the final standings after the last stage. Which total determines each competitor’s ranking within their division?",
         "correct": "The sum of individual stage points",
         "options": [
           "The sum of individual stage points",
@@ -3543,7 +3543,7 @@ const disciplines = [
       },
       {
         "rule": "9.7.4",
-        "prompt": "A score sheet is signed by both the competitor and Range Officer. With no mutual consent and no arbitration decision, which change is explicitly permitted?",
+        "prompt": "Both the competitor and the Range Officer have signed. They have not agreed to a change, and there is no arbitration decision. Which of these corrections can still be made?",
         "correct": "Correcting an arithmetic error",
         "options": [
           "Correcting an arithmetic error",
@@ -3669,7 +3669,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.1",
-        "prompt": "What must be recorded for procedural penalties on the score sheet?",
+        "prompt": "A Range Officer assesses three procedurals for a stage procedure breach. What must be written on the score sheet about those penalties?",
         "correct": "Both the number and the reason",
         "options": [
           "Both the number and the reason",
@@ -3683,7 +3683,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.4",
-        "prompt": "A competitor fires while faulting a line, then fires at the same target from inside the line. What happens to the original applicable fault penalty?",
+        "prompt": "A competitor fires while touching the ground beyond a fault line, then shoots the same target again from inside the line. What happens to the original fault penalty?",
         "correct": "It still applies",
         "options": [
           "It still applies",
@@ -3711,7 +3711,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.2",
-        "prompt": "A competitor ignores a written stage procedure and gains a significant advantage. What penalty basis may apply in place of a single penalty for the occurrence?",
+        "prompt": "A competitor shoots from standing where the written briefing requires kneeling and gains a significant advantage. How may the procedural penalties be counted?",
         "correct": "One per shot fired during the breach, subject to the applicable cap",
         "options": [
           "One per shot fired during the breach, subject to the applicable cap",
@@ -3753,7 +3753,7 @@ const disciplines = [
       },
       {
         "rule": "10.3.2",
-        "prompt": "After issuing a disqualification, who must be notified as soon as possible?",
+        "prompt": "A Range Officer has just disqualified a competitor. Who must be notified as soon as possible?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -3781,7 +3781,7 @@ const disciplines = [
       },
       {
         "rule": "11.3.2",
-        "prompt": "When must the Arbitration Committee reach its decision?",
+        "prompt": "The arbitration request has been filed, and the Match Director plans to declare the results final soon. Which deadline governs the committee’s decision?",
         "correct": "Within 24 hours of the request or before final results are declared, whichever comes first",
         "options": [
           "Within 24 hours of the request or before final results are declared, whichever comes first",
@@ -3809,7 +3809,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.2",
-        "prompt": "Who implements and posts the Arbitration Committee’s decision?",
+        "prompt": "The Arbitration Committee has issued its decision. Which official puts it into effect and posts it for competitors?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -3823,7 +3823,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.4",
-        "prompt": "For what can a recorded Arbitration Committee decision serve as precedent?",
+        "prompt": "The same issue comes up again later in the match after an arbitration decision has been recorded. When can that decision be used as precedent?",
         "correct": "A similar subsequent incident at the same match",
         "options": [
           "A similar subsequent incident at the same match",
@@ -3837,7 +3837,7 @@ const disciplines = [
       },
       {
         "rule": "11.7.1",
-        "prompt": "May someone other than the competitor involved submit an appeal on a third-party basis?",
+        "prompt": "A competitor witnesses an incident involving someone else and wants to submit an appeal. Can the competitor appeal as a third party?",
         "correct": "Yes, under the same Chapter 11 provisions",
         "options": [
           "Yes, under the same Chapter 11 provisions",
@@ -3963,7 +3963,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -4019,7 +4019,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:00, but were actually posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:00, but they were posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:11",
         "options": [
           "13:11",
@@ -4047,7 +4047,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "20 points",
         "options": [
           "20 points",
@@ -4075,7 +4075,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "2",
         "options": [
           "2",
@@ -4159,7 +4159,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -4215,7 +4215,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:17, but were actually posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:17, but they were posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:29",
         "options": [
           "13:29",
@@ -4243,7 +4243,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -4271,7 +4271,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "3",
         "options": [
           "3",
@@ -4355,7 +4355,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -4411,7 +4411,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:34, but were actually posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:34, but they were posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:47",
         "options": [
           "13:47",
@@ -4439,7 +4439,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -4467,7 +4467,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "4",
         "options": [
           "4",
@@ -4551,7 +4551,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -4607,7 +4607,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:51, but were actually posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:51, but they were posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:05",
         "options": [
           "14:05",
@@ -4635,7 +4635,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -4663,7 +4663,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "5",
         "options": [
           "5",
@@ -4747,7 +4747,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -4803,7 +4803,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:08, but were actually posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:08, but they were posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:19",
         "options": [
           "14:19",
@@ -4831,7 +4831,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -4859,7 +4859,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "6",
         "options": [
           "6",
@@ -4943,7 +4943,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -4999,7 +4999,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:25, but were actually posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:25, but they were posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:37",
         "options": [
           "14:37",
@@ -5027,7 +5027,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -5055,7 +5055,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "7",
         "options": [
           "7",
@@ -5139,7 +5139,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -5195,7 +5195,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:42, but were actually posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:42, but they were posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:55",
         "options": [
           "14:55",
@@ -5223,7 +5223,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -5251,7 +5251,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "8",
         "options": [
           "8",
@@ -5335,7 +5335,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -5391,7 +5391,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:59, but were actually posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:59, but they were posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "15:13",
         "options": [
           "15:13",
@@ -5419,7 +5419,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "50 points",
         "options": [
           "50 points",
@@ -5447,7 +5447,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "9",
         "options": [
           "9",
@@ -5531,7 +5531,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 3. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -5572,493 +5572,493 @@ const disciplines = [
         "id": "0fdc8b40955167f4"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:04. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:04",
+        "rule": "3.2.1",
+        "prompt": "The online stage preview says to start seated. The written stage briefing approved by the Range Master and posted at the stage says to start standing. Which start position applies?",
+        "correct": "Standing, as specified in the posted briefing",
         "options": [
-          "12:04",
-          "11:49",
-          "12:19",
-          "12:34"
+          "Standing, as specified in the posted briefing",
+          "Seated, because the preview was published first",
+          "Either position, if used consistently within the squad",
+          "The position used by the first competitor"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "3.2.1",
         "id": "74c72e17cf94ace9"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:16, but were actually posted at 14:27. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:27",
+        "rule": "3.2.2",
+        "prompt": "The Range Officer has read out the briefing but has not shown the start position. A competitor asks to see it. What should the Range Officer do?",
+        "correct": "Show the acceptable position in person or using a picture",
         "options": [
-          "15:27",
-          "15:12",
-          "15:42",
-          "15:57"
+          "Show the acceptable position in person or using a picture",
+          "Show it only at Level III or above",
+          "Repeat the text without showing the position",
+          "Let the first competitor decide what the position looks like"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "3.2.2",
         "id": "7218042e14ad7648"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$74. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$74",
+        "rule": "2.2.1.5",
+        "prompt": "On a clearly marked path between shooting positions, a competitor takes a shortcut outside the markings. They fire twice after re-entering the path. How many procedural penalties apply for the shortcut?",
+        "correct": "Two",
         "options": [
-          "US$74",
-          "US$100",
-          "US$69",
-          "US$79"
+          "Two",
+          "One",
+          "Zero",
+          "Three"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "2.2.1.5",
         "id": "84a17151ec6235aa"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "4.7.1",
+        "prompt": "A moving target activates early because its latch fails before the competitor operates it. How should the latch failure be classified?",
+        "correct": "Range equipment failure",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Range equipment failure",
+          "A competitor equipment malfunction",
+          "A failure to engage the target",
+          "A breach of the start position"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "4.7.1",
         "id": "9362ece878e6df51"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 3 non-disappearing scoring targets completely unengaged. They engage the other 10 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "3",
+        "rule": "4.7.2",
+        "prompt": "A moving target was left unset after the previous competitor. The Range Officer discovers this during the next attempt. What must happen after the target is reset?",
+        "correct": "The competitor must reshoot the entire stage",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor must reshoot the entire stage",
+          "The competitor must shoot only the affected target",
+          "The competitor can choose whether to keep the first run",
+          "The first run stands and the affected target is removed from scoring"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "4.7.2",
         "id": "f187f41432c19f9e"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 15 shots and gains a significant advantage. From that position a maximum of 10 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "10",
+        "rule": "4.7.2",
+        "prompt": "A stage prop breaks and prevents the competitor from completing the stage. The Range Officer confirms range equipment failure. What is the remedy?",
+        "correct": "Repair the prop and require a full reshoot",
         "options": [
-          "10",
-          "9",
-          "11",
-          "12"
+          "Repair the prop and require a full reshoot",
+          "Repair the prop and restart from where the competitor stopped",
+          "Keep the score and ignore any targets that could not be shot",
+          "Keep the score and remove the misses for those targets"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "4.7.2",
         "id": "1d0b8f7c31502eb7"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:32 on Saturday. Final results are scheduled to be declared at 12:12 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:12 on Sunday",
+        "rule": "5.4.3",
+        "prompt": "During a run, the Range Officer sees the competitor’s safety glasses fall off. What should the Range Officer do?",
+        "correct": "Stop the competitor immediately and require a reshoot once eye protection is restored",
         "options": [
-          "Before 12:12 on Sunday",
-          "By 12:32 on Sunday",
-          "By 12:52 on Sunday",
-          "Before 12:12 on Monday"
+          "Stop the competitor immediately and require a reshoot once eye protection is restored",
+          "Let the competitor finish and then offer a reshoot",
+          "Pause the timer and resume the same run after the glasses are restored",
+          "Stop the competitor and score the run as shot"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "5.4.3",
         "id": "0a04767b90011120"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 80 target points, receives 10 penalty points and finishes in 6.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "11.6667",
+        "rule": "5.4.4",
+        "prompt": "A competitor notices that their safety glasses have slipped off during the run. What can the competitor do?",
+        "correct": "Stop, point the firearm safely and tell the Range Officer",
         "options": [
-          "11.6667",
-          "13.3333",
-          "12.5000",
-          "15.0000"
+          "Stop, point the firearm safely and tell the Range Officer",
+          "Continue and ask for a reshoot after seeing the score",
+          "Pause, restore the glasses and resume the same attempt",
+          "Move to the next position before reporting the problem"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "5.4.4",
         "id": "0a8487a56defd7d4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 130-point stage is won with a hit factor of 8. A competitor records a hit factor of 6.00. How many stage points does the competitor earn?",
-        "correct": "97.50",
+        "rule": "5.4.5",
+        "prompt": "A competitor deliberately removes their safety glasses to get another attempt after a poor run. How is that conduct treated?",
+        "correct": "As unsportsmanlike conduct",
         "options": [
-          "97.50",
-          "95.50",
-          "96.50",
-          "98.50"
+          "As unsportsmanlike conduct",
+          "As accidental loss of eye protection",
+          "As range equipment failure",
+          "As a start-position violation"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "5.4.5",
         "id": "581a8fb3529e434e"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 49.2750, 33.6425 and 46.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "129.3025",
+        "rule": "5.7.5",
+        "prompt": "A competitor’s own firearm malfunctions during a run and cannot be put back into service. The Range Officer confirms there was no range equipment failure. Is a reshoot allowed for the malfunction?",
+        "correct": "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
         "options": [
-          "129.3025",
-          "129.4025",
-          "129.2025",
-          "130.3025"
+          "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
+          "Yes, if the firearm failed before half the targets were engaged",
+          "Yes, if a replacement firearm is available",
+          "Yes, if the malfunction was the first one in that match"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "5.7.5",
         "id": "24a2902d339963fb"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 2 shots before a mandatory reload point, 4 shots after it without reloading, and 2 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "8.3.2",
+        "prompt": "The Range Officer asks “Are You Ready?” The competitor has not settled into the required start position and needs more time. What should they say?",
+        "correct": "Not Ready",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Not Ready",
+          "Standby",
+          "Stop",
+          "Range Is Clear"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "8.3.2",
         "id": "a63d7cb694c1e4e7"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "2",
+        "rule": "8.3.3",
+        "prompt": "You are operating the timer as the Range Officer. How long after saying “Standby” should the start signal sound?",
+        "correct": "1 to 4 seconds",
         "options": [
-          "2",
-          "1",
-          "3",
-          "4"
+          "1 to 4 seconds",
+          "1 to 2 seconds",
+          "2 to 5 seconds",
+          "3 to 6 seconds"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "8.3.3",
         "id": "d4412d59638309cc"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 12 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "120 points",
+        "rule": "8.3.4",
+        "prompt": "The timer beeps, but the competitor does not react. The Range Officer confirms the competitor is ready. Which command restarts the sequence?",
+        "correct": "Are You Ready?",
         "options": [
-          "120 points",
-          "100 points",
-          "110 points",
-          "130 points"
+          "Are You Ready?",
+          "Make Ready",
+          "Standby",
+          "If You Are Finished, Unload And Show Clear"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "8.3.4",
         "id": "2da427e627a18668"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 3 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "8.6.1",
+        "prompt": "During a run, an assigned Range Officer gives a safety warning. The competitor asks for a reshoot solely because of the warning. Is that a valid reason?",
+        "correct": "No, the safety warning alone does not justify a reshoot",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "No, the safety warning alone does not justify a reshoot",
+          "Yes, whenever a warning is given after the start signal",
+          "Yes, if the warning was audible to the squad",
+          "Yes, if the competitor took action in response to the warning"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "8.6.1",
         "id": "21bc41077313a1fb"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:27. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:27",
+        "rule": "8.6.2",
+        "prompt": "A squad member calls out a missed target during the run without Range Officer approval. The competitor hears and uses the help. Who may receive a procedural penalty?",
+        "correct": "Both the person who gave the help and the competitor",
         "options": [
-          "12:27",
-          "12:12",
-          "12:42",
-          "12:57"
+          "Both the person who gave the help and the competitor",
+          "Only the person who gave the help",
+          "Only the competitor",
+          "Neither person if the target was then hit"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "8.6.2",
         "id": "8b94d01c354e3638"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:33, but were actually posted at 14:45. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:45",
+        "rule": "8.6.3",
+        "prompt": "A spectator shouts to distract a competitor mid-stage. The Range Officer believes this significantly affected the run. Who decides whether to offer a reshoot for that interference?",
+        "correct": "Range Master",
         "options": [
-          "15:45",
-          "15:30",
-          "16:00",
-          "16:15"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "8.6.3",
         "id": "7aba270f1596c966"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$139. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$100",
+        "rule": "8.6.4",
+        "prompt": "The Range Officer accidentally bumps a competitor during the run and offers a reshoot. When must the competitor decide whether to take it?",
+        "correct": "Before seeing either the time or the score",
         "options": [
-          "US$100",
-          "US$139",
-          "US$95",
-          "US$105"
+          "Before seeing either the time or the score",
+          "After seeing the time but before seeing the score",
+          "After seeing the score but before seeing the time",
+          "After seeing both, but before signing the score sheet"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "8.6.4",
         "id": "5bb2c4fc1e28915c"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "40 points",
+        "rule": "9.1.2",
+        "prompt": "While a paper target is being scored, the competitor’s delegate wants to touch the target to inspect a hole. What must the delegate do first?",
+        "correct": "Obtain the Range Officer’s permission",
         "options": [
-          "40 points",
-          "30 points",
-          "45 points",
-          "50 points"
+          "Obtain the Range Officer’s permission",
+          "Ask the competitor to confirm the hit",
+          "Ask the target patcher for permission",
+          "Wait until the time is entered, then touch it without asking"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "9.1.2",
         "id": "2ce804cf7d3c65a5"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 4 non-disappearing scoring targets completely unengaged. They engage the other 11 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "4",
+        "rule": "9.1.6.1",
+        "prompt": "The Range Officer identifies a hit on a paper scoring target made by a shot that passed entirely through hard cover. How should that identified hit be scored?",
+        "correct": "Ignore the hit",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Ignore the hit",
+          "Award its normal zone value",
+          "Award the lowest zone value",
+          "Treat the hit as a no-shoot penalty"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "9.1.6.1",
         "id": "6a197c545df016c0"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 16 shots and gains a significant advantage. From that position a maximum of 11 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "11",
+        "rule": "9.5.3",
+        "prompt": "A paper scoring target overlaps a paper no-shoot. The diameter of a hit touches the scoring area of both. What should be recorded for that hit?",
+        "correct": "The applicable scoring hit and no-shoot penalty",
         "options": [
-          "11",
-          "10",
-          "12",
-          "13"
+          "The applicable scoring hit and no-shoot penalty",
+          "The scoring hit only",
+          "The no-shoot penalty only",
+          "Neither the scoring hit nor the no-shoot penalty"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "9.5.3",
         "id": "ee190b22289ebab1"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:51 on Saturday. The Match Director will declare the results final at 13:11 on Sunday. What deadline applies to the committee’s decision?",
-        "correct": "By 12:51 on Sunday",
+        "rule": "9.5.4",
+        "prompt": "A hit hole sits entirely in the lower-value zone. A tear extends from the hole into the higher-value zone, but the hole itself does not touch the scoring line. Which value counts?",
+        "correct": "The lower zone value",
         "options": [
-          "By 12:51 on Sunday",
-          "Before 13:11 on Sunday",
-          "By 12:31 on Sunday",
-          "By 12:51 on Monday"
+          "The lower zone value",
+          "The higher zone value",
+          "Both zone values",
+          "Neither zone value"
         ],
-        "note": "The 24-hour deadline arrives before the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.5.4",
         "id": "87475e17dc3ff41f"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 85 target points, receives 20 penalty points and finishes in 7.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "9.2857",
+        "rule": "9.5.5",
+        "prompt": "A competitor’s penalties exceed their scoring points on a stage. What is the lowest stage score that can be recorded?",
+        "correct": "Zero",
         "options": [
-          "9.2857",
-          "12.1429",
-          "10.7143",
-          "15.0000"
+          "Zero",
+          "Minus the amount by which penalties exceeded points",
+          "Minus 10 points",
+          "The lowest positive stage score in the division"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "9.5.5",
         "id": "b85cb293f700cca4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 140-point stage is won with a hit factor of 9. A competitor records a hit factor of 7.2. How many stage points does the competitor earn?",
-        "correct": "112.00",
+        "rule": "9.6.5",
+        "prompt": "The Range Officer has scored a disputed paper hit as C and upholds that call. The target is still available. Who should the competitor ask next for a ruling?",
+        "correct": "Chief Range Officer",
         "options": [
-          "112.00",
-          "110.00",
-          "111.00",
-          "113.00"
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director",
+          "Arbitration Committee"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "9.6.5",
         "id": "80da1262251a8622"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 51.2750, 34.6425 and 49.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "135.3025",
+        "rule": "9.6.6",
+        "prompt": "The Range Master rules that a disputed hit touched the no-shoot scoring area. Can the competitor appeal that hit-scoring decision further?",
+        "correct": "No, the Range Master’s ruling on the hit is final",
         "options": [
-          "135.3025",
-          "135.4025",
-          "135.2025",
-          "136.3025"
+          "No, the Range Master’s ruling on the hit is final",
+          "Yes, to the Arbitration Committee",
+          "Yes, to the Match Director",
+          "Yes, to the Stats Officer when provisional results are posted"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "9.6.6",
         "id": "dc93ed95ac38a11e"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 3 shots before a mandatory reload point, 4 shots after it without reloading, and 3 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "9.6.7",
+        "prompt": "A paper target is under a scoring challenge. A patcher is about to cover the disputed hole. What should happen?",
+        "correct": "Keep the target untouched until the challenge is settled",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Keep the target untouched until the challenge is settled",
+          "Patch only the disputed hole after photographing it",
+          "Patch the whole target after recording the Range Officer’s first call",
+          "Patch the target once the competitor has seen the hole"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "9.6.7",
         "id": "ff81f0ebb90fa7fe"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "9.6.7",
+        "prompt": "The Range Officer removes a disputed paper target so the squad can continue. Who must sign the target and mark which hits are disputed?",
+        "correct": "The competitor and the Range Officer",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor and the Range Officer",
+          "The Range Officer and the Chief Range Officer",
+          "The competitor and the Stats Officer",
+          "The Range Officer and the Match Director"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "9.6.7",
         "id": "a69a26a0962324c0"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 13 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "130 points",
+        "rule": "9.6.8",
+        "prompt": "A hit lies close to a scoring line and an overlay is needed. Which overlay may the official use?",
+        "correct": "An overlay approved by the Range Master",
         "options": [
-          "130 points",
-          "110 points",
-          "120 points",
-          "140 points"
+          "An overlay approved by the Range Master",
+          "Any overlay supplied by the competitor",
+          "Any overlay of the right calibre, regardless of approval",
+          "An overlay approved only by the squad leader"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "9.6.8",
         "id": "f2b4498c35093061"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 4 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "4",
+        "rule": "9.7.1",
+        "prompt": "You are checking the score sheet before signing it. The official elapsed time is 16.20 seconds. How should that time be recorded?",
+        "correct": "16.20 seconds",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "16.20 seconds",
+          "16.2 seconds",
+          "16 seconds",
+          "16.200 seconds"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "9.7.1",
         "id": "bcbc115517493d04"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:50. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:50",
+        "rule": "9.7.2",
+        "prompt": "Before signing a paper score sheet, the competitor and Range Officer agree that the recorded hits need correcting. What should they do?",
+        "correct": "Enter the correction on the original and copies and both initial it",
         "options": [
-          "12:50",
-          "12:35",
-          "13:05",
-          "13:20"
+          "Enter the correction on the original and copies and both initial it",
+          "Change only the original and have only the Range Officer initial it",
+          "Change only the competitor’s copy and both initial it",
+          "Change the copies without initialling the correction"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "9.7.2",
         "id": "5fa6865654c74be5"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:50, but were actually posted at 15:03. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "16:03",
+        "rule": "9.7.3",
+        "prompt": "A competitor refuses to sign a score sheet. Who reviews the matter before deciding whether the unsigned sheet may be submitted?",
+        "correct": "Range Master",
         "options": [
-          "16:03",
-          "15:48",
-          "16:18",
-          "16:33"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "9.7.3",
         "id": "2bb26fd96d3d99e0"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$78. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$78",
+        "rule": "9.10.1",
+        "prompt": "The Range Officer confirms the official timing equipment is faulty. No accurate elapsed time can be assigned to the run. What must happen?",
+        "correct": "The competitor must reshoot",
         "options": [
-          "US$78",
-          "US$100",
-          "US$73",
-          "US$83"
+          "The competitor must reshoot",
+          "Use a spectator’s stopwatch time",
+          "Use the average time of the squad",
+          "Keep the target points and record no time"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "9.10.1",
         "id": "b0c07a4dded3ae57"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "10.1.3",
+        "prompt": "A competitor challenges the number of procedural penalties, and the Chief Range Officer and Range Master have considered the matter. Which avenue remains if the competitor is still dissatisfied?",
+        "correct": "Arbitration",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Arbitration",
+          "A fresh ruling by the Stats Officer",
+          "A new scoring decision by the squad leader",
+          "A tiebreaker stage"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "10.1.3",
         "id": "b8d2a9da680ff132"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 5 non-disappearing scoring targets completely unengaged. They engage the other 12 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "5",
+        "rule": "10.3.1",
+        "prompt": "A competitor has been disqualified for a safety violation and is waiting for an arbitration decision. Can they shoot the remaining stages in the meantime?",
+        "correct": "No, they may not shoot the remaining stages while the appeal is pending",
         "options": [
-          "5",
-          "4",
-          "6",
-          "7"
+          "No, they may not shoot the remaining stages while the appeal is pending",
+          "Yes, but only on stages in a different bay",
+          "Yes, if the remaining scores are marked provisional",
+          "Yes, if a Range Officer supervises their remaining attempts"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "10.3.1",
         "id": "6027dec45b5000f3"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 17 shots and gains a significant advantage. From that position a maximum of 12 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "12",
+        "rule": "2.4.4",
+        "prompt": "At a Safety Area, a competitor takes out a loaded magazine to check it. Is that permitted there?",
+        "correct": "No, a loaded magazine may not be handled in the Safety Area",
         "options": [
-          "12",
-          "11",
-          "13",
-          "14"
+          "No, a loaded magazine may not be handled in the Safety Area",
+          "Yes, provided it stays separate from the firearm",
+          "Yes, if it is pointed toward the designated safe direction",
+          "Yes, if no ammunition or projectiles are removed from it"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "2.4.4",
         "id": "8ba2c28d0727460d"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 13:10 on Saturday. Final results are scheduled to be declared at 12:50 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:50 on Sunday",
+        "rule": "9.8.1",
+        "prompt": "Provisional results are posted. Who is responsible for checking that a competitor’s own scores are recorded accurately?",
+        "correct": "The competitor",
         "options": [
-          "Before 12:50 on Sunday",
-          "By 13:10 on Sunday",
-          "By 13:30 on Sunday",
-          "Before 12:50 on Monday"
+          "The competitor",
+          "The squad leader",
+          "The Range Officer from the final stage",
+          "The Match Director"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.8.1",
         "id": "75069bcdc82cd29e"
       }
     ]
@@ -6099,7 +6099,7 @@ const disciplines = [
       },
       {
         "rule": "Appendix D · May 2026 interpretation",
-        "prompt": "Which Shotgun divisions may use a bipod under the May 2026 interpretation?",
+        "prompt": "At a Shotgun match, a competitor wants to attach a bipod. Which divisions allow this under the May 2026 interpretation?",
         "correct": "No division",
         "options": [
           "No division",
@@ -6113,7 +6113,7 @@ const disciplines = [
       },
       {
         "rule": "Appendix D, item 1",
-        "prompt": "What is the minimum Shotgun power factor?",
+        "prompt": "Your Shotgun ammunition is being checked at chronograph. What minimum power factor must it meet?",
         "correct": "480",
         "options": [
           "480",
@@ -6127,7 +6127,7 @@ const disciplines = [
       },
       {
         "rule": "2.1.3.2",
-        "prompt": "While metal targets are being shot with slugs, what minimum distance must be maintained?",
+        "prompt": "You are checking the stage layout. Where metal targets will be shot with slugs, what minimum distance must be maintained while they are being shot?",
         "correct": "40 m",
         "options": [
           "40 m",
@@ -6225,7 +6225,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.2",
-        "prompt": "To how many decimal places are individual stage points calculated for stage ranking?",
+        "prompt": "Two competitors are very close on a stage. To how many decimal places are their stage points calculated for ranking?",
         "correct": "4",
         "options": [
           "4",
@@ -6239,7 +6239,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Who sets the duration of the squad’s stage walkthrough?",
+        "prompt": "A squad wants extra walkthrough time before its first run. Who sets the walkthrough duration?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -6253,7 +6253,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Moving targets are demonstrated during walkthroughs. What must be consistent across competitors?",
+        "prompt": "Two squads are shown the same moving target during their walkthroughs. What should be the same about the demonstrations?",
         "correct": "Both duration and frequency",
         "options": [
           "Both duration and frequency",
@@ -6309,7 +6309,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.1",
-        "prompt": "Who declares a competitor’s time, scores and penalties on the stage and verifies they are recorded correctly?",
+        "prompt": "The run is over and the score sheet is open. Which official announces the competitor’s time, score and penalties and checks the entries?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -6323,7 +6323,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.2",
-        "prompt": "Which official has primary authority over the courses of fire specifically assigned to them, under the Range Master?",
+        "prompt": "Two squads report that a stage is being run differently in the same bay. Which official has primary authority over that stage under the Range Master?",
         "correct": "Chief Range Officer",
         "options": [
           "Chief Range Officer",
@@ -6337,7 +6337,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.3",
-        "prompt": "Who supervises the team that processes score sheets and produces provisional and final results?",
+        "prompt": "Score sheets have been submitted and the provisional results are being prepared. Which official supervises the team processing them?",
         "correct": "Stats Officer",
         "options": [
           "Stats Officer",
@@ -6351,7 +6351,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.4",
-        "prompt": "Who is responsible for distributing and maintaining targets, timers and other range equipment?",
+        "prompt": "The stage crew runs out of target patches and a timer needs replacing. Which official is responsible for supplying and maintaining that equipment?",
         "correct": "Quartermaster",
         "options": [
           "Quartermaster",
@@ -6365,7 +6365,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.5",
-        "prompt": "Which official has overall authority for range safety and rule application across the entire match range?",
+        "prompt": "A safety issue affects several bays and requires a match-wide ruling. Which official has overall authority across the range?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -6463,7 +6463,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Under Comstock, which calculation produces a hit factor?",
+        "prompt": "You have the target points, penalty points and elapsed time for a Comstock run. In what order do you use them to calculate hit factor?",
         "correct": "Target points minus penalties, then divide by time",
         "options": [
           "Target points minus penalties, then divide by time",
@@ -6477,7 +6477,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Which competitor receives the maximum stage points available under Comstock?",
+        "prompt": "One competitor shoots the fastest time and another records the highest hit factor. Who gets the full stage points under Comstock?",
         "correct": "The competitor with the highest hit factor",
         "options": [
           "The competitor with the highest hit factor",
@@ -6491,7 +6491,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.3",
-        "prompt": "Which quantity determines the final ranking within a Division?",
+        "prompt": "You are checking the final standings after the last stage. Which total determines each competitor’s ranking within their division?",
         "correct": "The sum of individual stage points",
         "options": [
           "The sum of individual stage points",
@@ -6575,7 +6575,7 @@ const disciplines = [
       },
       {
         "rule": "9.7.4",
-        "prompt": "A score sheet is signed by both the competitor and Range Officer. With no mutual consent and no arbitration decision, which change is explicitly permitted?",
+        "prompt": "Both the competitor and the Range Officer have signed. They have not agreed to a change, and there is no arbitration decision. Which of these corrections can still be made?",
         "correct": "Correcting an arithmetic error",
         "options": [
           "Correcting an arithmetic error",
@@ -6701,7 +6701,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.1",
-        "prompt": "What must be recorded for procedural penalties on the score sheet?",
+        "prompt": "A Range Officer assesses three procedurals for a stage procedure breach. What must be written on the score sheet about those penalties?",
         "correct": "Both the number and the reason",
         "options": [
           "Both the number and the reason",
@@ -6715,7 +6715,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.4",
-        "prompt": "A competitor fires while faulting a line, then fires at the same target from inside the line. What happens to the original applicable fault penalty?",
+        "prompt": "A competitor fires while touching the ground beyond a fault line, then shoots the same target again from inside the line. What happens to the original fault penalty?",
         "correct": "It still applies",
         "options": [
           "It still applies",
@@ -6743,7 +6743,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.2",
-        "prompt": "A competitor ignores a written stage procedure and gains a significant advantage. What penalty basis may apply in place of a single penalty for the occurrence?",
+        "prompt": "A competitor shoots from standing where the written briefing requires kneeling and gains a significant advantage. How may the procedural penalties be counted?",
         "correct": "One per shot fired during the breach, subject to the applicable cap",
         "options": [
           "One per shot fired during the breach, subject to the applicable cap",
@@ -6785,7 +6785,7 @@ const disciplines = [
       },
       {
         "rule": "10.3.2",
-        "prompt": "After issuing a disqualification, who must be notified as soon as possible?",
+        "prompt": "A Range Officer has just disqualified a competitor. Who must be notified as soon as possible?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -6813,7 +6813,7 @@ const disciplines = [
       },
       {
         "rule": "11.3.2",
-        "prompt": "When must the Arbitration Committee reach its decision?",
+        "prompt": "The arbitration request has been filed, and the Match Director plans to declare the results final soon. Which deadline governs the committee’s decision?",
         "correct": "Within 24 hours of the request or before final results are declared, whichever comes first",
         "options": [
           "Within 24 hours of the request or before final results are declared, whichever comes first",
@@ -6841,7 +6841,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.2",
-        "prompt": "Who implements and posts the Arbitration Committee’s decision?",
+        "prompt": "The Arbitration Committee has issued its decision. Which official puts it into effect and posts it for competitors?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -6855,7 +6855,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.4",
-        "prompt": "For what can a recorded Arbitration Committee decision serve as precedent?",
+        "prompt": "The same issue comes up again later in the match after an arbitration decision has been recorded. When can that decision be used as precedent?",
         "correct": "A similar subsequent incident at the same match",
         "options": [
           "A similar subsequent incident at the same match",
@@ -6869,7 +6869,7 @@ const disciplines = [
       },
       {
         "rule": "11.7.1",
-        "prompt": "May someone other than the competitor involved submit an appeal on a third-party basis?",
+        "prompt": "A competitor witnesses an incident involving someone else and wants to submit an appeal. Can the competitor appeal as a third party?",
         "correct": "Yes, under the same Chapter 11 provisions",
         "options": [
           "Yes, under the same Chapter 11 provisions",
@@ -6995,7 +6995,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -7051,7 +7051,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:00, but were actually posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:00, but they were posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:11",
         "options": [
           "13:11",
@@ -7093,7 +7093,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "2",
         "options": [
           "2",
@@ -7177,7 +7177,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -7233,7 +7233,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:17, but were actually posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:17, but they were posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:29",
         "options": [
           "13:29",
@@ -7275,7 +7275,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "3",
         "options": [
           "3",
@@ -7359,7 +7359,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -7415,7 +7415,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:34, but were actually posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:34, but they were posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:47",
         "options": [
           "13:47",
@@ -7457,7 +7457,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "4",
         "options": [
           "4",
@@ -7541,7 +7541,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -7597,7 +7597,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:51, but were actually posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:51, but they were posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:05",
         "options": [
           "14:05",
@@ -7639,7 +7639,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "5",
         "options": [
           "5",
@@ -7723,7 +7723,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -7779,7 +7779,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:08, but were actually posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:08, but they were posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:19",
         "options": [
           "14:19",
@@ -7821,7 +7821,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "6",
         "options": [
           "6",
@@ -7905,7 +7905,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -7961,7 +7961,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:25, but were actually posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:25, but they were posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:37",
         "options": [
           "14:37",
@@ -8003,7 +8003,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "7",
         "options": [
           "7",
@@ -8087,7 +8087,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -8143,7 +8143,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:42, but were actually posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:42, but they were posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:55",
         "options": [
           "14:55",
@@ -8185,7 +8185,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "8",
         "options": [
           "8",
@@ -8269,7 +8269,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -8325,7 +8325,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:59, but were actually posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:59, but they were posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "15:13",
         "options": [
           "15:13",
@@ -8367,7 +8367,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "9",
         "options": [
           "9",
@@ -8451,7 +8451,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 3. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -8507,7 +8507,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:16, but were actually posted at 14:27. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 14:16, but they were posted at 14:27. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "15:27",
         "options": [
           "15:27",
@@ -8549,7 +8549,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 15 shots and gains a significant advantage. From that position a maximum of 10 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 15 shots and gains a significant advantage. From that position a maximum of 10 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "10",
         "options": [
           "10",
@@ -8604,493 +8604,493 @@ const disciplines = [
         "id": "581a8fb3529e434e"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 49.2750, 33.6425 and 46.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "129.3025",
+        "rule": "3.2.1",
+        "prompt": "The online stage preview says to start seated. The written stage briefing approved by the Range Master and posted at the stage says to start standing. Which start position applies?",
+        "correct": "Standing, as specified in the posted briefing",
         "options": [
-          "129.3025",
-          "129.4025",
-          "129.2025",
-          "130.3025"
+          "Standing, as specified in the posted briefing",
+          "Seated, because the preview was published first",
+          "Either position, if used consistently within the squad",
+          "The position used by the first competitor"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "3.2.1",
         "id": "24a2902d339963fb"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 2 shots before a mandatory reload point, 4 shots after it without reloading, and 2 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "3.2.2",
+        "prompt": "The Range Officer has read out the briefing but has not shown the start position. A competitor asks to see it. What should the Range Officer do?",
+        "correct": "Show the acceptable position in person or using a picture",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Show the acceptable position in person or using a picture",
+          "Show it only at Level III or above",
+          "Repeat the text without showing the position",
+          "Let the first competitor decide what the position looks like"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "3.2.2",
         "id": "a63d7cb694c1e4e7"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "2",
+        "rule": "2.2.1.5",
+        "prompt": "On a clearly marked path between shooting positions, a competitor takes a shortcut outside the markings. They fire twice after re-entering the path. How many procedural penalties apply for the shortcut?",
+        "correct": "Two",
         "options": [
-          "2",
-          "1",
-          "3",
-          "4"
+          "Two",
+          "One",
+          "Zero",
+          "Three"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "2.2.1.5",
         "id": "d4412d59638309cc"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 12 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "120 points",
+        "rule": "4.7.1",
+        "prompt": "A moving target activates early because its latch fails before the competitor operates it. How should the latch failure be classified?",
+        "correct": "Range equipment failure",
         "options": [
-          "120 points",
-          "100 points",
-          "110 points",
-          "130 points"
+          "Range equipment failure",
+          "A competitor equipment malfunction",
+          "A failure to engage the target",
+          "A breach of the start position"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "4.7.1",
         "id": "2da427e627a18668"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 3 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "4.7.2",
+        "prompt": "A moving target was left unset after the previous competitor. The Range Officer discovers this during the next attempt. What must happen after the target is reset?",
+        "correct": "The competitor must reshoot the entire stage",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor must reshoot the entire stage",
+          "The competitor must shoot only the affected target",
+          "The competitor can choose whether to keep the first run",
+          "The first run stands and the affected target is removed from scoring"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "4.7.2",
         "id": "21bc41077313a1fb"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:27. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:27",
+        "rule": "4.7.2",
+        "prompt": "A stage prop breaks and prevents the competitor from completing the stage. The Range Officer confirms range equipment failure. What is the remedy?",
+        "correct": "Repair the prop and require a full reshoot",
         "options": [
-          "12:27",
-          "12:12",
-          "12:42",
-          "12:57"
+          "Repair the prop and require a full reshoot",
+          "Repair the prop and restart from where the competitor stopped",
+          "Keep the score and ignore any targets that could not be shot",
+          "Keep the score and remove the misses for those targets"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "4.7.2",
         "id": "8b94d01c354e3638"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:33, but were actually posted at 14:45. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:45",
+        "rule": "5.4.3",
+        "prompt": "During a run, the Range Officer sees the competitor’s safety glasses fall off. What should the Range Officer do?",
+        "correct": "Stop the competitor immediately and require a reshoot once eye protection is restored",
         "options": [
-          "15:45",
-          "15:30",
-          "16:00",
-          "16:15"
+          "Stop the competitor immediately and require a reshoot once eye protection is restored",
+          "Let the competitor finish and then offer a reshoot",
+          "Pause the timer and resume the same run after the glasses are restored",
+          "Stop the competitor and score the run as shot"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "5.4.3",
         "id": "7aba270f1596c966"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$139. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$100",
+        "rule": "5.4.4",
+        "prompt": "A competitor notices that their safety glasses have slipped off during the run. What can the competitor do?",
+        "correct": "Stop, point the firearm safely and tell the Range Officer",
         "options": [
-          "US$100",
-          "US$139",
-          "US$95",
-          "US$105"
+          "Stop, point the firearm safely and tell the Range Officer",
+          "Continue and ask for a reshoot after seeing the score",
+          "Pause, restore the glasses and resume the same attempt",
+          "Move to the next position before reporting the problem"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "5.4.4",
         "id": "5bb2c4fc1e28915c"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 4 non-disappearing scoring targets completely unengaged. They engage the other 11 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "4",
+        "rule": "5.4.5",
+        "prompt": "A competitor deliberately removes their safety glasses to get another attempt after a poor run. How is that conduct treated?",
+        "correct": "As unsportsmanlike conduct",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "As unsportsmanlike conduct",
+          "As accidental loss of eye protection",
+          "As range equipment failure",
+          "As a start-position violation"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "5.4.5",
         "id": "6a197c545df016c0"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 16 shots and gains a significant advantage. From that position a maximum of 11 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "11",
+        "rule": "5.7.5",
+        "prompt": "A competitor’s own firearm malfunctions during a run and cannot be put back into service. The Range Officer confirms there was no range equipment failure. Is a reshoot allowed for the malfunction?",
+        "correct": "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
         "options": [
-          "11",
-          "10",
-          "12",
-          "13"
+          "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
+          "Yes, if the firearm failed before half the targets were engaged",
+          "Yes, if a replacement firearm is available",
+          "Yes, if the malfunction was the first one in that match"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "5.7.5",
         "id": "ee190b22289ebab1"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:51 on Saturday. The Match Director will declare the results final at 13:11 on Sunday. What deadline applies to the committee’s decision?",
-        "correct": "By 12:51 on Sunday",
+        "rule": "8.3.2",
+        "prompt": "The Range Officer asks “Are You Ready?” The competitor has not settled into the required start position and needs more time. What should they say?",
+        "correct": "Not Ready",
         "options": [
-          "By 12:51 on Sunday",
-          "Before 13:11 on Sunday",
-          "By 12:31 on Sunday",
-          "By 12:51 on Monday"
+          "Not Ready",
+          "Standby",
+          "Stop",
+          "Range Is Clear"
         ],
-        "note": "The 24-hour deadline arrives before the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "8.3.2",
         "id": "87475e17dc3ff41f"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 85 target points, receives 20 penalty points and finishes in 7.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "9.2857",
+        "rule": "8.3.3",
+        "prompt": "You are operating the timer as the Range Officer. How long after saying “Standby” should the start signal sound?",
+        "correct": "1 to 4 seconds",
         "options": [
-          "9.2857",
-          "12.1429",
-          "10.7143",
-          "15.0000"
+          "1 to 4 seconds",
+          "1 to 2 seconds",
+          "2 to 5 seconds",
+          "3 to 6 seconds"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "8.3.3",
         "id": "b85cb293f700cca4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 140-point stage is won with a hit factor of 9. A competitor records a hit factor of 7.2. How many stage points does the competitor earn?",
-        "correct": "112.00",
+        "rule": "8.3.4",
+        "prompt": "The timer beeps, but the competitor does not react. The Range Officer confirms the competitor is ready. Which command restarts the sequence?",
+        "correct": "Are You Ready?",
         "options": [
-          "112.00",
-          "110.00",
-          "111.00",
-          "113.00"
+          "Are You Ready?",
+          "Make Ready",
+          "Standby",
+          "If You Are Finished, Unload And Show Clear"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "8.3.4",
         "id": "80da1262251a8622"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 51.2750, 34.6425 and 49.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "135.3025",
+        "rule": "8.6.1",
+        "prompt": "During a run, an assigned Range Officer gives a safety warning. The competitor asks for a reshoot solely because of the warning. Is that a valid reason?",
+        "correct": "No, the safety warning alone does not justify a reshoot",
         "options": [
-          "135.3025",
-          "135.4025",
-          "135.2025",
-          "136.3025"
+          "No, the safety warning alone does not justify a reshoot",
+          "Yes, whenever a warning is given after the start signal",
+          "Yes, if the warning was audible to the squad",
+          "Yes, if the competitor took action in response to the warning"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "8.6.1",
         "id": "dc93ed95ac38a11e"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 3 shots before a mandatory reload point, 4 shots after it without reloading, and 3 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "8.6.2",
+        "prompt": "A squad member calls out a missed target during the run without Range Officer approval. The competitor hears and uses the help. Who may receive a procedural penalty?",
+        "correct": "Both the person who gave the help and the competitor",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Both the person who gave the help and the competitor",
+          "Only the person who gave the help",
+          "Only the competitor",
+          "Neither person if the target was then hit"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "8.6.2",
         "id": "ff81f0ebb90fa7fe"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "8.6.3",
+        "prompt": "A spectator shouts to distract a competitor mid-stage. The Range Officer believes this significantly affected the run. Who decides whether to offer a reshoot for that interference?",
+        "correct": "Range Master",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "8.6.3",
         "id": "a69a26a0962324c0"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 13 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "130 points",
+        "rule": "8.6.4",
+        "prompt": "The Range Officer accidentally bumps a competitor during the run and offers a reshoot. When must the competitor decide whether to take it?",
+        "correct": "Before seeing either the time or the score",
         "options": [
-          "130 points",
-          "110 points",
-          "120 points",
-          "140 points"
+          "Before seeing either the time or the score",
+          "After seeing the time but before seeing the score",
+          "After seeing the score but before seeing the time",
+          "After seeing both, but before signing the score sheet"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "8.6.4",
         "id": "f2b4498c35093061"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 4 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "4",
+        "rule": "9.1.2",
+        "prompt": "While a paper target is being scored, the competitor’s delegate wants to touch the target to inspect a hole. What must the delegate do first?",
+        "correct": "Obtain the Range Officer’s permission",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Obtain the Range Officer’s permission",
+          "Ask the competitor to confirm the hit",
+          "Ask the target patcher for permission",
+          "Wait until the time is entered, then touch it without asking"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "9.1.2",
         "id": "bcbc115517493d04"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:50. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:50",
+        "rule": "9.1.6.1",
+        "prompt": "The Range Officer identifies a hit on a paper scoring target made by a slug that passed entirely through hard cover. How should that identified hit be scored?",
+        "correct": "Ignore the hit",
         "options": [
-          "12:50",
-          "12:35",
-          "13:05",
-          "13:20"
+          "Ignore the hit",
+          "Award its normal zone value",
+          "Award the lowest zone value",
+          "Treat the hit as a no-shoot penalty"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "9.1.6.1",
         "id": "5fa6865654c74be5"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:50, but were actually posted at 15:03. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "16:03",
+        "rule": "9.5.3",
+        "prompt": "A paper scoring target overlaps a paper no-shoot. The diameter of a hit touches the scoring area of both. What should be recorded for that hit?",
+        "correct": "The applicable scoring hit and no-shoot penalty",
         "options": [
-          "16:03",
-          "15:48",
-          "16:18",
-          "16:33"
+          "The applicable scoring hit and no-shoot penalty",
+          "The scoring hit only",
+          "The no-shoot penalty only",
+          "Neither the scoring hit nor the no-shoot penalty"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "9.5.3",
         "id": "2bb26fd96d3d99e0"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$78. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$78",
+        "rule": "9.5.4",
+        "prompt": "A hit hole sits entirely in the lower-value zone. A tear extends from the hole into the higher-value zone, but the hole itself does not touch the scoring line. Which value counts?",
+        "correct": "The lower zone value",
         "options": [
-          "US$78",
-          "US$100",
-          "US$73",
-          "US$83"
+          "The lower zone value",
+          "The higher zone value",
+          "Both zone values",
+          "Neither zone value"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "9.5.4",
         "id": "b0c07a4dded3ae57"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 5 non-disappearing scoring targets completely unengaged. They engage the other 12 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "5",
+        "rule": "9.5.5",
+        "prompt": "A competitor’s penalties exceed their scoring points on a stage. What is the lowest stage score that can be recorded?",
+        "correct": "Zero",
         "options": [
-          "5",
-          "4",
-          "6",
-          "7"
+          "Zero",
+          "Minus the amount by which penalties exceeded points",
+          "Minus 10 points",
+          "The lowest positive stage score in the division"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "9.5.5",
         "id": "6027dec45b5000f3"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 17 shots and gains a significant advantage. From that position a maximum of 12 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "12",
+        "rule": "9.6.5",
+        "prompt": "The Range Officer has scored a disputed paper hit as C and upholds that call. The target is still available. Who should the competitor ask next for a ruling?",
+        "correct": "Chief Range Officer",
         "options": [
-          "12",
-          "11",
-          "13",
-          "14"
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director",
+          "Arbitration Committee"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "9.6.5",
         "id": "8ba2c28d0727460d"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 13:10 on Saturday. Final results are scheduled to be declared at 12:50 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:50 on Sunday",
+        "rule": "9.6.6",
+        "prompt": "The Range Master rules that a disputed hit touched the no-shoot scoring area. Can the competitor appeal that hit-scoring decision further?",
+        "correct": "No, the Range Master’s ruling on the hit is final",
         "options": [
-          "Before 12:50 on Sunday",
-          "By 13:10 on Sunday",
-          "By 13:30 on Sunday",
-          "Before 12:50 on Monday"
+          "No, the Range Master’s ruling on the hit is final",
+          "Yes, to the Arbitration Committee",
+          "Yes, to the Match Director",
+          "Yes, to the Stats Officer when provisional results are posted"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.6.6",
         "id": "75069bcdc82cd29e"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 90 target points, receives 30 penalty points and finishes in 8.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "7.5000",
+        "rule": "9.6.7",
+        "prompt": "A paper target is under a scoring challenge. A patcher is about to cover the disputed hole. What should happen?",
+        "correct": "Keep the target untouched until the challenge is settled",
         "options": [
-          "7.5000",
-          "11.2500",
-          "9.3750",
-          "15.0000"
+          "Keep the target untouched until the challenge is settled",
+          "Patch only the disputed hole after photographing it",
+          "Patch the whole target after recording the Range Officer’s first call",
+          "Patch the target once the competitor has seen the hole"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "9.6.7",
         "id": "9c0c5a9b620a2bff"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 150-point stage is won with a hit factor of 10. A competitor records a hit factor of 9.0. How many stage points does the competitor earn?",
-        "correct": "135.00",
+        "rule": "9.6.7",
+        "prompt": "The Range Officer removes a disputed paper target so the squad can continue. Who must sign the target and mark which hits are disputed?",
+        "correct": "The competitor and the Range Officer",
         "options": [
-          "135.00",
-          "133.00",
-          "134.00",
-          "136.00"
+          "The competitor and the Range Officer",
+          "The Range Officer and the Chief Range Officer",
+          "The competitor and the Stats Officer",
+          "The Range Officer and the Match Director"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "9.6.7",
         "id": "07c8eea4ccece434"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 53.2750, 35.6425 and 52.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "141.3025",
+        "rule": "9.6.8",
+        "prompt": "A hit lies close to a scoring line and an overlay is needed. Which overlay may the official use?",
+        "correct": "An overlay approved by the Range Master",
         "options": [
-          "141.3025",
-          "141.4025",
-          "141.2025",
-          "142.3025"
+          "An overlay approved by the Range Master",
+          "Any overlay supplied by the competitor",
+          "Any overlay of the right calibre, regardless of approval",
+          "An overlay approved only by the squad leader"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "9.6.8",
         "id": "a79eabfec2b5f1e0"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 4 shots before a mandatory reload point, 4 shots after it without reloading, and 4 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "9.7.1",
+        "prompt": "You are checking the score sheet before signing it. The official elapsed time is 16.20 seconds. How should that time be recorded?",
+        "correct": "16.20 seconds",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "16.20 seconds",
+          "16.2 seconds",
+          "16 seconds",
+          "16.200 seconds"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "9.7.1",
         "id": "5d1ad181acc70027"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "4",
+        "rule": "9.7.2",
+        "prompt": "Before signing a paper score sheet, the competitor and Range Officer agree that the recorded hits need correcting. What should they do?",
+        "correct": "Enter the correction on the original and copies and both initial it",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Enter the correction on the original and copies and both initial it",
+          "Change only the original and have only the Range Officer initial it",
+          "Change only the competitor’s copy and both initial it",
+          "Change the copies without initialling the correction"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "9.7.2",
         "id": "8d98bcdd1b0bd47d"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 14 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "140 points",
+        "rule": "9.7.3",
+        "prompt": "A competitor refuses to sign a score sheet. Who reviews the matter before deciding whether the unsigned sheet may be submitted?",
+        "correct": "Range Master",
         "options": [
-          "140 points",
-          "120 points",
-          "130 points",
-          "150 points"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "9.7.3",
         "id": "516c324b898f2744"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 5 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "5",
+        "rule": "9.10.1",
+        "prompt": "The Range Officer confirms the official timing equipment is faulty. No accurate elapsed time can be assigned to the run. What must happen?",
+        "correct": "The competitor must reshoot",
         "options": [
-          "5",
-          "4",
-          "6",
-          "7"
+          "The competitor must reshoot",
+          "Use a spectator’s stopwatch time",
+          "Use the average time of the squad",
+          "Keep the target points and record no time"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "9.10.1",
         "id": "62f76ab3de1acdb4"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 12:13. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "13:13",
+        "rule": "10.1.3",
+        "prompt": "A competitor challenges the number of procedural penalties, and the Chief Range Officer and Range Master have considered the matter. Which avenue remains if the competitor is still dissatisfied?",
+        "correct": "Arbitration",
         "options": [
-          "13:13",
-          "12:58",
-          "13:28",
-          "13:43"
+          "Arbitration",
+          "A fresh ruling by the Stats Officer",
+          "A new scoring decision by the squad leader",
+          "A tiebreaker stage"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "10.1.3",
         "id": "082a70edb7dcaca9"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 15:07, but were actually posted at 15:21. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "16:21",
+        "rule": "10.3.1",
+        "prompt": "A competitor has been disqualified for a safety violation and is waiting for an arbitration decision. Can they shoot the remaining stages in the meantime?",
+        "correct": "No, they may not shoot the remaining stages while the appeal is pending",
         "options": [
-          "16:21",
-          "16:06",
-          "16:36",
-          "16:51"
+          "No, they may not shoot the remaining stages while the appeal is pending",
+          "Yes, but only on stages in a different bay",
+          "Yes, if the remaining scores are marked provisional",
+          "Yes, if a Range Officer supervises their remaining attempts"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "10.3.1",
         "id": "12ca6e288b959f58"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$145. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$100",
+        "rule": "2.4.4",
+        "prompt": "At a Safety Area, a competitor takes out a loaded magazine to check it. Is that permitted there?",
+        "correct": "No, a loaded magazine may not be handled in the Safety Area",
         "options": [
-          "US$100",
-          "US$145",
-          "US$95",
-          "US$105"
+          "No, a loaded magazine may not be handled in the Safety Area",
+          "Yes, provided it stays separate from the firearm",
+          "Yes, if it is pointed toward the designated safe direction",
+          "Yes, if no ammunition or projectiles are removed from it"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "2.4.4",
         "id": "5712f6b6b7c15848"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 6 non-disappearing scoring targets completely unengaged. They engage the other 13 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "6",
+        "rule": "9.8.1",
+        "prompt": "Provisional results are posted. Who is responsible for checking that a competitor’s own scores are recorded accurately?",
+        "correct": "The competitor",
         "options": [
-          "6",
-          "5",
-          "7",
-          "8"
+          "The competitor",
+          "The squad leader",
+          "The Range Officer from the final stage",
+          "The Match Director"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "9.8.1",
         "id": "7cb27609ac4a297b"
       }
     ]
@@ -9131,7 +9131,7 @@ const disciplines = [
       },
       {
         "rule": "Appendix D, item 2",
-        "prompt": "What is the minimum Rifle power factor for Minor?",
+        "prompt": "Your Rifle ammunition is being checked at chronograph. What minimum power factor is required for Minor scoring?",
         "correct": "150",
         "options": [
           "150",
@@ -9145,7 +9145,7 @@ const disciplines = [
       },
       {
         "rule": "Appendix D, item 1",
-        "prompt": "What is the minimum Rifle power factor for Major?",
+        "prompt": "Your Rifle ammunition is being checked at chronograph. What minimum power factor is required for Major scoring?",
         "correct": "320",
         "options": [
           "320",
@@ -9159,7 +9159,7 @@ const disciplines = [
       },
       {
         "rule": "2.1.3",
-        "prompt": "While metal targets are being shot, what minimum distance must be maintained?",
+        "prompt": "You are checking the stage layout. Where metal targets will be shot, what minimum distance must be maintained while they are being shot?",
         "correct": "50 m",
         "options": [
           "50 m",
@@ -9257,7 +9257,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.2",
-        "prompt": "To how many decimal places are individual stage points calculated for stage ranking?",
+        "prompt": "Two competitors are very close on a stage. To how many decimal places are their stage points calculated for ranking?",
         "correct": "4",
         "options": [
           "4",
@@ -9271,7 +9271,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Who sets the duration of the squad’s stage walkthrough?",
+        "prompt": "A squad wants extra walkthrough time before its first run. Who sets the walkthrough duration?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -9285,7 +9285,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Moving targets are demonstrated during walkthroughs. What must be consistent across competitors?",
+        "prompt": "Two squads are shown the same moving target during their walkthroughs. What should be the same about the demonstrations?",
         "correct": "Both duration and frequency",
         "options": [
           "Both duration and frequency",
@@ -9341,7 +9341,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.1",
-        "prompt": "Who declares a competitor’s time, scores and penalties on the stage and verifies they are recorded correctly?",
+        "prompt": "The run is over and the score sheet is open. Which official announces the competitor’s time, score and penalties and checks the entries?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -9355,7 +9355,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.2",
-        "prompt": "Which official has primary authority over the courses of fire specifically assigned to them, under the Range Master?",
+        "prompt": "Two squads report that a stage is being run differently in the same bay. Which official has primary authority over that stage under the Range Master?",
         "correct": "Chief Range Officer",
         "options": [
           "Chief Range Officer",
@@ -9369,7 +9369,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.3",
-        "prompt": "Who supervises the team that processes score sheets and produces provisional and final results?",
+        "prompt": "Score sheets have been submitted and the provisional results are being prepared. Which official supervises the team processing them?",
         "correct": "Stats Officer",
         "options": [
           "Stats Officer",
@@ -9383,7 +9383,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.4",
-        "prompt": "Who is responsible for distributing and maintaining targets, timers and other range equipment?",
+        "prompt": "The stage crew runs out of target patches and a timer needs replacing. Which official is responsible for supplying and maintaining that equipment?",
         "correct": "Quartermaster",
         "options": [
           "Quartermaster",
@@ -9397,7 +9397,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.5",
-        "prompt": "Which official has overall authority for range safety and rule application across the entire match range?",
+        "prompt": "A safety issue affects several bays and requires a match-wide ruling. Which official has overall authority across the range?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -9495,7 +9495,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Under Comstock, which calculation produces a hit factor?",
+        "prompt": "You have the target points, penalty points and elapsed time for a Comstock run. In what order do you use them to calculate hit factor?",
         "correct": "Target points minus penalties, then divide by time",
         "options": [
           "Target points minus penalties, then divide by time",
@@ -9509,7 +9509,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Which competitor receives the maximum stage points available under Comstock?",
+        "prompt": "One competitor shoots the fastest time and another records the highest hit factor. Who gets the full stage points under Comstock?",
         "correct": "The competitor with the highest hit factor",
         "options": [
           "The competitor with the highest hit factor",
@@ -9523,7 +9523,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.3",
-        "prompt": "Which quantity determines the final ranking within a Division?",
+        "prompt": "You are checking the final standings after the last stage. Which total determines each competitor’s ranking within their division?",
         "correct": "The sum of individual stage points",
         "options": [
           "The sum of individual stage points",
@@ -9607,7 +9607,7 @@ const disciplines = [
       },
       {
         "rule": "9.7.4",
-        "prompt": "A score sheet is signed by both the competitor and Range Officer. With no mutual consent and no arbitration decision, which change is explicitly permitted?",
+        "prompt": "Both the competitor and the Range Officer have signed. They have not agreed to a change, and there is no arbitration decision. Which of these corrections can still be made?",
         "correct": "Correcting an arithmetic error",
         "options": [
           "Correcting an arithmetic error",
@@ -9733,7 +9733,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.1",
-        "prompt": "What must be recorded for procedural penalties on the score sheet?",
+        "prompt": "A Range Officer assesses three procedurals for a stage procedure breach. What must be written on the score sheet about those penalties?",
         "correct": "Both the number and the reason",
         "options": [
           "Both the number and the reason",
@@ -9747,7 +9747,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.4",
-        "prompt": "A competitor fires while faulting a line, then fires at the same target from inside the line. What happens to the original applicable fault penalty?",
+        "prompt": "A competitor fires while touching the ground beyond a fault line, then shoots the same target again from inside the line. What happens to the original fault penalty?",
         "correct": "It still applies",
         "options": [
           "It still applies",
@@ -9775,7 +9775,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.2",
-        "prompt": "A competitor ignores a written stage procedure and gains a significant advantage. What penalty basis may apply in place of a single penalty for the occurrence?",
+        "prompt": "A competitor shoots from standing where the written briefing requires kneeling and gains a significant advantage. How may the procedural penalties be counted?",
         "correct": "One per shot fired during the breach, subject to the applicable cap",
         "options": [
           "One per shot fired during the breach, subject to the applicable cap",
@@ -9817,7 +9817,7 @@ const disciplines = [
       },
       {
         "rule": "10.3.2",
-        "prompt": "After issuing a disqualification, who must be notified as soon as possible?",
+        "prompt": "A Range Officer has just disqualified a competitor. Who must be notified as soon as possible?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -9845,7 +9845,7 @@ const disciplines = [
       },
       {
         "rule": "11.3.2",
-        "prompt": "When must the Arbitration Committee reach its decision?",
+        "prompt": "The arbitration request has been filed, and the Match Director plans to declare the results final soon. Which deadline governs the committee’s decision?",
         "correct": "Within 24 hours of the request or before final results are declared, whichever comes first",
         "options": [
           "Within 24 hours of the request or before final results are declared, whichever comes first",
@@ -9873,7 +9873,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.2",
-        "prompt": "Who implements and posts the Arbitration Committee’s decision?",
+        "prompt": "The Arbitration Committee has issued its decision. Which official puts it into effect and posts it for competitors?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -9887,7 +9887,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.4",
-        "prompt": "For what can a recorded Arbitration Committee decision serve as precedent?",
+        "prompt": "The same issue comes up again later in the match after an arbitration decision has been recorded. When can that decision be used as precedent?",
         "correct": "A similar subsequent incident at the same match",
         "options": [
           "A similar subsequent incident at the same match",
@@ -9901,7 +9901,7 @@ const disciplines = [
       },
       {
         "rule": "11.7.1",
-        "prompt": "May someone other than the competitor involved submit an appeal on a third-party basis?",
+        "prompt": "A competitor witnesses an incident involving someone else and wants to submit an appeal. Can the competitor appeal as a third party?",
         "correct": "Yes, under the same Chapter 11 provisions",
         "options": [
           "Yes, under the same Chapter 11 provisions",
@@ -10027,7 +10027,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -10083,7 +10083,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:00, but were actually posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:00, but they were posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:11",
         "options": [
           "13:11",
@@ -10111,7 +10111,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "20 points",
         "options": [
           "20 points",
@@ -10139,7 +10139,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "2",
         "options": [
           "2",
@@ -10223,7 +10223,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -10279,7 +10279,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:17, but were actually posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:17, but they were posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:29",
         "options": [
           "13:29",
@@ -10307,7 +10307,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -10335,7 +10335,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "3",
         "options": [
           "3",
@@ -10419,7 +10419,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -10475,7 +10475,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:34, but were actually posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:34, but they were posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:47",
         "options": [
           "13:47",
@@ -10503,7 +10503,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -10531,7 +10531,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "4",
         "options": [
           "4",
@@ -10615,7 +10615,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -10671,7 +10671,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:51, but were actually posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:51, but they were posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:05",
         "options": [
           "14:05",
@@ -10699,7 +10699,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -10727,7 +10727,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "5",
         "options": [
           "5",
@@ -10811,7 +10811,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -10867,7 +10867,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:08, but were actually posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:08, but they were posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:19",
         "options": [
           "14:19",
@@ -10895,7 +10895,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -10923,7 +10923,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "6",
         "options": [
           "6",
@@ -11007,7 +11007,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -11063,7 +11063,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:25, but were actually posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:25, but they were posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:37",
         "options": [
           "14:37",
@@ -11091,7 +11091,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -11119,7 +11119,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "7",
         "options": [
           "7",
@@ -11203,7 +11203,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -11259,7 +11259,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:42, but were actually posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:42, but they were posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:55",
         "options": [
           "14:55",
@@ -11287,7 +11287,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -11315,7 +11315,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "8",
         "options": [
           "8",
@@ -11399,7 +11399,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -11455,7 +11455,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:59, but were actually posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:59, but they were posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "15:13",
         "options": [
           "15:13",
@@ -11483,7 +11483,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "50 points",
         "options": [
           "50 points",
@@ -11511,7 +11511,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "9",
         "options": [
           "9",
@@ -11595,7 +11595,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 3. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -11636,493 +11636,493 @@ const disciplines = [
         "id": "0fdc8b40955167f4"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:04. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:04",
+        "rule": "3.2.1",
+        "prompt": "The online stage preview says to start seated. The written stage briefing approved by the Range Master and posted at the stage says to start standing. Which start position applies?",
+        "correct": "Standing, as specified in the posted briefing",
         "options": [
-          "12:04",
-          "11:49",
-          "12:19",
-          "12:34"
+          "Standing, as specified in the posted briefing",
+          "Seated, because the preview was published first",
+          "Either position, if used consistently within the squad",
+          "The position used by the first competitor"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "3.2.1",
         "id": "74c72e17cf94ace9"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:16, but were actually posted at 14:27. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:27",
+        "rule": "3.2.2",
+        "prompt": "The Range Officer has read out the briefing but has not shown the start position. A competitor asks to see it. What should the Range Officer do?",
+        "correct": "Show the acceptable position in person or using a picture",
         "options": [
-          "15:27",
-          "15:12",
-          "15:42",
-          "15:57"
+          "Show the acceptable position in person or using a picture",
+          "Show it only at Level III or above",
+          "Repeat the text without showing the position",
+          "Let the first competitor decide what the position looks like"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "3.2.2",
         "id": "7218042e14ad7648"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$74. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$74",
+        "rule": "2.2.1.5",
+        "prompt": "On a clearly marked path between shooting positions, a competitor takes a shortcut outside the markings. They fire twice after re-entering the path. How many procedural penalties apply for the shortcut?",
+        "correct": "Two",
         "options": [
-          "US$74",
-          "US$100",
-          "US$69",
-          "US$79"
+          "Two",
+          "One",
+          "Zero",
+          "Three"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "2.2.1.5",
         "id": "84a17151ec6235aa"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "4.7.1",
+        "prompt": "A moving target activates early because its latch fails before the competitor operates it. How should the latch failure be classified?",
+        "correct": "Range equipment failure",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Range equipment failure",
+          "A competitor equipment malfunction",
+          "A failure to engage the target",
+          "A breach of the start position"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "4.7.1",
         "id": "9362ece878e6df51"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 3 non-disappearing scoring targets completely unengaged. They engage the other 10 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "3",
+        "rule": "4.7.2",
+        "prompt": "A moving target was left unset after the previous competitor. The Range Officer discovers this during the next attempt. What must happen after the target is reset?",
+        "correct": "The competitor must reshoot the entire stage",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor must reshoot the entire stage",
+          "The competitor must shoot only the affected target",
+          "The competitor can choose whether to keep the first run",
+          "The first run stands and the affected target is removed from scoring"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "4.7.2",
         "id": "f187f41432c19f9e"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 15 shots and gains a significant advantage. From that position a maximum of 10 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "10",
+        "rule": "4.7.2",
+        "prompt": "A stage prop breaks and prevents the competitor from completing the stage. The Range Officer confirms range equipment failure. What is the remedy?",
+        "correct": "Repair the prop and require a full reshoot",
         "options": [
-          "10",
-          "9",
-          "11",
-          "12"
+          "Repair the prop and require a full reshoot",
+          "Repair the prop and restart from where the competitor stopped",
+          "Keep the score and ignore any targets that could not be shot",
+          "Keep the score and remove the misses for those targets"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "4.7.2",
         "id": "1d0b8f7c31502eb7"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:32 on Saturday. Final results are scheduled to be declared at 12:12 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:12 on Sunday",
+        "rule": "5.4.3",
+        "prompt": "During a run, the Range Officer sees the competitor’s safety glasses fall off. What should the Range Officer do?",
+        "correct": "Stop the competitor immediately and require a reshoot once eye protection is restored",
         "options": [
-          "Before 12:12 on Sunday",
-          "By 12:32 on Sunday",
-          "By 12:52 on Sunday",
-          "Before 12:12 on Monday"
+          "Stop the competitor immediately and require a reshoot once eye protection is restored",
+          "Let the competitor finish and then offer a reshoot",
+          "Pause the timer and resume the same run after the glasses are restored",
+          "Stop the competitor and score the run as shot"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "5.4.3",
         "id": "0a04767b90011120"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 80 target points, receives 10 penalty points and finishes in 6.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "11.6667",
+        "rule": "5.4.4",
+        "prompt": "A competitor notices that their safety glasses have slipped off during the run. What can the competitor do?",
+        "correct": "Stop, point the firearm safely and tell the Range Officer",
         "options": [
-          "11.6667",
-          "13.3333",
-          "12.5000",
-          "15.0000"
+          "Stop, point the firearm safely and tell the Range Officer",
+          "Continue and ask for a reshoot after seeing the score",
+          "Pause, restore the glasses and resume the same attempt",
+          "Move to the next position before reporting the problem"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "5.4.4",
         "id": "0a8487a56defd7d4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 130-point stage is won with a hit factor of 8. A competitor records a hit factor of 6.00. How many stage points does the competitor earn?",
-        "correct": "97.50",
+        "rule": "5.4.5",
+        "prompt": "A competitor deliberately removes their safety glasses to get another attempt after a poor run. How is that conduct treated?",
+        "correct": "As unsportsmanlike conduct",
         "options": [
-          "97.50",
-          "95.50",
-          "96.50",
-          "98.50"
+          "As unsportsmanlike conduct",
+          "As accidental loss of eye protection",
+          "As range equipment failure",
+          "As a start-position violation"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "5.4.5",
         "id": "581a8fb3529e434e"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 49.2750, 33.6425 and 46.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "129.3025",
+        "rule": "5.7.5",
+        "prompt": "A competitor’s own firearm malfunctions during a run and cannot be put back into service. The Range Officer confirms there was no range equipment failure. Is a reshoot allowed for the malfunction?",
+        "correct": "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
         "options": [
-          "129.3025",
-          "129.4025",
-          "129.2025",
-          "130.3025"
+          "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
+          "Yes, if the firearm failed before half the targets were engaged",
+          "Yes, if a replacement firearm is available",
+          "Yes, if the malfunction was the first one in that match"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "5.7.5",
         "id": "24a2902d339963fb"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 2 shots before a mandatory reload point, 4 shots after it without reloading, and 2 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "8.3.2",
+        "prompt": "The Range Officer asks “Are You Ready?” The competitor has not settled into the required start position and needs more time. What should they say?",
+        "correct": "Not Ready",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Not Ready",
+          "Standby",
+          "Stop",
+          "Range Is Clear"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "8.3.2",
         "id": "a63d7cb694c1e4e7"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "2",
+        "rule": "8.3.3",
+        "prompt": "You are operating the timer as the Range Officer. How long after saying “Standby” should the start signal sound?",
+        "correct": "1 to 4 seconds",
         "options": [
-          "2",
-          "1",
-          "3",
-          "4"
+          "1 to 4 seconds",
+          "1 to 2 seconds",
+          "2 to 5 seconds",
+          "3 to 6 seconds"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "8.3.3",
         "id": "d4412d59638309cc"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 12 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "120 points",
+        "rule": "8.3.4",
+        "prompt": "The timer beeps, but the competitor does not react. The Range Officer confirms the competitor is ready. Which command restarts the sequence?",
+        "correct": "Are You Ready?",
         "options": [
-          "120 points",
-          "100 points",
-          "110 points",
-          "130 points"
+          "Are You Ready?",
+          "Make Ready",
+          "Standby",
+          "If You Are Finished, Unload And Show Clear"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "8.3.4",
         "id": "2da427e627a18668"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 3 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "8.6.1",
+        "prompt": "During a run, an assigned Range Officer gives a safety warning. The competitor asks for a reshoot solely because of the warning. Is that a valid reason?",
+        "correct": "No, the safety warning alone does not justify a reshoot",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "No, the safety warning alone does not justify a reshoot",
+          "Yes, whenever a warning is given after the start signal",
+          "Yes, if the warning was audible to the squad",
+          "Yes, if the competitor took action in response to the warning"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "8.6.1",
         "id": "21bc41077313a1fb"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:27. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:27",
+        "rule": "8.6.2",
+        "prompt": "A squad member calls out a missed target during the run without Range Officer approval. The competitor hears and uses the help. Who may receive a procedural penalty?",
+        "correct": "Both the person who gave the help and the competitor",
         "options": [
-          "12:27",
-          "12:12",
-          "12:42",
-          "12:57"
+          "Both the person who gave the help and the competitor",
+          "Only the person who gave the help",
+          "Only the competitor",
+          "Neither person if the target was then hit"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "8.6.2",
         "id": "8b94d01c354e3638"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:33, but were actually posted at 14:45. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:45",
+        "rule": "8.6.3",
+        "prompt": "A spectator shouts to distract a competitor mid-stage. The Range Officer believes this significantly affected the run. Who decides whether to offer a reshoot for that interference?",
+        "correct": "Range Master",
         "options": [
-          "15:45",
-          "15:30",
-          "16:00",
-          "16:15"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "8.6.3",
         "id": "7aba270f1596c966"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$139. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$100",
+        "rule": "8.6.4",
+        "prompt": "The Range Officer accidentally bumps a competitor during the run and offers a reshoot. When must the competitor decide whether to take it?",
+        "correct": "Before seeing either the time or the score",
         "options": [
-          "US$100",
-          "US$139",
-          "US$95",
-          "US$105"
+          "Before seeing either the time or the score",
+          "After seeing the time but before seeing the score",
+          "After seeing the score but before seeing the time",
+          "After seeing both, but before signing the score sheet"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "8.6.4",
         "id": "5bb2c4fc1e28915c"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "40 points",
+        "rule": "9.1.2",
+        "prompt": "While a paper target is being scored, the competitor’s delegate wants to touch the target to inspect a hole. What must the delegate do first?",
+        "correct": "Obtain the Range Officer’s permission",
         "options": [
-          "40 points",
-          "30 points",
-          "45 points",
-          "50 points"
+          "Obtain the Range Officer’s permission",
+          "Ask the competitor to confirm the hit",
+          "Ask the target patcher for permission",
+          "Wait until the time is entered, then touch it without asking"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "9.1.2",
         "id": "2ce804cf7d3c65a5"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 4 non-disappearing scoring targets completely unengaged. They engage the other 11 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "4",
+        "rule": "9.1.6.1",
+        "prompt": "The Range Officer identifies a hit on a paper scoring target made by a shot that passed entirely through hard cover. How should that identified hit be scored?",
+        "correct": "Ignore the hit",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Ignore the hit",
+          "Award its normal zone value",
+          "Award the lowest zone value",
+          "Treat the hit as a no-shoot penalty"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "9.1.6.1",
         "id": "6a197c545df016c0"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 16 shots and gains a significant advantage. From that position a maximum of 11 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "11",
+        "rule": "9.5.3",
+        "prompt": "A paper scoring target overlaps a paper no-shoot. The diameter of a hit touches the scoring area of both. What should be recorded for that hit?",
+        "correct": "The applicable scoring hit and no-shoot penalty",
         "options": [
-          "11",
-          "10",
-          "12",
-          "13"
+          "The applicable scoring hit and no-shoot penalty",
+          "The scoring hit only",
+          "The no-shoot penalty only",
+          "Neither the scoring hit nor the no-shoot penalty"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "9.5.3",
         "id": "ee190b22289ebab1"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:51 on Saturday. The Match Director will declare the results final at 13:11 on Sunday. What deadline applies to the committee’s decision?",
-        "correct": "By 12:51 on Sunday",
+        "rule": "9.5.4",
+        "prompt": "A hit hole sits entirely in the lower-value zone. A tear extends from the hole into the higher-value zone, but the hole itself does not touch the scoring line. Which value counts?",
+        "correct": "The lower zone value",
         "options": [
-          "By 12:51 on Sunday",
-          "Before 13:11 on Sunday",
-          "By 12:31 on Sunday",
-          "By 12:51 on Monday"
+          "The lower zone value",
+          "The higher zone value",
+          "Both zone values",
+          "Neither zone value"
         ],
-        "note": "The 24-hour deadline arrives before the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.5.4",
         "id": "87475e17dc3ff41f"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 85 target points, receives 20 penalty points and finishes in 7.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "9.2857",
+        "rule": "9.5.5",
+        "prompt": "A competitor’s penalties exceed their scoring points on a stage. What is the lowest stage score that can be recorded?",
+        "correct": "Zero",
         "options": [
-          "9.2857",
-          "12.1429",
-          "10.7143",
-          "15.0000"
+          "Zero",
+          "Minus the amount by which penalties exceeded points",
+          "Minus 10 points",
+          "The lowest positive stage score in the division"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "9.5.5",
         "id": "b85cb293f700cca4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 140-point stage is won with a hit factor of 9. A competitor records a hit factor of 7.2. How many stage points does the competitor earn?",
-        "correct": "112.00",
+        "rule": "9.6.5",
+        "prompt": "The Range Officer has scored a disputed paper hit as C and upholds that call. The target is still available. Who should the competitor ask next for a ruling?",
+        "correct": "Chief Range Officer",
         "options": [
-          "112.00",
-          "110.00",
-          "111.00",
-          "113.00"
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director",
+          "Arbitration Committee"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "9.6.5",
         "id": "80da1262251a8622"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 51.2750, 34.6425 and 49.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "135.3025",
+        "rule": "9.6.6",
+        "prompt": "The Range Master rules that a disputed hit touched the no-shoot scoring area. Can the competitor appeal that hit-scoring decision further?",
+        "correct": "No, the Range Master’s ruling on the hit is final",
         "options": [
-          "135.3025",
-          "135.4025",
-          "135.2025",
-          "136.3025"
+          "No, the Range Master’s ruling on the hit is final",
+          "Yes, to the Arbitration Committee",
+          "Yes, to the Match Director",
+          "Yes, to the Stats Officer when provisional results are posted"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "9.6.6",
         "id": "dc93ed95ac38a11e"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 3 shots before a mandatory reload point, 4 shots after it without reloading, and 3 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "9.6.7",
+        "prompt": "A paper target is under a scoring challenge. A patcher is about to cover the disputed hole. What should happen?",
+        "correct": "Keep the target untouched until the challenge is settled",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Keep the target untouched until the challenge is settled",
+          "Patch only the disputed hole after photographing it",
+          "Patch the whole target after recording the Range Officer’s first call",
+          "Patch the target once the competitor has seen the hole"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "9.6.7",
         "id": "ff81f0ebb90fa7fe"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "9.6.7",
+        "prompt": "The Range Officer removes a disputed paper target so the squad can continue. Who must sign the target and mark which hits are disputed?",
+        "correct": "The competitor and the Range Officer",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor and the Range Officer",
+          "The Range Officer and the Chief Range Officer",
+          "The competitor and the Stats Officer",
+          "The Range Officer and the Match Director"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "9.6.7",
         "id": "a69a26a0962324c0"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 13 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "130 points",
+        "rule": "9.6.8",
+        "prompt": "A hit lies close to a scoring line and an overlay is needed. Which overlay may the official use?",
+        "correct": "An overlay approved by the Range Master",
         "options": [
-          "130 points",
-          "110 points",
-          "120 points",
-          "140 points"
+          "An overlay approved by the Range Master",
+          "Any overlay supplied by the competitor",
+          "Any overlay of the right calibre, regardless of approval",
+          "An overlay approved only by the squad leader"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "9.6.8",
         "id": "f2b4498c35093061"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 4 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "4",
+        "rule": "9.7.1",
+        "prompt": "You are checking the score sheet before signing it. The official elapsed time is 16.20 seconds. How should that time be recorded?",
+        "correct": "16.20 seconds",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "16.20 seconds",
+          "16.2 seconds",
+          "16 seconds",
+          "16.200 seconds"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "9.7.1",
         "id": "bcbc115517493d04"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:50. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:50",
+        "rule": "9.7.2",
+        "prompt": "Before signing a paper score sheet, the competitor and Range Officer agree that the recorded hits need correcting. What should they do?",
+        "correct": "Enter the correction on the original and copies and both initial it",
         "options": [
-          "12:50",
-          "12:35",
-          "13:05",
-          "13:20"
+          "Enter the correction on the original and copies and both initial it",
+          "Change only the original and have only the Range Officer initial it",
+          "Change only the competitor’s copy and both initial it",
+          "Change the copies without initialling the correction"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "9.7.2",
         "id": "5fa6865654c74be5"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:50, but were actually posted at 15:03. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "16:03",
+        "rule": "9.7.3",
+        "prompt": "A competitor refuses to sign a score sheet. Who reviews the matter before deciding whether the unsigned sheet may be submitted?",
+        "correct": "Range Master",
         "options": [
-          "16:03",
-          "15:48",
-          "16:18",
-          "16:33"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "9.7.3",
         "id": "2bb26fd96d3d99e0"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$78. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$78",
+        "rule": "9.10.1",
+        "prompt": "The Range Officer confirms the official timing equipment is faulty. No accurate elapsed time can be assigned to the run. What must happen?",
+        "correct": "The competitor must reshoot",
         "options": [
-          "US$78",
-          "US$100",
-          "US$73",
-          "US$83"
+          "The competitor must reshoot",
+          "Use a spectator’s stopwatch time",
+          "Use the average time of the squad",
+          "Keep the target points and record no time"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "9.10.1",
         "id": "b0c07a4dded3ae57"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "10.1.3",
+        "prompt": "A competitor challenges the number of procedural penalties, and the Chief Range Officer and Range Master have considered the matter. Which avenue remains if the competitor is still dissatisfied?",
+        "correct": "Arbitration",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Arbitration",
+          "A fresh ruling by the Stats Officer",
+          "A new scoring decision by the squad leader",
+          "A tiebreaker stage"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "10.1.3",
         "id": "b8d2a9da680ff132"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 5 non-disappearing scoring targets completely unengaged. They engage the other 12 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "5",
+        "rule": "10.3.1",
+        "prompt": "A competitor has been disqualified for a safety violation and is waiting for an arbitration decision. Can they shoot the remaining stages in the meantime?",
+        "correct": "No, they may not shoot the remaining stages while the appeal is pending",
         "options": [
-          "5",
-          "4",
-          "6",
-          "7"
+          "No, they may not shoot the remaining stages while the appeal is pending",
+          "Yes, but only on stages in a different bay",
+          "Yes, if the remaining scores are marked provisional",
+          "Yes, if a Range Officer supervises their remaining attempts"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "10.3.1",
         "id": "6027dec45b5000f3"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 17 shots and gains a significant advantage. From that position a maximum of 12 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "12",
+        "rule": "2.4.4",
+        "prompt": "At a Safety Area, a competitor takes out a loaded magazine to check it. Is that permitted there?",
+        "correct": "No, a loaded magazine may not be handled in the Safety Area",
         "options": [
-          "12",
-          "11",
-          "13",
-          "14"
+          "No, a loaded magazine may not be handled in the Safety Area",
+          "Yes, provided it stays separate from the firearm",
+          "Yes, if it is pointed toward the designated safe direction",
+          "Yes, if no ammunition or projectiles are removed from it"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "2.4.4",
         "id": "8ba2c28d0727460d"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 13:10 on Saturday. Final results are scheduled to be declared at 12:50 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:50 on Sunday",
+        "rule": "9.8.1",
+        "prompt": "Provisional results are posted. Who is responsible for checking that a competitor’s own scores are recorded accurately?",
+        "correct": "The competitor",
         "options": [
-          "Before 12:50 on Sunday",
-          "By 13:10 on Sunday",
-          "By 13:30 on Sunday",
-          "Before 12:50 on Monday"
+          "The competitor",
+          "The squad leader",
+          "The Range Officer from the final stage",
+          "The Match Director"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.8.1",
         "id": "75069bcdc82cd29e"
       }
     ]
@@ -12191,7 +12191,7 @@ const disciplines = [
       },
       {
         "rule": "2.1.3",
-        "prompt": "While metal targets are being shot, what minimum distance must be maintained?",
+        "prompt": "You are checking the stage layout. Where metal targets will be shot, what minimum distance must be maintained while they are being shot?",
         "correct": "5 m",
         "options": [
           "5 m",
@@ -12289,7 +12289,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.2",
-        "prompt": "To how many decimal places are individual stage points calculated for stage ranking?",
+        "prompt": "Two competitors are very close on a stage. To how many decimal places are their stage points calculated for ranking?",
         "correct": "4",
         "options": [
           "4",
@@ -12303,7 +12303,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Who sets the duration of the squad’s stage walkthrough?",
+        "prompt": "A squad wants extra walkthrough time before its first run. Who sets the walkthrough duration?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -12317,7 +12317,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Moving targets are demonstrated during walkthroughs. What must be consistent across competitors?",
+        "prompt": "Two squads are shown the same moving target during their walkthroughs. What should be the same about the demonstrations?",
         "correct": "Both duration and frequency",
         "options": [
           "Both duration and frequency",
@@ -12373,7 +12373,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.1",
-        "prompt": "Who declares a competitor’s time, scores and penalties on the stage and verifies they are recorded correctly?",
+        "prompt": "The run is over and the score sheet is open. Which official announces the competitor’s time, score and penalties and checks the entries?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -12387,7 +12387,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.2",
-        "prompt": "Which official has primary authority over the courses of fire specifically assigned to them, under the Range Master?",
+        "prompt": "Two squads report that a stage is being run differently in the same bay. Which official has primary authority over that stage under the Range Master?",
         "correct": "Chief Range Officer",
         "options": [
           "Chief Range Officer",
@@ -12401,7 +12401,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.3",
-        "prompt": "Who supervises the team that processes score sheets and produces provisional and final results?",
+        "prompt": "Score sheets have been submitted and the provisional results are being prepared. Which official supervises the team processing them?",
         "correct": "Stats Officer",
         "options": [
           "Stats Officer",
@@ -12415,7 +12415,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.4",
-        "prompt": "Who is responsible for distributing and maintaining targets, timers and other range equipment?",
+        "prompt": "The stage crew runs out of target patches and a timer needs replacing. Which official is responsible for supplying and maintaining that equipment?",
         "correct": "Quartermaster",
         "options": [
           "Quartermaster",
@@ -12429,7 +12429,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.5",
-        "prompt": "Which official has overall authority for range safety and rule application across the entire match range?",
+        "prompt": "A safety issue affects several bays and requires a match-wide ruling. Which official has overall authority across the range?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -12527,7 +12527,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Under Comstock, which calculation produces a hit factor?",
+        "prompt": "You have the target points, penalty points and elapsed time for a Comstock run. In what order do you use them to calculate hit factor?",
         "correct": "Target points minus penalties, then divide by time",
         "options": [
           "Target points minus penalties, then divide by time",
@@ -12541,7 +12541,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Which competitor receives the maximum stage points available under Comstock?",
+        "prompt": "One competitor shoots the fastest time and another records the highest hit factor. Who gets the full stage points under Comstock?",
         "correct": "The competitor with the highest hit factor",
         "options": [
           "The competitor with the highest hit factor",
@@ -12555,7 +12555,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.3",
-        "prompt": "Which quantity determines the final ranking within a Division?",
+        "prompt": "You are checking the final standings after the last stage. Which total determines each competitor’s ranking within their division?",
         "correct": "The sum of individual stage points",
         "options": [
           "The sum of individual stage points",
@@ -12639,7 +12639,7 @@ const disciplines = [
       },
       {
         "rule": "9.7.4",
-        "prompt": "A score sheet is signed by both the competitor and Range Officer. With no mutual consent and no arbitration decision, which change is explicitly permitted?",
+        "prompt": "Both the competitor and the Range Officer have signed. They have not agreed to a change, and there is no arbitration decision. Which of these corrections can still be made?",
         "correct": "Correcting an arithmetic error",
         "options": [
           "Correcting an arithmetic error",
@@ -12765,7 +12765,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.1",
-        "prompt": "What must be recorded for procedural penalties on the score sheet?",
+        "prompt": "A Range Officer assesses three procedurals for a stage procedure breach. What must be written on the score sheet about those penalties?",
         "correct": "Both the number and the reason",
         "options": [
           "Both the number and the reason",
@@ -12779,7 +12779,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.4",
-        "prompt": "A competitor fires while faulting a line, then fires at the same target from inside the line. What happens to the original applicable fault penalty?",
+        "prompt": "A competitor fires while touching the ground beyond a fault line, then shoots the same target again from inside the line. What happens to the original fault penalty?",
         "correct": "It still applies",
         "options": [
           "It still applies",
@@ -12807,7 +12807,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.2",
-        "prompt": "A competitor ignores a written stage procedure and gains a significant advantage. What penalty basis may apply in place of a single penalty for the occurrence?",
+        "prompt": "A competitor shoots from standing where the written briefing requires kneeling and gains a significant advantage. How may the procedural penalties be counted?",
         "correct": "One per shot fired during the breach, subject to the applicable cap",
         "options": [
           "One per shot fired during the breach, subject to the applicable cap",
@@ -12849,7 +12849,7 @@ const disciplines = [
       },
       {
         "rule": "10.3.2",
-        "prompt": "After issuing a disqualification, who must be notified as soon as possible?",
+        "prompt": "A Range Officer has just disqualified a competitor. Who must be notified as soon as possible?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -12877,7 +12877,7 @@ const disciplines = [
       },
       {
         "rule": "11.3.2",
-        "prompt": "When must the Arbitration Committee reach its decision?",
+        "prompt": "The arbitration request has been filed, and the Match Director plans to declare the results final soon. Which deadline governs the committee’s decision?",
         "correct": "Within 24 hours of the request or before final results are declared, whichever comes first",
         "options": [
           "Within 24 hours of the request or before final results are declared, whichever comes first",
@@ -12905,7 +12905,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.2",
-        "prompt": "Who implements and posts the Arbitration Committee’s decision?",
+        "prompt": "The Arbitration Committee has issued its decision. Which official puts it into effect and posts it for competitors?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -12919,7 +12919,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.4",
-        "prompt": "For what can a recorded Arbitration Committee decision serve as precedent?",
+        "prompt": "The same issue comes up again later in the match after an arbitration decision has been recorded. When can that decision be used as precedent?",
         "correct": "A similar subsequent incident at the same match",
         "options": [
           "A similar subsequent incident at the same match",
@@ -12933,7 +12933,7 @@ const disciplines = [
       },
       {
         "rule": "11.7.1",
-        "prompt": "May someone other than the competitor involved submit an appeal on a third-party basis?",
+        "prompt": "A competitor witnesses an incident involving someone else and wants to submit an appeal. Can the competitor appeal as a third party?",
         "correct": "Yes, under the same Chapter 11 provisions",
         "options": [
           "Yes, under the same Chapter 11 provisions",
@@ -13059,7 +13059,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -13115,7 +13115,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:00, but were actually posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:00, but they were posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:11",
         "options": [
           "13:11",
@@ -13143,7 +13143,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "20 points",
         "options": [
           "20 points",
@@ -13171,7 +13171,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "2",
         "options": [
           "2",
@@ -13255,7 +13255,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -13311,7 +13311,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:17, but were actually posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:17, but they were posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:29",
         "options": [
           "13:29",
@@ -13339,7 +13339,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -13367,7 +13367,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "3",
         "options": [
           "3",
@@ -13451,7 +13451,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -13507,7 +13507,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:34, but were actually posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:34, but they were posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:47",
         "options": [
           "13:47",
@@ -13535,7 +13535,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -13563,7 +13563,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "4",
         "options": [
           "4",
@@ -13647,7 +13647,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -13703,7 +13703,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:51, but were actually posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:51, but they were posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:05",
         "options": [
           "14:05",
@@ -13731,7 +13731,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -13759,7 +13759,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "5",
         "options": [
           "5",
@@ -13843,7 +13843,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -13899,7 +13899,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:08, but were actually posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:08, but they were posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:19",
         "options": [
           "14:19",
@@ -13927,7 +13927,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -13955,7 +13955,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "6",
         "options": [
           "6",
@@ -14039,7 +14039,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -14095,7 +14095,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:25, but were actually posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:25, but they were posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:37",
         "options": [
           "14:37",
@@ -14123,7 +14123,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -14151,7 +14151,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "7",
         "options": [
           "7",
@@ -14235,7 +14235,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -14291,7 +14291,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:42, but were actually posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:42, but they were posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:55",
         "options": [
           "14:55",
@@ -14319,7 +14319,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -14347,7 +14347,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "8",
         "options": [
           "8",
@@ -14431,7 +14431,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -14487,7 +14487,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:59, but were actually posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:59, but they were posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "15:13",
         "options": [
           "15:13",
@@ -14515,7 +14515,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "50 points",
         "options": [
           "50 points",
@@ -14543,7 +14543,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "9",
         "options": [
           "9",
@@ -14627,7 +14627,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 3. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -14668,493 +14668,493 @@ const disciplines = [
         "id": "0fdc8b40955167f4"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:04. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:04",
+        "rule": "3.2.1",
+        "prompt": "The online stage preview says to start seated. The written stage briefing approved by the Range Master and posted at the stage says to start standing. Which start position applies?",
+        "correct": "Standing, as specified in the posted briefing",
         "options": [
-          "12:04",
-          "11:49",
-          "12:19",
-          "12:34"
+          "Standing, as specified in the posted briefing",
+          "Seated, because the preview was published first",
+          "Either position, if used consistently within the squad",
+          "The position used by the first competitor"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "3.2.1",
         "id": "74c72e17cf94ace9"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:16, but were actually posted at 14:27. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:27",
+        "rule": "3.2.2",
+        "prompt": "The Range Officer has read out the briefing but has not shown the start position. A competitor asks to see it. What should the Range Officer do?",
+        "correct": "Show the acceptable position in person or using a picture",
         "options": [
-          "15:27",
-          "15:12",
-          "15:42",
-          "15:57"
+          "Show the acceptable position in person or using a picture",
+          "Show it only at Level III or above",
+          "Repeat the text without showing the position",
+          "Let the first competitor decide what the position looks like"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "3.2.2",
         "id": "7218042e14ad7648"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$74. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$74",
+        "rule": "2.2.1.5",
+        "prompt": "On a clearly marked path between shooting positions, a competitor takes a shortcut outside the markings. They fire twice after re-entering the path. How many procedural penalties apply for the shortcut?",
+        "correct": "Two",
         "options": [
-          "US$74",
-          "US$100",
-          "US$69",
-          "US$79"
+          "Two",
+          "One",
+          "Zero",
+          "Three"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "2.2.1.5",
         "id": "84a17151ec6235aa"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "4.7.1",
+        "prompt": "A moving target activates early because its latch fails before the competitor operates it. How should the latch failure be classified?",
+        "correct": "Range equipment failure",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Range equipment failure",
+          "A competitor equipment malfunction",
+          "A failure to engage the target",
+          "A breach of the start position"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "4.7.1",
         "id": "9362ece878e6df51"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 3 non-disappearing scoring targets completely unengaged. They engage the other 10 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "3",
+        "rule": "4.7.2",
+        "prompt": "A moving target was left unset after the previous competitor. The Range Officer discovers this during the next attempt. What must happen after the target is reset?",
+        "correct": "The competitor must reshoot the entire stage",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor must reshoot the entire stage",
+          "The competitor must shoot only the affected target",
+          "The competitor can choose whether to keep the first run",
+          "The first run stands and the affected target is removed from scoring"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "4.7.2",
         "id": "f187f41432c19f9e"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 15 shots and gains a significant advantage. From that position a maximum of 10 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "10",
+        "rule": "4.7.2",
+        "prompt": "A stage prop breaks and prevents the competitor from completing the stage. The Range Officer confirms range equipment failure. What is the remedy?",
+        "correct": "Repair the prop and require a full reshoot",
         "options": [
-          "10",
-          "9",
-          "11",
-          "12"
+          "Repair the prop and require a full reshoot",
+          "Repair the prop and restart from where the competitor stopped",
+          "Keep the score and ignore any targets that could not be shot",
+          "Keep the score and remove the misses for those targets"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "4.7.2",
         "id": "1d0b8f7c31502eb7"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:32 on Saturday. Final results are scheduled to be declared at 12:12 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:12 on Sunday",
+        "rule": "5.4.3",
+        "prompt": "During a run, the Range Officer sees the competitor’s safety glasses fall off. What should the Range Officer do?",
+        "correct": "Stop the competitor immediately and require a reshoot once eye protection is restored",
         "options": [
-          "Before 12:12 on Sunday",
-          "By 12:32 on Sunday",
-          "By 12:52 on Sunday",
-          "Before 12:12 on Monday"
+          "Stop the competitor immediately and require a reshoot once eye protection is restored",
+          "Let the competitor finish and then offer a reshoot",
+          "Pause the timer and resume the same run after the glasses are restored",
+          "Stop the competitor and score the run as shot"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "5.4.3",
         "id": "0a04767b90011120"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 80 target points, receives 10 penalty points and finishes in 6.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "11.6667",
+        "rule": "5.4.4",
+        "prompt": "A competitor notices that their safety glasses have slipped off during the run. What can the competitor do?",
+        "correct": "Stop, point the firearm safely and tell the Range Officer",
         "options": [
-          "11.6667",
-          "13.3333",
-          "12.5000",
-          "15.0000"
+          "Stop, point the firearm safely and tell the Range Officer",
+          "Continue and ask for a reshoot after seeing the score",
+          "Pause, restore the glasses and resume the same attempt",
+          "Move to the next position before reporting the problem"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "5.4.4",
         "id": "0a8487a56defd7d4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 130-point stage is won with a hit factor of 8. A competitor records a hit factor of 6.00. How many stage points does the competitor earn?",
-        "correct": "97.50",
+        "rule": "5.4.5",
+        "prompt": "A competitor deliberately removes their safety glasses to get another attempt after a poor run. How is that conduct treated?",
+        "correct": "As unsportsmanlike conduct",
         "options": [
-          "97.50",
-          "95.50",
-          "96.50",
-          "98.50"
+          "As unsportsmanlike conduct",
+          "As accidental loss of eye protection",
+          "As range equipment failure",
+          "As a start-position violation"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "5.4.5",
         "id": "581a8fb3529e434e"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 49.2750, 33.6425 and 46.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "129.3025",
+        "rule": "5.7.5",
+        "prompt": "A competitor’s own firearm malfunctions during a run and cannot be put back into service. The Range Officer confirms there was no range equipment failure. Is a reshoot allowed for the malfunction?",
+        "correct": "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
         "options": [
-          "129.3025",
-          "129.4025",
-          "129.2025",
-          "130.3025"
+          "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
+          "Yes, if the firearm failed before half the targets were engaged",
+          "Yes, if a replacement firearm is available",
+          "Yes, if the malfunction was the first one in that match"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "5.7.5",
         "id": "24a2902d339963fb"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 2 shots before a mandatory reload point, 4 shots after it without reloading, and 2 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "8.3.2",
+        "prompt": "The Range Officer asks “Are You Ready?” The competitor has not settled into the required start position and needs more time. What should they say?",
+        "correct": "Not Ready",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Not Ready",
+          "Standby",
+          "Stop",
+          "Range Is Clear"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "8.3.2",
         "id": "a63d7cb694c1e4e7"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "2",
+        "rule": "8.3.3",
+        "prompt": "You are operating the timer as the Range Officer. How long after saying “Standby” should the start signal sound?",
+        "correct": "1 to 4 seconds",
         "options": [
-          "2",
-          "1",
-          "3",
-          "4"
+          "1 to 4 seconds",
+          "1 to 2 seconds",
+          "2 to 5 seconds",
+          "3 to 6 seconds"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "8.3.3",
         "id": "d4412d59638309cc"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 12 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "120 points",
+        "rule": "8.3.4",
+        "prompt": "The timer beeps, but the competitor does not react. The Range Officer confirms the competitor is ready. Which command restarts the sequence?",
+        "correct": "Are You Ready?",
         "options": [
-          "120 points",
-          "100 points",
-          "110 points",
-          "130 points"
+          "Are You Ready?",
+          "Make Ready",
+          "Standby",
+          "If You Are Finished, Unload And Show Clear"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "8.3.4",
         "id": "2da427e627a18668"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 3 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "8.6.1",
+        "prompt": "During a run, an assigned Range Officer gives a safety warning. The competitor asks for a reshoot solely because of the warning. Is that a valid reason?",
+        "correct": "No, the safety warning alone does not justify a reshoot",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "No, the safety warning alone does not justify a reshoot",
+          "Yes, whenever a warning is given after the start signal",
+          "Yes, if the warning was audible to the squad",
+          "Yes, if the competitor took action in response to the warning"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "8.6.1",
         "id": "21bc41077313a1fb"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:27. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:27",
+        "rule": "8.6.2",
+        "prompt": "A squad member calls out a missed target during the run without Range Officer approval. The competitor hears and uses the help. Who may receive a procedural penalty?",
+        "correct": "Both the person who gave the help and the competitor",
         "options": [
-          "12:27",
-          "12:12",
-          "12:42",
-          "12:57"
+          "Both the person who gave the help and the competitor",
+          "Only the person who gave the help",
+          "Only the competitor",
+          "Neither person if the target was then hit"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "8.6.2",
         "id": "8b94d01c354e3638"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:33, but were actually posted at 14:45. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:45",
+        "rule": "8.6.3",
+        "prompt": "A spectator shouts to distract a competitor mid-stage. The Range Officer believes this significantly affected the run. Who decides whether to offer a reshoot for that interference?",
+        "correct": "Range Master",
         "options": [
-          "15:45",
-          "15:30",
-          "16:00",
-          "16:15"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "8.6.3",
         "id": "7aba270f1596c966"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$139. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$100",
+        "rule": "8.6.4",
+        "prompt": "The Range Officer accidentally bumps a competitor during the run and offers a reshoot. When must the competitor decide whether to take it?",
+        "correct": "Before seeing either the time or the score",
         "options": [
-          "US$100",
-          "US$139",
-          "US$95",
-          "US$105"
+          "Before seeing either the time or the score",
+          "After seeing the time but before seeing the score",
+          "After seeing the score but before seeing the time",
+          "After seeing both, but before signing the score sheet"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "8.6.4",
         "id": "5bb2c4fc1e28915c"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "40 points",
+        "rule": "9.1.2",
+        "prompt": "While a paper target is being scored, the competitor’s delegate wants to touch the target to inspect a hole. What must the delegate do first?",
+        "correct": "Obtain the Range Officer’s permission",
         "options": [
-          "40 points",
-          "30 points",
-          "45 points",
-          "50 points"
+          "Obtain the Range Officer’s permission",
+          "Ask the competitor to confirm the hit",
+          "Ask the target patcher for permission",
+          "Wait until the time is entered, then touch it without asking"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "9.1.2",
         "id": "2ce804cf7d3c65a5"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 4 non-disappearing scoring targets completely unengaged. They engage the other 11 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "4",
+        "rule": "9.1.6.1",
+        "prompt": "The Range Officer identifies a hit on a paper scoring target made by a shot that passed entirely through hard cover. How should that identified hit be scored?",
+        "correct": "Ignore the hit",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Ignore the hit",
+          "Award its normal zone value",
+          "Award the lowest zone value",
+          "Treat the hit as a no-shoot penalty"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "9.1.6.1",
         "id": "6a197c545df016c0"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 16 shots and gains a significant advantage. From that position a maximum of 11 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "11",
+        "rule": "9.5.3",
+        "prompt": "A paper scoring target overlaps a paper no-shoot. The diameter of a hit touches the scoring area of both. What should be recorded for that hit?",
+        "correct": "The applicable scoring hit and no-shoot penalty",
         "options": [
-          "11",
-          "10",
-          "12",
-          "13"
+          "The applicable scoring hit and no-shoot penalty",
+          "The scoring hit only",
+          "The no-shoot penalty only",
+          "Neither the scoring hit nor the no-shoot penalty"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "9.5.3",
         "id": "ee190b22289ebab1"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:51 on Saturday. The Match Director will declare the results final at 13:11 on Sunday. What deadline applies to the committee’s decision?",
-        "correct": "By 12:51 on Sunday",
+        "rule": "9.5.4",
+        "prompt": "A hit hole sits entirely in the lower-value zone. A tear extends from the hole into the higher-value zone, but the hole itself does not touch the scoring line. Which value counts?",
+        "correct": "The lower zone value",
         "options": [
-          "By 12:51 on Sunday",
-          "Before 13:11 on Sunday",
-          "By 12:31 on Sunday",
-          "By 12:51 on Monday"
+          "The lower zone value",
+          "The higher zone value",
+          "Both zone values",
+          "Neither zone value"
         ],
-        "note": "The 24-hour deadline arrives before the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.5.4",
         "id": "87475e17dc3ff41f"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 85 target points, receives 20 penalty points and finishes in 7.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "9.2857",
+        "rule": "9.5.5",
+        "prompt": "A competitor’s penalties exceed their scoring points on a stage. What is the lowest stage score that can be recorded?",
+        "correct": "Zero",
         "options": [
-          "9.2857",
-          "12.1429",
-          "10.7143",
-          "15.0000"
+          "Zero",
+          "Minus the amount by which penalties exceeded points",
+          "Minus 10 points",
+          "The lowest positive stage score in the division"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "9.5.5",
         "id": "b85cb293f700cca4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 140-point stage is won with a hit factor of 9. A competitor records a hit factor of 7.2. How many stage points does the competitor earn?",
-        "correct": "112.00",
+        "rule": "9.6.5",
+        "prompt": "The Range Officer has scored a disputed paper hit as C and upholds that call. The target is still available. Who should the competitor ask next for a ruling?",
+        "correct": "Chief Range Officer",
         "options": [
-          "112.00",
-          "110.00",
-          "111.00",
-          "113.00"
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director",
+          "Arbitration Committee"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "9.6.5",
         "id": "80da1262251a8622"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 51.2750, 34.6425 and 49.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "135.3025",
+        "rule": "9.6.6",
+        "prompt": "The Range Master rules that a disputed hit touched the no-shoot scoring area. Can the competitor appeal that hit-scoring decision further?",
+        "correct": "No, the Range Master’s ruling on the hit is final",
         "options": [
-          "135.3025",
-          "135.4025",
-          "135.2025",
-          "136.3025"
+          "No, the Range Master’s ruling on the hit is final",
+          "Yes, to the Arbitration Committee",
+          "Yes, to the Match Director",
+          "Yes, to the Stats Officer when provisional results are posted"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "9.6.6",
         "id": "dc93ed95ac38a11e"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 3 shots before a mandatory reload point, 4 shots after it without reloading, and 3 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "9.6.7",
+        "prompt": "A paper target is under a scoring challenge. A patcher is about to cover the disputed hole. What should happen?",
+        "correct": "Keep the target untouched until the challenge is settled",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Keep the target untouched until the challenge is settled",
+          "Patch only the disputed hole after photographing it",
+          "Patch the whole target after recording the Range Officer’s first call",
+          "Patch the target once the competitor has seen the hole"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "9.6.7",
         "id": "ff81f0ebb90fa7fe"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "9.6.7",
+        "prompt": "The Range Officer removes a disputed paper target so the squad can continue. Who must sign the target and mark which hits are disputed?",
+        "correct": "The competitor and the Range Officer",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor and the Range Officer",
+          "The Range Officer and the Chief Range Officer",
+          "The competitor and the Stats Officer",
+          "The Range Officer and the Match Director"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "9.6.7",
         "id": "a69a26a0962324c0"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 13 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "130 points",
+        "rule": "9.6.8",
+        "prompt": "A hit lies close to a scoring line and an overlay is needed. Which overlay may the official use?",
+        "correct": "An overlay approved by the Range Master",
         "options": [
-          "130 points",
-          "110 points",
-          "120 points",
-          "140 points"
+          "An overlay approved by the Range Master",
+          "Any overlay supplied by the competitor",
+          "Any overlay of the right calibre, regardless of approval",
+          "An overlay approved only by the squad leader"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "9.6.8",
         "id": "f2b4498c35093061"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 4 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "4",
+        "rule": "9.7.1",
+        "prompt": "You are checking the score sheet before signing it. The official elapsed time is 16.20 seconds. How should that time be recorded?",
+        "correct": "16.20 seconds",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "16.20 seconds",
+          "16.2 seconds",
+          "16 seconds",
+          "16.200 seconds"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "9.7.1",
         "id": "bcbc115517493d04"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:50. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:50",
+        "rule": "9.7.2",
+        "prompt": "Before signing a paper score sheet, the competitor and Range Officer agree that the recorded hits need correcting. What should they do?",
+        "correct": "Enter the correction on the original and copies and both initial it",
         "options": [
-          "12:50",
-          "12:35",
-          "13:05",
-          "13:20"
+          "Enter the correction on the original and copies and both initial it",
+          "Change only the original and have only the Range Officer initial it",
+          "Change only the competitor’s copy and both initial it",
+          "Change the copies without initialling the correction"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "9.7.2",
         "id": "5fa6865654c74be5"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:50, but were actually posted at 15:03. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "16:03",
+        "rule": "9.7.3",
+        "prompt": "A competitor refuses to sign a score sheet. Who reviews the matter before deciding whether the unsigned sheet may be submitted?",
+        "correct": "Range Master",
         "options": [
-          "16:03",
-          "15:48",
-          "16:18",
-          "16:33"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "9.7.3",
         "id": "2bb26fd96d3d99e0"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$78. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$78",
+        "rule": "9.10.1",
+        "prompt": "The Range Officer confirms the official timing equipment is faulty. No accurate elapsed time can be assigned to the run. What must happen?",
+        "correct": "The competitor must reshoot",
         "options": [
-          "US$78",
-          "US$100",
-          "US$73",
-          "US$83"
+          "The competitor must reshoot",
+          "Use a spectator’s stopwatch time",
+          "Use the average time of the squad",
+          "Keep the target points and record no time"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "9.10.1",
         "id": "b0c07a4dded3ae57"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "10.1.3",
+        "prompt": "A competitor challenges the number of procedural penalties, and the Chief Range Officer and Range Master have considered the matter. Which avenue remains if the competitor is still dissatisfied?",
+        "correct": "Arbitration",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Arbitration",
+          "A fresh ruling by the Stats Officer",
+          "A new scoring decision by the squad leader",
+          "A tiebreaker stage"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "10.1.3",
         "id": "b8d2a9da680ff132"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 5 non-disappearing scoring targets completely unengaged. They engage the other 12 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "5",
+        "rule": "10.3.1",
+        "prompt": "A competitor has been disqualified for a safety violation and is waiting for an arbitration decision. Can they shoot the remaining stages in the meantime?",
+        "correct": "No, they may not shoot the remaining stages while the appeal is pending",
         "options": [
-          "5",
-          "4",
-          "6",
-          "7"
+          "No, they may not shoot the remaining stages while the appeal is pending",
+          "Yes, but only on stages in a different bay",
+          "Yes, if the remaining scores are marked provisional",
+          "Yes, if a Range Officer supervises their remaining attempts"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "10.3.1",
         "id": "6027dec45b5000f3"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 17 shots and gains a significant advantage. From that position a maximum of 12 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "12",
+        "rule": "2.4.4",
+        "prompt": "At a Safety Area, a competitor takes out a loaded magazine to check it. Is that permitted there?",
+        "correct": "No, a loaded magazine may not be handled in the Safety Area",
         "options": [
-          "12",
-          "11",
-          "13",
-          "14"
+          "No, a loaded magazine may not be handled in the Safety Area",
+          "Yes, provided it stays separate from the firearm",
+          "Yes, if it is pointed toward the designated safe direction",
+          "Yes, if no ammunition or projectiles are removed from it"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "2.4.4",
         "id": "8ba2c28d0727460d"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 13:10 on Saturday. Final results are scheduled to be declared at 12:50 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:50 on Sunday",
+        "rule": "9.8.1",
+        "prompt": "Provisional results are posted. Who is responsible for checking that a competitor’s own scores are recorded accurately?",
+        "correct": "The competitor",
         "options": [
-          "Before 12:50 on Sunday",
-          "By 13:10 on Sunday",
-          "By 13:30 on Sunday",
-          "Before 12:50 on Monday"
+          "The competitor",
+          "The squad leader",
+          "The Range Officer from the final stage",
+          "The Match Director"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.8.1",
         "id": "75069bcdc82cd29e"
       }
     ]
@@ -15195,7 +15195,7 @@ const disciplines = [
       },
       {
         "rule": "Appendix D, item 1",
-        "prompt": "What is the minimum PCC power factor for scoring?",
+        "prompt": "Your PCC ammunition is being checked at chronograph. What minimum power factor must it meet to qualify for scoring?",
         "correct": "125",
         "options": [
           "125",
@@ -15223,7 +15223,7 @@ const disciplines = [
       },
       {
         "rule": "2.1.3",
-        "prompt": "While metal targets are being shot, what minimum distance must be maintained?",
+        "prompt": "You are checking the stage layout. Where metal targets will be shot, what minimum distance must be maintained while they are being shot?",
         "correct": "7 m",
         "options": [
           "7 m",
@@ -15321,7 +15321,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.2",
-        "prompt": "To how many decimal places are individual stage points calculated for stage ranking?",
+        "prompt": "Two competitors are very close on a stage. To how many decimal places are their stage points calculated for ranking?",
         "correct": "4",
         "options": [
           "4",
@@ -15335,7 +15335,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Who sets the duration of the squad’s stage walkthrough?",
+        "prompt": "A squad wants extra walkthrough time before its first run. Who sets the walkthrough duration?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -15349,7 +15349,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Moving targets are demonstrated during walkthroughs. What must be consistent across competitors?",
+        "prompt": "Two squads are shown the same moving target during their walkthroughs. What should be the same about the demonstrations?",
         "correct": "Both duration and frequency",
         "options": [
           "Both duration and frequency",
@@ -15405,7 +15405,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.1",
-        "prompt": "Who declares a competitor’s time, scores and penalties on the stage and verifies they are recorded correctly?",
+        "prompt": "The run is over and the score sheet is open. Which official announces the competitor’s time, score and penalties and checks the entries?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -15419,7 +15419,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.2",
-        "prompt": "Which official has primary authority over the courses of fire specifically assigned to them, under the Range Master?",
+        "prompt": "Two squads report that a stage is being run differently in the same bay. Which official has primary authority over that stage under the Range Master?",
         "correct": "Chief Range Officer",
         "options": [
           "Chief Range Officer",
@@ -15433,7 +15433,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.3",
-        "prompt": "Who supervises the team that processes score sheets and produces provisional and final results?",
+        "prompt": "Score sheets have been submitted and the provisional results are being prepared. Which official supervises the team processing them?",
         "correct": "Stats Officer",
         "options": [
           "Stats Officer",
@@ -15447,7 +15447,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.4",
-        "prompt": "Who is responsible for distributing and maintaining targets, timers and other range equipment?",
+        "prompt": "The stage crew runs out of target patches and a timer needs replacing. Which official is responsible for supplying and maintaining that equipment?",
         "correct": "Quartermaster",
         "options": [
           "Quartermaster",
@@ -15461,7 +15461,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.5",
-        "prompt": "Which official has overall authority for range safety and rule application across the entire match range?",
+        "prompt": "A safety issue affects several bays and requires a match-wide ruling. Which official has overall authority across the range?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -15559,7 +15559,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Under Comstock, which calculation produces a hit factor?",
+        "prompt": "You have the target points, penalty points and elapsed time for a Comstock run. In what order do you use them to calculate hit factor?",
         "correct": "Target points minus penalties, then divide by time",
         "options": [
           "Target points minus penalties, then divide by time",
@@ -15573,7 +15573,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Which competitor receives the maximum stage points available under Comstock?",
+        "prompt": "One competitor shoots the fastest time and another records the highest hit factor. Who gets the full stage points under Comstock?",
         "correct": "The competitor with the highest hit factor",
         "options": [
           "The competitor with the highest hit factor",
@@ -15587,7 +15587,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.3",
-        "prompt": "Which quantity determines the final ranking within a Division?",
+        "prompt": "You are checking the final standings after the last stage. Which total determines each competitor’s ranking within their division?",
         "correct": "The sum of individual stage points",
         "options": [
           "The sum of individual stage points",
@@ -15671,7 +15671,7 @@ const disciplines = [
       },
       {
         "rule": "9.7.4",
-        "prompt": "A score sheet is signed by both the competitor and Range Officer. With no mutual consent and no arbitration decision, which change is explicitly permitted?",
+        "prompt": "Both the competitor and the Range Officer have signed. They have not agreed to a change, and there is no arbitration decision. Which of these corrections can still be made?",
         "correct": "Correcting an arithmetic error",
         "options": [
           "Correcting an arithmetic error",
@@ -15797,7 +15797,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.1",
-        "prompt": "What must be recorded for procedural penalties on the score sheet?",
+        "prompt": "A Range Officer assesses three procedurals for a stage procedure breach. What must be written on the score sheet about those penalties?",
         "correct": "Both the number and the reason",
         "options": [
           "Both the number and the reason",
@@ -15811,7 +15811,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.4",
-        "prompt": "A competitor fires while faulting a line, then fires at the same target from inside the line. What happens to the original applicable fault penalty?",
+        "prompt": "A competitor fires while touching the ground beyond a fault line, then shoots the same target again from inside the line. What happens to the original fault penalty?",
         "correct": "It still applies",
         "options": [
           "It still applies",
@@ -15839,7 +15839,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.2",
-        "prompt": "A competitor ignores a written stage procedure and gains a significant advantage. What penalty basis may apply in place of a single penalty for the occurrence?",
+        "prompt": "A competitor shoots from standing where the written briefing requires kneeling and gains a significant advantage. How may the procedural penalties be counted?",
         "correct": "One per shot fired during the breach, subject to the applicable cap",
         "options": [
           "One per shot fired during the breach, subject to the applicable cap",
@@ -15881,7 +15881,7 @@ const disciplines = [
       },
       {
         "rule": "10.3.2",
-        "prompt": "After issuing a disqualification, who must be notified as soon as possible?",
+        "prompt": "A Range Officer has just disqualified a competitor. Who must be notified as soon as possible?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -15909,7 +15909,7 @@ const disciplines = [
       },
       {
         "rule": "11.3.2",
-        "prompt": "When must the Arbitration Committee reach its decision?",
+        "prompt": "The arbitration request has been filed, and the Match Director plans to declare the results final soon. Which deadline governs the committee’s decision?",
         "correct": "Within 24 hours of the request or before final results are declared, whichever comes first",
         "options": [
           "Within 24 hours of the request or before final results are declared, whichever comes first",
@@ -15937,7 +15937,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.2",
-        "prompt": "Who implements and posts the Arbitration Committee’s decision?",
+        "prompt": "The Arbitration Committee has issued its decision. Which official puts it into effect and posts it for competitors?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -15951,7 +15951,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.4",
-        "prompt": "For what can a recorded Arbitration Committee decision serve as precedent?",
+        "prompt": "The same issue comes up again later in the match after an arbitration decision has been recorded. When can that decision be used as precedent?",
         "correct": "A similar subsequent incident at the same match",
         "options": [
           "A similar subsequent incident at the same match",
@@ -15965,7 +15965,7 @@ const disciplines = [
       },
       {
         "rule": "11.7.1",
-        "prompt": "May someone other than the competitor involved submit an appeal on a third-party basis?",
+        "prompt": "A competitor witnesses an incident involving someone else and wants to submit an appeal. Can the competitor appeal as a third party?",
         "correct": "Yes, under the same Chapter 11 provisions",
         "options": [
           "Yes, under the same Chapter 11 provisions",
@@ -16091,7 +16091,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -16147,7 +16147,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:00, but were actually posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:00, but they were posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:11",
         "options": [
           "13:11",
@@ -16175,7 +16175,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "20 points",
         "options": [
           "20 points",
@@ -16203,7 +16203,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "2",
         "options": [
           "2",
@@ -16287,7 +16287,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -16343,7 +16343,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:17, but were actually posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:17, but they were posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:29",
         "options": [
           "13:29",
@@ -16371,7 +16371,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -16399,7 +16399,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "3",
         "options": [
           "3",
@@ -16483,7 +16483,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -16539,7 +16539,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:34, but were actually posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:34, but they were posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:47",
         "options": [
           "13:47",
@@ -16567,7 +16567,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -16595,7 +16595,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "4",
         "options": [
           "4",
@@ -16679,7 +16679,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -16735,7 +16735,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:51, but were actually posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:51, but they were posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:05",
         "options": [
           "14:05",
@@ -16763,7 +16763,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -16791,7 +16791,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "5",
         "options": [
           "5",
@@ -16875,7 +16875,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -16931,7 +16931,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:08, but were actually posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:08, but they were posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:19",
         "options": [
           "14:19",
@@ -16959,7 +16959,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -16987,7 +16987,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "6",
         "options": [
           "6",
@@ -17071,7 +17071,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -17127,7 +17127,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:25, but were actually posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:25, but they were posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:37",
         "options": [
           "14:37",
@@ -17155,7 +17155,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -17183,7 +17183,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "7",
         "options": [
           "7",
@@ -17267,7 +17267,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -17323,7 +17323,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:42, but were actually posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:42, but they were posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:55",
         "options": [
           "14:55",
@@ -17351,7 +17351,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -17379,7 +17379,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "8",
         "options": [
           "8",
@@ -17463,7 +17463,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -17519,7 +17519,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:59, but were actually posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:59, but they were posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "15:13",
         "options": [
           "15:13",
@@ -17547,7 +17547,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "50 points",
         "options": [
           "50 points",
@@ -17575,7 +17575,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "9",
         "options": [
           "9",
@@ -17659,7 +17659,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 3. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -17700,493 +17700,493 @@ const disciplines = [
         "id": "0fdc8b40955167f4"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:04. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:04",
+        "rule": "3.2.1",
+        "prompt": "The online stage preview says to start seated. The written stage briefing approved by the Range Master and posted at the stage says to start standing. Which start position applies?",
+        "correct": "Standing, as specified in the posted briefing",
         "options": [
-          "12:04",
-          "11:49",
-          "12:19",
-          "12:34"
+          "Standing, as specified in the posted briefing",
+          "Seated, because the preview was published first",
+          "Either position, if used consistently within the squad",
+          "The position used by the first competitor"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "3.2.1",
         "id": "74c72e17cf94ace9"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:16, but were actually posted at 14:27. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:27",
+        "rule": "3.2.2",
+        "prompt": "The Range Officer has read out the briefing but has not shown the start position. A competitor asks to see it. What should the Range Officer do?",
+        "correct": "Show the acceptable position in person or using a picture",
         "options": [
-          "15:27",
-          "15:12",
-          "15:42",
-          "15:57"
+          "Show the acceptable position in person or using a picture",
+          "Show it only at Level III or above",
+          "Repeat the text without showing the position",
+          "Let the first competitor decide what the position looks like"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "3.2.2",
         "id": "7218042e14ad7648"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$74. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$74",
+        "rule": "2.2.1.5",
+        "prompt": "On a clearly marked path between shooting positions, a competitor takes a shortcut outside the markings. They fire twice after re-entering the path. How many procedural penalties apply for the shortcut?",
+        "correct": "Two",
         "options": [
-          "US$74",
-          "US$100",
-          "US$69",
-          "US$79"
+          "Two",
+          "One",
+          "Zero",
+          "Three"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "2.2.1.5",
         "id": "84a17151ec6235aa"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "4.7.1",
+        "prompt": "A moving target activates early because its latch fails before the competitor operates it. How should the latch failure be classified?",
+        "correct": "Range equipment failure",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Range equipment failure",
+          "A competitor equipment malfunction",
+          "A failure to engage the target",
+          "A breach of the start position"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "4.7.1",
         "id": "9362ece878e6df51"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 3 non-disappearing scoring targets completely unengaged. They engage the other 10 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "3",
+        "rule": "4.7.2",
+        "prompt": "A moving target was left unset after the previous competitor. The Range Officer discovers this during the next attempt. What must happen after the target is reset?",
+        "correct": "The competitor must reshoot the entire stage",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor must reshoot the entire stage",
+          "The competitor must shoot only the affected target",
+          "The competitor can choose whether to keep the first run",
+          "The first run stands and the affected target is removed from scoring"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "4.7.2",
         "id": "f187f41432c19f9e"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 15 shots and gains a significant advantage. From that position a maximum of 10 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "10",
+        "rule": "4.7.2",
+        "prompt": "A stage prop breaks and prevents the competitor from completing the stage. The Range Officer confirms range equipment failure. What is the remedy?",
+        "correct": "Repair the prop and require a full reshoot",
         "options": [
-          "10",
-          "9",
-          "11",
-          "12"
+          "Repair the prop and require a full reshoot",
+          "Repair the prop and restart from where the competitor stopped",
+          "Keep the score and ignore any targets that could not be shot",
+          "Keep the score and remove the misses for those targets"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "4.7.2",
         "id": "1d0b8f7c31502eb7"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:32 on Saturday. Final results are scheduled to be declared at 12:12 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:12 on Sunday",
+        "rule": "5.4.3",
+        "prompt": "During a run, the Range Officer sees the competitor’s safety glasses fall off. What should the Range Officer do?",
+        "correct": "Stop the competitor immediately and require a reshoot once eye protection is restored",
         "options": [
-          "Before 12:12 on Sunday",
-          "By 12:32 on Sunday",
-          "By 12:52 on Sunday",
-          "Before 12:12 on Monday"
+          "Stop the competitor immediately and require a reshoot once eye protection is restored",
+          "Let the competitor finish and then offer a reshoot",
+          "Pause the timer and resume the same run after the glasses are restored",
+          "Stop the competitor and score the run as shot"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "5.4.3",
         "id": "0a04767b90011120"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 80 target points, receives 10 penalty points and finishes in 6.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "11.6667",
+        "rule": "5.4.4",
+        "prompt": "A competitor notices that their safety glasses have slipped off during the run. What can the competitor do?",
+        "correct": "Stop, point the firearm safely and tell the Range Officer",
         "options": [
-          "11.6667",
-          "13.3333",
-          "12.5000",
-          "15.0000"
+          "Stop, point the firearm safely and tell the Range Officer",
+          "Continue and ask for a reshoot after seeing the score",
+          "Pause, restore the glasses and resume the same attempt",
+          "Move to the next position before reporting the problem"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "5.4.4",
         "id": "0a8487a56defd7d4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 130-point stage is won with a hit factor of 8. A competitor records a hit factor of 6.00. How many stage points does the competitor earn?",
-        "correct": "97.50",
+        "rule": "5.4.5",
+        "prompt": "A competitor deliberately removes their safety glasses to get another attempt after a poor run. How is that conduct treated?",
+        "correct": "As unsportsmanlike conduct",
         "options": [
-          "97.50",
-          "95.50",
-          "96.50",
-          "98.50"
+          "As unsportsmanlike conduct",
+          "As accidental loss of eye protection",
+          "As range equipment failure",
+          "As a start-position violation"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "5.4.5",
         "id": "581a8fb3529e434e"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 49.2750, 33.6425 and 46.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "129.3025",
+        "rule": "5.7.5",
+        "prompt": "A competitor’s own firearm malfunctions during a run and cannot be put back into service. The Range Officer confirms there was no range equipment failure. Is a reshoot allowed for the malfunction?",
+        "correct": "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
         "options": [
-          "129.3025",
-          "129.4025",
-          "129.2025",
-          "130.3025"
+          "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
+          "Yes, if the firearm failed before half the targets were engaged",
+          "Yes, if a replacement firearm is available",
+          "Yes, if the malfunction was the first one in that match"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "5.7.5",
         "id": "24a2902d339963fb"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 2 shots before a mandatory reload point, 4 shots after it without reloading, and 2 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "8.3.2",
+        "prompt": "The Range Officer asks “Are You Ready?” The competitor has not settled into the required start position and needs more time. What should they say?",
+        "correct": "Not Ready",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Not Ready",
+          "Standby",
+          "Stop",
+          "Range Is Clear"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "8.3.2",
         "id": "a63d7cb694c1e4e7"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "2",
+        "rule": "8.3.3",
+        "prompt": "You are operating the timer as the Range Officer. How long after saying “Standby” should the start signal sound?",
+        "correct": "1 to 4 seconds",
         "options": [
-          "2",
-          "1",
-          "3",
-          "4"
+          "1 to 4 seconds",
+          "1 to 2 seconds",
+          "2 to 5 seconds",
+          "3 to 6 seconds"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "8.3.3",
         "id": "d4412d59638309cc"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 12 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "120 points",
+        "rule": "8.3.4",
+        "prompt": "The timer beeps, but the competitor does not react. The Range Officer confirms the competitor is ready. Which command restarts the sequence?",
+        "correct": "Are You Ready?",
         "options": [
-          "120 points",
-          "100 points",
-          "110 points",
-          "130 points"
+          "Are You Ready?",
+          "Make Ready",
+          "Standby",
+          "If You Are Finished, Unload And Show Clear"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "8.3.4",
         "id": "2da427e627a18668"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 3 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "8.6.1",
+        "prompt": "During a run, an assigned Range Officer gives a safety warning. The competitor asks for a reshoot solely because of the warning. Is that a valid reason?",
+        "correct": "No, the safety warning alone does not justify a reshoot",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "No, the safety warning alone does not justify a reshoot",
+          "Yes, whenever a warning is given after the start signal",
+          "Yes, if the warning was audible to the squad",
+          "Yes, if the competitor took action in response to the warning"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "8.6.1",
         "id": "21bc41077313a1fb"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:27. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:27",
+        "rule": "8.6.2",
+        "prompt": "A squad member calls out a missed target during the run without Range Officer approval. The competitor hears and uses the help. Who may receive a procedural penalty?",
+        "correct": "Both the person who gave the help and the competitor",
         "options": [
-          "12:27",
-          "12:12",
-          "12:42",
-          "12:57"
+          "Both the person who gave the help and the competitor",
+          "Only the person who gave the help",
+          "Only the competitor",
+          "Neither person if the target was then hit"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "8.6.2",
         "id": "8b94d01c354e3638"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:33, but were actually posted at 14:45. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:45",
+        "rule": "8.6.3",
+        "prompt": "A spectator shouts to distract a competitor mid-stage. The Range Officer believes this significantly affected the run. Who decides whether to offer a reshoot for that interference?",
+        "correct": "Range Master",
         "options": [
-          "15:45",
-          "15:30",
-          "16:00",
-          "16:15"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "8.6.3",
         "id": "7aba270f1596c966"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$139. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$100",
+        "rule": "8.6.4",
+        "prompt": "The Range Officer accidentally bumps a competitor during the run and offers a reshoot. When must the competitor decide whether to take it?",
+        "correct": "Before seeing either the time or the score",
         "options": [
-          "US$100",
-          "US$139",
-          "US$95",
-          "US$105"
+          "Before seeing either the time or the score",
+          "After seeing the time but before seeing the score",
+          "After seeing the score but before seeing the time",
+          "After seeing both, but before signing the score sheet"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "8.6.4",
         "id": "5bb2c4fc1e28915c"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "40 points",
+        "rule": "9.1.2",
+        "prompt": "While a paper target is being scored, the competitor’s delegate wants to touch the target to inspect a hole. What must the delegate do first?",
+        "correct": "Obtain the Range Officer’s permission",
         "options": [
-          "40 points",
-          "30 points",
-          "45 points",
-          "50 points"
+          "Obtain the Range Officer’s permission",
+          "Ask the competitor to confirm the hit",
+          "Ask the target patcher for permission",
+          "Wait until the time is entered, then touch it without asking"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "9.1.2",
         "id": "2ce804cf7d3c65a5"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 4 non-disappearing scoring targets completely unengaged. They engage the other 11 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "4",
+        "rule": "9.1.6.1",
+        "prompt": "The Range Officer identifies a hit on a paper scoring target made by a shot that passed entirely through hard cover. How should that identified hit be scored?",
+        "correct": "Ignore the hit",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Ignore the hit",
+          "Award its normal zone value",
+          "Award the lowest zone value",
+          "Treat the hit as a no-shoot penalty"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "9.1.6.1",
         "id": "6a197c545df016c0"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 16 shots and gains a significant advantage. From that position a maximum of 11 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "11",
+        "rule": "9.5.3",
+        "prompt": "A paper scoring target overlaps a paper no-shoot. The diameter of a hit touches the scoring area of both. What should be recorded for that hit?",
+        "correct": "The applicable scoring hit and no-shoot penalty",
         "options": [
-          "11",
-          "10",
-          "12",
-          "13"
+          "The applicable scoring hit and no-shoot penalty",
+          "The scoring hit only",
+          "The no-shoot penalty only",
+          "Neither the scoring hit nor the no-shoot penalty"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "9.5.3",
         "id": "ee190b22289ebab1"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:51 on Saturday. The Match Director will declare the results final at 13:11 on Sunday. What deadline applies to the committee’s decision?",
-        "correct": "By 12:51 on Sunday",
+        "rule": "9.5.4",
+        "prompt": "A hit hole sits entirely in the lower-value zone. A tear extends from the hole into the higher-value zone, but the hole itself does not touch the scoring line. Which value counts?",
+        "correct": "The lower zone value",
         "options": [
-          "By 12:51 on Sunday",
-          "Before 13:11 on Sunday",
-          "By 12:31 on Sunday",
-          "By 12:51 on Monday"
+          "The lower zone value",
+          "The higher zone value",
+          "Both zone values",
+          "Neither zone value"
         ],
-        "note": "The 24-hour deadline arrives before the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.5.4",
         "id": "87475e17dc3ff41f"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 85 target points, receives 20 penalty points and finishes in 7.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "9.2857",
+        "rule": "9.5.5",
+        "prompt": "A competitor’s penalties exceed their scoring points on a stage. What is the lowest stage score that can be recorded?",
+        "correct": "Zero",
         "options": [
-          "9.2857",
-          "12.1429",
-          "10.7143",
-          "15.0000"
+          "Zero",
+          "Minus the amount by which penalties exceeded points",
+          "Minus 10 points",
+          "The lowest positive stage score in the division"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "9.5.5",
         "id": "b85cb293f700cca4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 140-point stage is won with a hit factor of 9. A competitor records a hit factor of 7.2. How many stage points does the competitor earn?",
-        "correct": "112.00",
+        "rule": "9.6.5",
+        "prompt": "The Range Officer has scored a disputed paper hit as C and upholds that call. The target is still available. Who should the competitor ask next for a ruling?",
+        "correct": "Chief Range Officer",
         "options": [
-          "112.00",
-          "110.00",
-          "111.00",
-          "113.00"
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director",
+          "Arbitration Committee"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "9.6.5",
         "id": "80da1262251a8622"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 51.2750, 34.6425 and 49.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "135.3025",
+        "rule": "9.6.6",
+        "prompt": "The Range Master rules that a disputed hit touched the no-shoot scoring area. Can the competitor appeal that hit-scoring decision further?",
+        "correct": "No, the Range Master’s ruling on the hit is final",
         "options": [
-          "135.3025",
-          "135.4025",
-          "135.2025",
-          "136.3025"
+          "No, the Range Master’s ruling on the hit is final",
+          "Yes, to the Arbitration Committee",
+          "Yes, to the Match Director",
+          "Yes, to the Stats Officer when provisional results are posted"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "9.6.6",
         "id": "dc93ed95ac38a11e"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 3 shots before a mandatory reload point, 4 shots after it without reloading, and 3 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "9.6.7",
+        "prompt": "A paper target is under a scoring challenge. A patcher is about to cover the disputed hole. What should happen?",
+        "correct": "Keep the target untouched until the challenge is settled",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Keep the target untouched until the challenge is settled",
+          "Patch only the disputed hole after photographing it",
+          "Patch the whole target after recording the Range Officer’s first call",
+          "Patch the target once the competitor has seen the hole"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "9.6.7",
         "id": "ff81f0ebb90fa7fe"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "9.6.7",
+        "prompt": "The Range Officer removes a disputed paper target so the squad can continue. Who must sign the target and mark which hits are disputed?",
+        "correct": "The competitor and the Range Officer",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor and the Range Officer",
+          "The Range Officer and the Chief Range Officer",
+          "The competitor and the Stats Officer",
+          "The Range Officer and the Match Director"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "9.6.7",
         "id": "a69a26a0962324c0"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 13 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "130 points",
+        "rule": "9.6.8",
+        "prompt": "A hit lies close to a scoring line and an overlay is needed. Which overlay may the official use?",
+        "correct": "An overlay approved by the Range Master",
         "options": [
-          "130 points",
-          "110 points",
-          "120 points",
-          "140 points"
+          "An overlay approved by the Range Master",
+          "Any overlay supplied by the competitor",
+          "Any overlay of the right calibre, regardless of approval",
+          "An overlay approved only by the squad leader"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "9.6.8",
         "id": "f2b4498c35093061"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 4 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "4",
+        "rule": "9.7.1",
+        "prompt": "You are checking the score sheet before signing it. The official elapsed time is 16.20 seconds. How should that time be recorded?",
+        "correct": "16.20 seconds",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "16.20 seconds",
+          "16.2 seconds",
+          "16 seconds",
+          "16.200 seconds"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "9.7.1",
         "id": "bcbc115517493d04"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:50. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:50",
+        "rule": "9.7.2",
+        "prompt": "Before signing a paper score sheet, the competitor and Range Officer agree that the recorded hits need correcting. What should they do?",
+        "correct": "Enter the correction on the original and copies and both initial it",
         "options": [
-          "12:50",
-          "12:35",
-          "13:05",
-          "13:20"
+          "Enter the correction on the original and copies and both initial it",
+          "Change only the original and have only the Range Officer initial it",
+          "Change only the competitor’s copy and both initial it",
+          "Change the copies without initialling the correction"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "9.7.2",
         "id": "5fa6865654c74be5"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:50, but were actually posted at 15:03. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "16:03",
+        "rule": "9.7.3",
+        "prompt": "A competitor refuses to sign a score sheet. Who reviews the matter before deciding whether the unsigned sheet may be submitted?",
+        "correct": "Range Master",
         "options": [
-          "16:03",
-          "15:48",
-          "16:18",
-          "16:33"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "9.7.3",
         "id": "2bb26fd96d3d99e0"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$78. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$78",
+        "rule": "9.10.1",
+        "prompt": "The Range Officer confirms the official timing equipment is faulty. No accurate elapsed time can be assigned to the run. What must happen?",
+        "correct": "The competitor must reshoot",
         "options": [
-          "US$78",
-          "US$100",
-          "US$73",
-          "US$83"
+          "The competitor must reshoot",
+          "Use a spectator’s stopwatch time",
+          "Use the average time of the squad",
+          "Keep the target points and record no time"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "9.10.1",
         "id": "b0c07a4dded3ae57"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "10.1.3",
+        "prompt": "A competitor challenges the number of procedural penalties, and the Chief Range Officer and Range Master have considered the matter. Which avenue remains if the competitor is still dissatisfied?",
+        "correct": "Arbitration",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Arbitration",
+          "A fresh ruling by the Stats Officer",
+          "A new scoring decision by the squad leader",
+          "A tiebreaker stage"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "10.1.3",
         "id": "b8d2a9da680ff132"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 5 non-disappearing scoring targets completely unengaged. They engage the other 12 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "5",
+        "rule": "10.3.1",
+        "prompt": "A competitor has been disqualified for a safety violation and is waiting for an arbitration decision. Can they shoot the remaining stages in the meantime?",
+        "correct": "No, they may not shoot the remaining stages while the appeal is pending",
         "options": [
-          "5",
-          "4",
-          "6",
-          "7"
+          "No, they may not shoot the remaining stages while the appeal is pending",
+          "Yes, but only on stages in a different bay",
+          "Yes, if the remaining scores are marked provisional",
+          "Yes, if a Range Officer supervises their remaining attempts"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "10.3.1",
         "id": "6027dec45b5000f3"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 17 shots and gains a significant advantage. From that position a maximum of 12 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "12",
+        "rule": "2.4.4",
+        "prompt": "At a Safety Area, a competitor takes out a loaded magazine to check it. Is that permitted there?",
+        "correct": "No, a loaded magazine may not be handled in the Safety Area",
         "options": [
-          "12",
-          "11",
-          "13",
-          "14"
+          "No, a loaded magazine may not be handled in the Safety Area",
+          "Yes, provided it stays separate from the firearm",
+          "Yes, if it is pointed toward the designated safe direction",
+          "Yes, if no ammunition or projectiles are removed from it"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "2.4.4",
         "id": "8ba2c28d0727460d"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 13:10 on Saturday. Final results are scheduled to be declared at 12:50 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:50 on Sunday",
+        "rule": "9.8.1",
+        "prompt": "Provisional results are posted. Who is responsible for checking that a competitor’s own scores are recorded accurately?",
+        "correct": "The competitor",
         "options": [
-          "Before 12:50 on Sunday",
-          "By 13:10 on Sunday",
-          "By 13:30 on Sunday",
-          "Before 12:50 on Monday"
+          "The competitor",
+          "The squad leader",
+          "The Range Officer from the final stage",
+          "The Match Director"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.8.1",
         "id": "75069bcdc82cd29e"
       }
     ]
@@ -18255,7 +18255,7 @@ const disciplines = [
       },
       {
         "rule": "2.1.3",
-        "prompt": "While rigid targets are being shot, what minimum distance must be maintained?",
+        "prompt": "You are checking the stage layout. Where rigid targets will be shot, what minimum distance must be maintained while they are being shot?",
         "correct": "2 m",
         "options": [
           "2 m",
@@ -18353,7 +18353,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.2",
-        "prompt": "To how many decimal places are individual stage points calculated for stage ranking?",
+        "prompt": "Two competitors are very close on a stage. To how many decimal places are their stage points calculated for ranking?",
         "correct": "4",
         "options": [
           "4",
@@ -18367,7 +18367,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Who sets the duration of the squad’s stage walkthrough?",
+        "prompt": "A squad wants extra walkthrough time before its first run. Who sets the walkthrough duration?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -18381,7 +18381,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Moving targets are demonstrated during walkthroughs. What must be consistent across competitors?",
+        "prompt": "Two squads are shown the same moving target during their walkthroughs. What should be the same about the demonstrations?",
         "correct": "Both duration and frequency",
         "options": [
           "Both duration and frequency",
@@ -18437,7 +18437,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.1",
-        "prompt": "Who declares a competitor’s time, scores and penalties on the stage and verifies they are recorded correctly?",
+        "prompt": "The run is over and the score sheet is open. Which official announces the competitor’s time, score and penalties and checks the entries?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -18451,7 +18451,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.2",
-        "prompt": "Which official has primary authority over the courses of fire specifically assigned to them, under the Range Master?",
+        "prompt": "Two squads report that a stage is being run differently in the same bay. Which official has primary authority over that stage under the Range Master?",
         "correct": "Chief Range Officer",
         "options": [
           "Chief Range Officer",
@@ -18465,7 +18465,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.3",
-        "prompt": "Who supervises the team that processes score sheets and produces provisional and final results?",
+        "prompt": "Score sheets have been submitted and the provisional results are being prepared. Which official supervises the team processing them?",
         "correct": "Stats Officer",
         "options": [
           "Stats Officer",
@@ -18479,7 +18479,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.4",
-        "prompt": "Who is responsible for distributing and maintaining targets, timers and other range equipment?",
+        "prompt": "The stage crew runs out of target patches and a timer needs replacing. Which official is responsible for supplying and maintaining that equipment?",
         "correct": "Quartermaster",
         "options": [
           "Quartermaster",
@@ -18493,7 +18493,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.5",
-        "prompt": "Which official has overall authority for range safety and rule application across the entire match range?",
+        "prompt": "A safety issue affects several bays and requires a match-wide ruling. Which official has overall authority across the range?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -18591,7 +18591,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Under Comstock, which calculation produces a hit factor?",
+        "prompt": "You have the target points, penalty points and elapsed time for a Comstock run. In what order do you use them to calculate hit factor?",
         "correct": "Target points minus penalties, then divide by time",
         "options": [
           "Target points minus penalties, then divide by time",
@@ -18605,7 +18605,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Which competitor receives the maximum stage points available under Comstock?",
+        "prompt": "One competitor shoots the fastest time and another records the highest hit factor. Who gets the full stage points under Comstock?",
         "correct": "The competitor with the highest hit factor",
         "options": [
           "The competitor with the highest hit factor",
@@ -18619,7 +18619,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.3",
-        "prompt": "Which quantity determines the final ranking within a Division?",
+        "prompt": "You are checking the final standings after the last stage. Which total determines each competitor’s ranking within their division?",
         "correct": "The sum of individual stage points",
         "options": [
           "The sum of individual stage points",
@@ -18703,7 +18703,7 @@ const disciplines = [
       },
       {
         "rule": "9.7.4",
-        "prompt": "A score sheet is signed by both the competitor and Range Officer. With no mutual consent and no arbitration decision, which change is explicitly permitted?",
+        "prompt": "Both the competitor and the Range Officer have signed. They have not agreed to a change, and there is no arbitration decision. Which of these corrections can still be made?",
         "correct": "Correcting an arithmetic error",
         "options": [
           "Correcting an arithmetic error",
@@ -18829,7 +18829,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.1",
-        "prompt": "What must be recorded for procedural penalties on the score sheet?",
+        "prompt": "A Range Officer assesses three procedurals for a stage procedure breach. What must be written on the score sheet about those penalties?",
         "correct": "Both the number and the reason",
         "options": [
           "Both the number and the reason",
@@ -18843,7 +18843,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.4",
-        "prompt": "A competitor fires while faulting a line, then fires at the same target from inside the line. What happens to the original applicable fault penalty?",
+        "prompt": "A competitor fires while touching the ground beyond a fault line, then shoots the same target again from inside the line. What happens to the original fault penalty?",
         "correct": "It still applies",
         "options": [
           "It still applies",
@@ -18871,7 +18871,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.2",
-        "prompt": "A competitor ignores a written stage procedure and gains a significant advantage. What penalty basis may apply in place of a single penalty for the occurrence?",
+        "prompt": "A competitor shoots from standing where the written briefing requires kneeling and gains a significant advantage. How may the procedural penalties be counted?",
         "correct": "One per shot fired during the breach, subject to the applicable cap",
         "options": [
           "One per shot fired during the breach, subject to the applicable cap",
@@ -18913,7 +18913,7 @@ const disciplines = [
       },
       {
         "rule": "10.3.2",
-        "prompt": "After issuing a disqualification, who must be notified as soon as possible?",
+        "prompt": "A Range Officer has just disqualified a competitor. Who must be notified as soon as possible?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -18941,7 +18941,7 @@ const disciplines = [
       },
       {
         "rule": "11.3.2",
-        "prompt": "When must the Arbitration Committee reach its decision?",
+        "prompt": "The arbitration request has been filed, and the Match Director plans to declare the results final soon. Which deadline governs the committee’s decision?",
         "correct": "Within 24 hours of the request or before final results are declared, whichever comes first",
         "options": [
           "Within 24 hours of the request or before final results are declared, whichever comes first",
@@ -18969,7 +18969,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.2",
-        "prompt": "Who implements and posts the Arbitration Committee’s decision?",
+        "prompt": "The Arbitration Committee has issued its decision. Which official puts it into effect and posts it for competitors?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -18983,7 +18983,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.4",
-        "prompt": "For what can a recorded Arbitration Committee decision serve as precedent?",
+        "prompt": "The same issue comes up again later in the match after an arbitration decision has been recorded. When can that decision be used as precedent?",
         "correct": "A similar subsequent incident at the same match",
         "options": [
           "A similar subsequent incident at the same match",
@@ -18997,7 +18997,7 @@ const disciplines = [
       },
       {
         "rule": "11.7.1",
-        "prompt": "May someone other than the competitor involved submit an appeal on a third-party basis?",
+        "prompt": "A competitor witnesses an incident involving someone else and wants to submit an appeal. Can the competitor appeal as a third party?",
         "correct": "Yes, under the same Chapter 11 provisions",
         "options": [
           "Yes, under the same Chapter 11 provisions",
@@ -19123,7 +19123,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -19179,7 +19179,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:00, but were actually posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:00, but they were posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:11",
         "options": [
           "13:11",
@@ -19207,7 +19207,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "20 points",
         "options": [
           "20 points",
@@ -19235,7 +19235,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "2",
         "options": [
           "2",
@@ -19319,7 +19319,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -19375,7 +19375,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:17, but were actually posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:17, but they were posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:29",
         "options": [
           "13:29",
@@ -19403,7 +19403,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -19431,7 +19431,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "3",
         "options": [
           "3",
@@ -19515,7 +19515,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -19571,7 +19571,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:34, but were actually posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:34, but they were posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:47",
         "options": [
           "13:47",
@@ -19599,7 +19599,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -19627,7 +19627,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "4",
         "options": [
           "4",
@@ -19711,7 +19711,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -19767,7 +19767,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:51, but were actually posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:51, but they were posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:05",
         "options": [
           "14:05",
@@ -19795,7 +19795,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -19823,7 +19823,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "5",
         "options": [
           "5",
@@ -19907,7 +19907,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -19963,7 +19963,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:08, but were actually posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:08, but they were posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:19",
         "options": [
           "14:19",
@@ -19991,7 +19991,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -20019,7 +20019,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "6",
         "options": [
           "6",
@@ -20103,7 +20103,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -20159,7 +20159,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:25, but were actually posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:25, but they were posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:37",
         "options": [
           "14:37",
@@ -20187,7 +20187,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -20215,7 +20215,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "7",
         "options": [
           "7",
@@ -20299,7 +20299,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -20355,7 +20355,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:42, but were actually posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:42, but they were posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:55",
         "options": [
           "14:55",
@@ -20383,7 +20383,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -20411,7 +20411,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "8",
         "options": [
           "8",
@@ -20495,7 +20495,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -20551,7 +20551,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:59, but were actually posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:59, but they were posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "15:13",
         "options": [
           "15:13",
@@ -20579,7 +20579,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "50 points",
         "options": [
           "50 points",
@@ -20607,7 +20607,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "9",
         "options": [
           "9",
@@ -20691,7 +20691,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 3. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -20732,493 +20732,493 @@ const disciplines = [
         "id": "0fdc8b40955167f4"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:04. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:04",
+        "rule": "3.2.1",
+        "prompt": "The online stage preview says to start seated. The written stage briefing approved by the Range Master and posted at the stage says to start standing. Which start position applies?",
+        "correct": "Standing, as specified in the posted briefing",
         "options": [
-          "12:04",
-          "11:49",
-          "12:19",
-          "12:34"
+          "Standing, as specified in the posted briefing",
+          "Seated, because the preview was published first",
+          "Either position, if used consistently within the squad",
+          "The position used by the first competitor"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "3.2.1",
         "id": "74c72e17cf94ace9"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:16, but were actually posted at 14:27. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:27",
+        "rule": "3.2.2",
+        "prompt": "The Range Officer has read out the briefing but has not shown the start position. A competitor asks to see it. What should the Range Officer do?",
+        "correct": "Show the acceptable position in person or using a picture",
         "options": [
-          "15:27",
-          "15:12",
-          "15:42",
-          "15:57"
+          "Show the acceptable position in person or using a picture",
+          "Show it only at Level III or above",
+          "Repeat the text without showing the position",
+          "Let the first competitor decide what the position looks like"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "3.2.2",
         "id": "7218042e14ad7648"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$74. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$74",
+        "rule": "2.2.1.5",
+        "prompt": "On a clearly marked path between shooting positions, a competitor takes a shortcut outside the markings. They fire twice after re-entering the path. How many procedural penalties apply for the shortcut?",
+        "correct": "Two",
         "options": [
-          "US$74",
-          "US$100",
-          "US$69",
-          "US$79"
+          "Two",
+          "One",
+          "Zero",
+          "Three"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "2.2.1.5",
         "id": "84a17151ec6235aa"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "4.7.1",
+        "prompt": "A moving target activates early because its latch fails before the competitor operates it. How should the latch failure be classified?",
+        "correct": "Range equipment failure",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Range equipment failure",
+          "A competitor equipment malfunction",
+          "A failure to engage the target",
+          "A breach of the start position"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "4.7.1",
         "id": "9362ece878e6df51"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 3 non-disappearing scoring targets completely unengaged. They engage the other 10 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "3",
+        "rule": "4.7.2",
+        "prompt": "A moving target was left unset after the previous competitor. The Range Officer discovers this during the next attempt. What must happen after the target is reset?",
+        "correct": "The competitor must reshoot the entire stage",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor must reshoot the entire stage",
+          "The competitor must shoot only the affected target",
+          "The competitor can choose whether to keep the first run",
+          "The first run stands and the affected target is removed from scoring"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "4.7.2",
         "id": "f187f41432c19f9e"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 15 shots and gains a significant advantage. From that position a maximum of 10 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "10",
+        "rule": "4.7.2",
+        "prompt": "A stage prop breaks and prevents the competitor from completing the stage. The Range Officer confirms range equipment failure. What is the remedy?",
+        "correct": "Repair the prop and require a full reshoot",
         "options": [
-          "10",
-          "9",
-          "11",
-          "12"
+          "Repair the prop and require a full reshoot",
+          "Repair the prop and restart from where the competitor stopped",
+          "Keep the score and ignore any targets that could not be shot",
+          "Keep the score and remove the misses for those targets"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "4.7.2",
         "id": "1d0b8f7c31502eb7"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:32 on Saturday. Final results are scheduled to be declared at 12:12 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:12 on Sunday",
+        "rule": "5.4.3",
+        "prompt": "During a run, the Range Officer sees the competitor’s safety glasses fall off. What should the Range Officer do?",
+        "correct": "Stop the competitor immediately and require a reshoot once eye protection is restored",
         "options": [
-          "Before 12:12 on Sunday",
-          "By 12:32 on Sunday",
-          "By 12:52 on Sunday",
-          "Before 12:12 on Monday"
+          "Stop the competitor immediately and require a reshoot once eye protection is restored",
+          "Let the competitor finish and then offer a reshoot",
+          "Pause the timer and resume the same run after the glasses are restored",
+          "Stop the competitor and score the run as shot"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "5.4.3",
         "id": "0a04767b90011120"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 80 target points, receives 10 penalty points and finishes in 6.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "11.6667",
+        "rule": "5.4.4",
+        "prompt": "A competitor notices that their safety glasses have slipped off during the run. What can the competitor do?",
+        "correct": "Stop, point the firearm safely and tell the Range Officer",
         "options": [
-          "11.6667",
-          "13.3333",
-          "12.5000",
-          "15.0000"
+          "Stop, point the firearm safely and tell the Range Officer",
+          "Continue and ask for a reshoot after seeing the score",
+          "Pause, restore the glasses and resume the same attempt",
+          "Move to the next position before reporting the problem"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "5.4.4",
         "id": "0a8487a56defd7d4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 130-point stage is won with a hit factor of 8. A competitor records a hit factor of 6.00. How many stage points does the competitor earn?",
-        "correct": "97.50",
+        "rule": "5.4.5",
+        "prompt": "A competitor deliberately removes their safety glasses to get another attempt after a poor run. How is that conduct treated?",
+        "correct": "As unsportsmanlike conduct",
         "options": [
-          "97.50",
-          "95.50",
-          "96.50",
-          "98.50"
+          "As unsportsmanlike conduct",
+          "As accidental loss of eye protection",
+          "As range equipment failure",
+          "As a start-position violation"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "5.4.5",
         "id": "581a8fb3529e434e"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 49.2750, 33.6425 and 46.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "129.3025",
+        "rule": "5.7.5",
+        "prompt": "A competitor’s own Action Air gun malfunctions during a run and cannot be put back into service. The Range Officer confirms there was no range equipment failure. Is a reshoot allowed for the malfunction?",
+        "correct": "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
         "options": [
-          "129.3025",
-          "129.4025",
-          "129.2025",
-          "130.3025"
+          "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
+          "Yes, if the firearm failed before half the targets were engaged",
+          "Yes, if a replacement firearm is available",
+          "Yes, if the malfunction was the first one in that match"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "5.7.5",
         "id": "24a2902d339963fb"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 2 shots before a mandatory reload point, 4 shots after it without reloading, and 2 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "8.3.2",
+        "prompt": "The Range Officer asks “Are You Ready?” The competitor has not settled into the required start position and needs more time. What should they say?",
+        "correct": "Not Ready",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Not Ready",
+          "Standby",
+          "Stop",
+          "Range Is Clear"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "8.3.2",
         "id": "a63d7cb694c1e4e7"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "2",
+        "rule": "8.3.3",
+        "prompt": "You are operating the timer as the Range Officer. How long after saying “Standby” should the start signal sound?",
+        "correct": "1 to 4 seconds",
         "options": [
-          "2",
-          "1",
-          "3",
-          "4"
+          "1 to 4 seconds",
+          "1 to 2 seconds",
+          "2 to 5 seconds",
+          "3 to 6 seconds"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "8.3.3",
         "id": "d4412d59638309cc"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 12 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "120 points",
+        "rule": "8.3.4",
+        "prompt": "The timer beeps, but the competitor does not react. The Range Officer confirms the competitor is ready. Which command restarts the sequence?",
+        "correct": "Are You Ready?",
         "options": [
-          "120 points",
-          "100 points",
-          "110 points",
-          "130 points"
+          "Are You Ready?",
+          "Make Ready",
+          "Standby",
+          "If You Are Finished, Unload And Show Clear"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "8.3.4",
         "id": "2da427e627a18668"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 3 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "8.6.1",
+        "prompt": "During a run, an assigned Range Officer gives a safety warning. The competitor asks for a reshoot solely because of the warning. Is that a valid reason?",
+        "correct": "No, the safety warning alone does not justify a reshoot",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "No, the safety warning alone does not justify a reshoot",
+          "Yes, whenever a warning is given after the start signal",
+          "Yes, if the warning was audible to the squad",
+          "Yes, if the competitor took action in response to the warning"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "8.6.1",
         "id": "21bc41077313a1fb"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:27. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:27",
+        "rule": "8.6.2",
+        "prompt": "A squad member calls out a missed target during the run without Range Officer approval. The competitor hears and uses the help. Who may receive a procedural penalty?",
+        "correct": "Both the person who gave the help and the competitor",
         "options": [
-          "12:27",
-          "12:12",
-          "12:42",
-          "12:57"
+          "Both the person who gave the help and the competitor",
+          "Only the person who gave the help",
+          "Only the competitor",
+          "Neither person if the target was then hit"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "8.6.2",
         "id": "8b94d01c354e3638"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:33, but were actually posted at 14:45. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:45",
+        "rule": "8.6.3",
+        "prompt": "A spectator shouts to distract a competitor mid-stage. The Range Officer believes this significantly affected the run. Who decides whether to offer a reshoot for that interference?",
+        "correct": "Range Master",
         "options": [
-          "15:45",
-          "15:30",
-          "16:00",
-          "16:15"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "8.6.3",
         "id": "7aba270f1596c966"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$139. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$100",
+        "rule": "8.6.4",
+        "prompt": "The Range Officer accidentally bumps a competitor during the run and offers a reshoot. When must the competitor decide whether to take it?",
+        "correct": "Before seeing either the time or the score",
         "options": [
-          "US$100",
-          "US$139",
-          "US$95",
-          "US$105"
+          "Before seeing either the time or the score",
+          "After seeing the time but before seeing the score",
+          "After seeing the score but before seeing the time",
+          "After seeing both, but before signing the score sheet"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "8.6.4",
         "id": "5bb2c4fc1e28915c"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "40 points",
+        "rule": "9.1.2",
+        "prompt": "While a paper target is being scored, the competitor’s delegate wants to touch the target to inspect a hole. What must the delegate do first?",
+        "correct": "Obtain the Range Officer’s permission",
         "options": [
-          "40 points",
-          "30 points",
-          "45 points",
-          "50 points"
+          "Obtain the Range Officer’s permission",
+          "Ask the competitor to confirm the hit",
+          "Ask the target patcher for permission",
+          "Wait until the time is entered, then touch it without asking"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "9.1.2",
         "id": "2ce804cf7d3c65a5"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 4 non-disappearing scoring targets completely unengaged. They engage the other 11 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "4",
+        "rule": "9.1.6.1",
+        "prompt": "The Range Officer identifies a hit on a paper scoring target made by a shot that passed entirely through hard cover. How should that identified hit be scored?",
+        "correct": "Ignore the hit",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Ignore the hit",
+          "Award its normal zone value",
+          "Award the lowest zone value",
+          "Treat the hit as a no-shoot penalty"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "9.1.6.1",
         "id": "6a197c545df016c0"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 16 shots and gains a significant advantage. From that position a maximum of 11 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "11",
+        "rule": "9.5.3",
+        "prompt": "A paper scoring target overlaps a paper no-shoot. The diameter of a hit touches the scoring area of both. What should be recorded for that hit?",
+        "correct": "The applicable scoring hit and no-shoot penalty",
         "options": [
-          "11",
-          "10",
-          "12",
-          "13"
+          "The applicable scoring hit and no-shoot penalty",
+          "The scoring hit only",
+          "The no-shoot penalty only",
+          "Neither the scoring hit nor the no-shoot penalty"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "9.5.3",
         "id": "ee190b22289ebab1"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:51 on Saturday. The Match Director will declare the results final at 13:11 on Sunday. What deadline applies to the committee’s decision?",
-        "correct": "By 12:51 on Sunday",
+        "rule": "9.5.4",
+        "prompt": "A hit hole sits entirely in the lower-value zone. A tear extends from the hole into the higher-value zone, but the hole itself does not touch the scoring line. Which value counts?",
+        "correct": "The lower zone value",
         "options": [
-          "By 12:51 on Sunday",
-          "Before 13:11 on Sunday",
-          "By 12:31 on Sunday",
-          "By 12:51 on Monday"
+          "The lower zone value",
+          "The higher zone value",
+          "Both zone values",
+          "Neither zone value"
         ],
-        "note": "The 24-hour deadline arrives before the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.5.4",
         "id": "87475e17dc3ff41f"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 85 target points, receives 20 penalty points and finishes in 7.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "9.2857",
+        "rule": "9.5.5",
+        "prompt": "A competitor’s penalties exceed their scoring points on a stage. What is the lowest stage score that can be recorded?",
+        "correct": "Zero",
         "options": [
-          "9.2857",
-          "12.1429",
-          "10.7143",
-          "15.0000"
+          "Zero",
+          "Minus the amount by which penalties exceeded points",
+          "Minus 10 points",
+          "The lowest positive stage score in the division"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "9.5.5",
         "id": "b85cb293f700cca4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 140-point stage is won with a hit factor of 9. A competitor records a hit factor of 7.2. How many stage points does the competitor earn?",
-        "correct": "112.00",
+        "rule": "9.6.5",
+        "prompt": "The Range Officer has scored a disputed paper hit as C and upholds that call. The target is still available. Who should the competitor ask next for a ruling?",
+        "correct": "Chief Range Officer",
         "options": [
-          "112.00",
-          "110.00",
-          "111.00",
-          "113.00"
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director",
+          "Arbitration Committee"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "9.6.5",
         "id": "80da1262251a8622"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 51.2750, 34.6425 and 49.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "135.3025",
+        "rule": "9.6.6",
+        "prompt": "The Range Master rules that a disputed hit touched the no-shoot scoring area. Can the competitor appeal that hit-scoring decision further?",
+        "correct": "No, the Range Master’s ruling on the hit is final",
         "options": [
-          "135.3025",
-          "135.4025",
-          "135.2025",
-          "136.3025"
+          "No, the Range Master’s ruling on the hit is final",
+          "Yes, to the Arbitration Committee",
+          "Yes, to the Match Director",
+          "Yes, to the Stats Officer when provisional results are posted"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "9.6.6",
         "id": "dc93ed95ac38a11e"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 3 shots before a mandatory reload point, 4 shots after it without reloading, and 3 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "9.6.7",
+        "prompt": "A paper target is under a scoring challenge. A patcher is about to cover the disputed hole. What should happen?",
+        "correct": "Keep the target untouched until the challenge is settled",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Keep the target untouched until the challenge is settled",
+          "Patch only the disputed hole after photographing it",
+          "Patch the whole target after recording the Range Officer’s first call",
+          "Patch the target once the competitor has seen the hole"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "9.6.7",
         "id": "ff81f0ebb90fa7fe"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "9.6.7",
+        "prompt": "The Range Officer removes a disputed paper target so the squad can continue. Who must sign the target and mark which hits are disputed?",
+        "correct": "The competitor and the Range Officer",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor and the Range Officer",
+          "The Range Officer and the Chief Range Officer",
+          "The competitor and the Stats Officer",
+          "The Range Officer and the Match Director"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "9.6.7",
         "id": "a69a26a0962324c0"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 13 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "130 points",
+        "rule": "9.6.8",
+        "prompt": "A hit lies close to a scoring line and an overlay is needed. Which overlay may the official use?",
+        "correct": "An overlay approved by the Range Master",
         "options": [
-          "130 points",
-          "110 points",
-          "120 points",
-          "140 points"
+          "An overlay approved by the Range Master",
+          "Any overlay supplied by the competitor",
+          "Any overlay of the right calibre, regardless of approval",
+          "An overlay approved only by the squad leader"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "9.6.8",
         "id": "f2b4498c35093061"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 4 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "4",
+        "rule": "9.7.1",
+        "prompt": "You are checking the score sheet before signing it. The official elapsed time is 16.20 seconds. How should that time be recorded?",
+        "correct": "16.20 seconds",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "16.20 seconds",
+          "16.2 seconds",
+          "16 seconds",
+          "16.200 seconds"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "9.7.1",
         "id": "bcbc115517493d04"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:50. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:50",
+        "rule": "9.7.2",
+        "prompt": "Before signing a paper score sheet, the competitor and Range Officer agree that the recorded hits need correcting. What should they do?",
+        "correct": "Enter the correction on the original and copies and both initial it",
         "options": [
-          "12:50",
-          "12:35",
-          "13:05",
-          "13:20"
+          "Enter the correction on the original and copies and both initial it",
+          "Change only the original and have only the Range Officer initial it",
+          "Change only the competitor’s copy and both initial it",
+          "Change the copies without initialling the correction"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "9.7.2",
         "id": "5fa6865654c74be5"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:50, but were actually posted at 15:03. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "16:03",
+        "rule": "9.7.3",
+        "prompt": "A competitor refuses to sign a score sheet. Who reviews the matter before deciding whether the unsigned sheet may be submitted?",
+        "correct": "Range Master",
         "options": [
-          "16:03",
-          "15:48",
-          "16:18",
-          "16:33"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "9.7.3",
         "id": "2bb26fd96d3d99e0"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$78. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$78",
+        "rule": "9.10.1",
+        "prompt": "The Range Officer confirms the official timing equipment is faulty. No accurate elapsed time can be assigned to the run. What must happen?",
+        "correct": "The competitor must reshoot",
         "options": [
-          "US$78",
-          "US$100",
-          "US$73",
-          "US$83"
+          "The competitor must reshoot",
+          "Use a spectator’s stopwatch time",
+          "Use the average time of the squad",
+          "Keep the target points and record no time"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "9.10.1",
         "id": "b0c07a4dded3ae57"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "10.1.3",
+        "prompt": "A competitor challenges the number of procedural penalties, and the Chief Range Officer and Range Master have considered the matter. Which avenue remains if the competitor is still dissatisfied?",
+        "correct": "Arbitration",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Arbitration",
+          "A fresh ruling by the Stats Officer",
+          "A new scoring decision by the squad leader",
+          "A tiebreaker stage"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "10.1.3",
         "id": "b8d2a9da680ff132"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 5 non-disappearing scoring targets completely unengaged. They engage the other 12 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "5",
+        "rule": "10.3.1",
+        "prompt": "A competitor has been disqualified for a safety violation and is waiting for an arbitration decision. Can they shoot the remaining stages in the meantime?",
+        "correct": "No, they may not shoot the remaining stages while the appeal is pending",
         "options": [
-          "5",
-          "4",
-          "6",
-          "7"
+          "No, they may not shoot the remaining stages while the appeal is pending",
+          "Yes, but only on stages in a different bay",
+          "Yes, if the remaining scores are marked provisional",
+          "Yes, if a Range Officer supervises their remaining attempts"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "10.3.1",
         "id": "6027dec45b5000f3"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 17 shots and gains a significant advantage. From that position a maximum of 12 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "12",
+        "rule": "2.4.4",
+        "prompt": "At a Safety Area, a competitor takes out a loaded magazine to check it. Is that permitted there?",
+        "correct": "No, a loaded magazine may not be handled in the Safety Area",
         "options": [
-          "12",
-          "11",
-          "13",
-          "14"
+          "No, a loaded magazine may not be handled in the Safety Area",
+          "Yes, provided it stays separate from the firearm",
+          "Yes, if it is pointed toward the designated safe direction",
+          "Yes, if no ammunition or projectiles are removed from it"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "2.4.4",
         "id": "8ba2c28d0727460d"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 13:10 on Saturday. Final results are scheduled to be declared at 12:50 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:50 on Sunday",
+        "rule": "9.8.1",
+        "prompt": "Provisional results are posted. Who is responsible for checking that a competitor’s own scores are recorded accurately?",
+        "correct": "The competitor",
         "options": [
-          "Before 12:50 on Sunday",
-          "By 13:10 on Sunday",
-          "By 13:30 on Sunday",
-          "Before 12:50 on Monday"
+          "The competitor",
+          "The squad leader",
+          "The Range Officer from the final stage",
+          "The Match Director"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.8.1",
         "id": "75069bcdc82cd29e"
       }
     ]
@@ -21287,7 +21287,7 @@ const disciplines = [
       },
       {
         "rule": "2.1.3",
-        "prompt": "While rigid targets are being shot, what minimum distance must be maintained?",
+        "prompt": "You are checking the stage layout. Where rigid targets will be shot, what minimum distance must be maintained while they are being shot?",
         "correct": "2 m",
         "options": [
           "2 m",
@@ -21385,7 +21385,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.2",
-        "prompt": "To how many decimal places are individual stage points calculated for stage ranking?",
+        "prompt": "Two competitors are very close on a stage. To how many decimal places are their stage points calculated for ranking?",
         "correct": "4",
         "options": [
           "4",
@@ -21399,7 +21399,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Who sets the duration of the squad’s stage walkthrough?",
+        "prompt": "A squad wants extra walkthrough time before its first run. Who sets the walkthrough duration?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -21413,7 +21413,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Moving targets are demonstrated during walkthroughs. What must be consistent across competitors?",
+        "prompt": "Two squads are shown the same moving target during their walkthroughs. What should be the same about the demonstrations?",
         "correct": "Both duration and frequency",
         "options": [
           "Both duration and frequency",
@@ -21469,7 +21469,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.1",
-        "prompt": "Who declares a competitor’s time, scores and penalties on the stage and verifies they are recorded correctly?",
+        "prompt": "The run is over and the score sheet is open. Which official announces the competitor’s time, score and penalties and checks the entries?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -21483,7 +21483,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.2",
-        "prompt": "Which official has primary authority over the courses of fire specifically assigned to them, under the Range Master?",
+        "prompt": "Two squads report that a stage is being run differently in the same bay. Which official has primary authority over that stage under the Range Master?",
         "correct": "Chief Range Officer",
         "options": [
           "Chief Range Officer",
@@ -21497,7 +21497,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.3",
-        "prompt": "Who supervises the team that processes score sheets and produces provisional and final results?",
+        "prompt": "Score sheets have been submitted and the provisional results are being prepared. Which official supervises the team processing them?",
         "correct": "Stats Officer",
         "options": [
           "Stats Officer",
@@ -21511,7 +21511,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.4",
-        "prompt": "Who is responsible for distributing and maintaining targets, timers and other range equipment?",
+        "prompt": "The stage crew runs out of target patches and a timer needs replacing. Which official is responsible for supplying and maintaining that equipment?",
         "correct": "Quartermaster",
         "options": [
           "Quartermaster",
@@ -21525,7 +21525,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.5",
-        "prompt": "Which official has overall authority for range safety and rule application across the entire match range?",
+        "prompt": "A safety issue affects several bays and requires a match-wide ruling. Which official has overall authority across the range?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -21623,7 +21623,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Under Comstock, which calculation produces a hit factor?",
+        "prompt": "You have the target points, penalty points and elapsed time for a Comstock run. In what order do you use them to calculate hit factor?",
         "correct": "Target points minus penalties, then divide by time",
         "options": [
           "Target points minus penalties, then divide by time",
@@ -21637,7 +21637,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Which competitor receives the maximum stage points available under Comstock?",
+        "prompt": "One competitor shoots the fastest time and another records the highest hit factor. Who gets the full stage points under Comstock?",
         "correct": "The competitor with the highest hit factor",
         "options": [
           "The competitor with the highest hit factor",
@@ -21651,7 +21651,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.3",
-        "prompt": "Which quantity determines the final ranking within a Division?",
+        "prompt": "You are checking the final standings after the last stage. Which total determines each competitor’s ranking within their division?",
         "correct": "The sum of individual stage points",
         "options": [
           "The sum of individual stage points",
@@ -21735,7 +21735,7 @@ const disciplines = [
       },
       {
         "rule": "9.7.4",
-        "prompt": "A score sheet is signed by both the competitor and Range Officer. With no mutual consent and no arbitration decision, which change is explicitly permitted?",
+        "prompt": "Both the competitor and the Range Officer have signed. They have not agreed to a change, and there is no arbitration decision. Which of these corrections can still be made?",
         "correct": "Correcting an arithmetic error",
         "options": [
           "Correcting an arithmetic error",
@@ -21861,7 +21861,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.1",
-        "prompt": "What must be recorded for procedural penalties on the score sheet?",
+        "prompt": "A Range Officer assesses three procedurals for a stage procedure breach. What must be written on the score sheet about those penalties?",
         "correct": "Both the number and the reason",
         "options": [
           "Both the number and the reason",
@@ -21875,7 +21875,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.4",
-        "prompt": "A competitor fires while faulting a line, then fires at the same target from inside the line. What happens to the original applicable fault penalty?",
+        "prompt": "A competitor fires while touching the ground beyond a fault line, then shoots the same target again from inside the line. What happens to the original fault penalty?",
         "correct": "It still applies",
         "options": [
           "It still applies",
@@ -21903,7 +21903,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.2",
-        "prompt": "A competitor ignores a written stage procedure and gains a significant advantage. What penalty basis may apply in place of a single penalty for the occurrence?",
+        "prompt": "A competitor shoots from standing where the written briefing requires kneeling and gains a significant advantage. How may the procedural penalties be counted?",
         "correct": "One per shot fired during the breach, subject to the applicable cap",
         "options": [
           "One per shot fired during the breach, subject to the applicable cap",
@@ -21945,7 +21945,7 @@ const disciplines = [
       },
       {
         "rule": "10.3.2",
-        "prompt": "After issuing a disqualification, who must be notified as soon as possible?",
+        "prompt": "A Range Officer has just disqualified a competitor. Who must be notified as soon as possible?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -21973,7 +21973,7 @@ const disciplines = [
       },
       {
         "rule": "11.3.2",
-        "prompt": "When must the Arbitration Committee reach its decision?",
+        "prompt": "The arbitration request has been filed, and the Match Director plans to declare the results final soon. Which deadline governs the committee’s decision?",
         "correct": "Within 24 hours of the request or before final results are declared, whichever comes first",
         "options": [
           "Within 24 hours of the request or before final results are declared, whichever comes first",
@@ -22001,7 +22001,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.2",
-        "prompt": "Who implements and posts the Arbitration Committee’s decision?",
+        "prompt": "The Arbitration Committee has issued its decision. Which official puts it into effect and posts it for competitors?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -22015,7 +22015,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.4",
-        "prompt": "For what can a recorded Arbitration Committee decision serve as precedent?",
+        "prompt": "The same issue comes up again later in the match after an arbitration decision has been recorded. When can that decision be used as precedent?",
         "correct": "A similar subsequent incident at the same match",
         "options": [
           "A similar subsequent incident at the same match",
@@ -22029,7 +22029,7 @@ const disciplines = [
       },
       {
         "rule": "11.7.1",
-        "prompt": "May someone other than the competitor involved submit an appeal on a third-party basis?",
+        "prompt": "A competitor witnesses an incident involving someone else and wants to submit an appeal. Can the competitor appeal as a third party?",
         "correct": "Yes, under the same Chapter 11 provisions",
         "options": [
           "Yes, under the same Chapter 11 provisions",
@@ -22155,7 +22155,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -22211,7 +22211,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:00, but were actually posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:00, but they were posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:11",
         "options": [
           "13:11",
@@ -22239,7 +22239,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "20 points",
         "options": [
           "20 points",
@@ -22267,7 +22267,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "2",
         "options": [
           "2",
@@ -22351,7 +22351,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -22407,7 +22407,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:17, but were actually posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:17, but they were posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:29",
         "options": [
           "13:29",
@@ -22435,7 +22435,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -22463,7 +22463,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "3",
         "options": [
           "3",
@@ -22547,7 +22547,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -22603,7 +22603,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:34, but were actually posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:34, but they were posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:47",
         "options": [
           "13:47",
@@ -22631,7 +22631,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -22659,7 +22659,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "4",
         "options": [
           "4",
@@ -22743,7 +22743,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -22799,7 +22799,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:51, but were actually posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:51, but they were posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:05",
         "options": [
           "14:05",
@@ -22827,7 +22827,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -22855,7 +22855,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "5",
         "options": [
           "5",
@@ -22939,7 +22939,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -22995,7 +22995,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:08, but were actually posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:08, but they were posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:19",
         "options": [
           "14:19",
@@ -23023,7 +23023,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -23051,7 +23051,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "6",
         "options": [
           "6",
@@ -23135,7 +23135,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -23191,7 +23191,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:25, but were actually posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:25, but they were posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:37",
         "options": [
           "14:37",
@@ -23219,7 +23219,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -23247,7 +23247,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "7",
         "options": [
           "7",
@@ -23331,7 +23331,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -23387,7 +23387,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:42, but were actually posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:42, but they were posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:55",
         "options": [
           "14:55",
@@ -23415,7 +23415,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -23443,7 +23443,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "8",
         "options": [
           "8",
@@ -23527,7 +23527,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -23583,7 +23583,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:59, but were actually posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:59, but they were posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "15:13",
         "options": [
           "15:13",
@@ -23611,7 +23611,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "50 points",
         "options": [
           "50 points",
@@ -23639,7 +23639,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "9",
         "options": [
           "9",
@@ -23723,7 +23723,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 3. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -23764,493 +23764,493 @@ const disciplines = [
         "id": "0fdc8b40955167f4"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:04. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:04",
+        "rule": "3.2.1",
+        "prompt": "The online stage preview says to start seated. The written stage briefing approved by the Range Master and posted at the stage says to start standing. Which start position applies?",
+        "correct": "Standing, as specified in the posted briefing",
         "options": [
-          "12:04",
-          "11:49",
-          "12:19",
-          "12:34"
+          "Standing, as specified in the posted briefing",
+          "Seated, because the preview was published first",
+          "Either position, if used consistently within the squad",
+          "The position used by the first competitor"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "3.2.1",
         "id": "74c72e17cf94ace9"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:16, but were actually posted at 14:27. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:27",
+        "rule": "3.2.2",
+        "prompt": "The Range Officer has read out the briefing but has not shown the start position. A competitor asks to see it. What should the Range Officer do?",
+        "correct": "Show the acceptable position in person or using a picture",
         "options": [
-          "15:27",
-          "15:12",
-          "15:42",
-          "15:57"
+          "Show the acceptable position in person or using a picture",
+          "Show it only at Level III or above",
+          "Repeat the text without showing the position",
+          "Let the first competitor decide what the position looks like"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "3.2.2",
         "id": "7218042e14ad7648"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$74. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$74",
+        "rule": "2.2.1.5",
+        "prompt": "On a clearly marked path between shooting positions, a competitor takes a shortcut outside the markings. They fire twice after re-entering the path. How many procedural penalties apply for the shortcut?",
+        "correct": "Two",
         "options": [
-          "US$74",
-          "US$100",
-          "US$69",
-          "US$79"
+          "Two",
+          "One",
+          "Zero",
+          "Three"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "2.2.1.5",
         "id": "84a17151ec6235aa"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "4.7.1",
+        "prompt": "A moving target activates early because its latch fails before the competitor operates it. How should the latch failure be classified?",
+        "correct": "Range equipment failure",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Range equipment failure",
+          "A competitor equipment malfunction",
+          "A failure to engage the target",
+          "A breach of the start position"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "4.7.1",
         "id": "9362ece878e6df51"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 3 non-disappearing scoring targets completely unengaged. They engage the other 10 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "3",
+        "rule": "4.7.2",
+        "prompt": "A moving target was left unset after the previous competitor. The Range Officer discovers this during the next attempt. What must happen after the target is reset?",
+        "correct": "The competitor must reshoot the entire stage",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor must reshoot the entire stage",
+          "The competitor must shoot only the affected target",
+          "The competitor can choose whether to keep the first run",
+          "The first run stands and the affected target is removed from scoring"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "4.7.2",
         "id": "f187f41432c19f9e"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 15 shots and gains a significant advantage. From that position a maximum of 10 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "10",
+        "rule": "4.7.2",
+        "prompt": "A stage prop breaks and prevents the competitor from completing the stage. The Range Officer confirms range equipment failure. What is the remedy?",
+        "correct": "Repair the prop and require a full reshoot",
         "options": [
-          "10",
-          "9",
-          "11",
-          "12"
+          "Repair the prop and require a full reshoot",
+          "Repair the prop and restart from where the competitor stopped",
+          "Keep the score and ignore any targets that could not be shot",
+          "Keep the score and remove the misses for those targets"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "4.7.2",
         "id": "1d0b8f7c31502eb7"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:32 on Saturday. Final results are scheduled to be declared at 12:12 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:12 on Sunday",
+        "rule": "5.4.3",
+        "prompt": "During a run, the Range Officer sees the competitor’s safety glasses fall off. What should the Range Officer do?",
+        "correct": "Stop the competitor immediately and require a reshoot once eye protection is restored",
         "options": [
-          "Before 12:12 on Sunday",
-          "By 12:32 on Sunday",
-          "By 12:52 on Sunday",
-          "Before 12:12 on Monday"
+          "Stop the competitor immediately and require a reshoot once eye protection is restored",
+          "Let the competitor finish and then offer a reshoot",
+          "Pause the timer and resume the same run after the glasses are restored",
+          "Stop the competitor and score the run as shot"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "5.4.3",
         "id": "0a04767b90011120"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 80 target points, receives 10 penalty points and finishes in 6.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "11.6667",
+        "rule": "5.4.4",
+        "prompt": "A competitor notices that their safety glasses have slipped off during the run. What can the competitor do?",
+        "correct": "Stop, point the firearm safely and tell the Range Officer",
         "options": [
-          "11.6667",
-          "13.3333",
-          "12.5000",
-          "15.0000"
+          "Stop, point the firearm safely and tell the Range Officer",
+          "Continue and ask for a reshoot after seeing the score",
+          "Pause, restore the glasses and resume the same attempt",
+          "Move to the next position before reporting the problem"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "5.4.4",
         "id": "0a8487a56defd7d4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 130-point stage is won with a hit factor of 8. A competitor records a hit factor of 6.00. How many stage points does the competitor earn?",
-        "correct": "97.50",
+        "rule": "5.4.5",
+        "prompt": "A competitor deliberately removes their safety glasses to get another attempt after a poor run. How is that conduct treated?",
+        "correct": "As unsportsmanlike conduct",
         "options": [
-          "97.50",
-          "95.50",
-          "96.50",
-          "98.50"
+          "As unsportsmanlike conduct",
+          "As accidental loss of eye protection",
+          "As range equipment failure",
+          "As a start-position violation"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "5.4.5",
         "id": "581a8fb3529e434e"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 49.2750, 33.6425 and 46.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "129.3025",
+        "rule": "5.7.5",
+        "prompt": "A competitor’s own Action Air gun malfunctions during a run and cannot be put back into service. The Range Officer confirms there was no range equipment failure. Is a reshoot allowed for the malfunction?",
+        "correct": "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
         "options": [
-          "129.3025",
-          "129.4025",
-          "129.2025",
-          "130.3025"
+          "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
+          "Yes, if the firearm failed before half the targets were engaged",
+          "Yes, if a replacement firearm is available",
+          "Yes, if the malfunction was the first one in that match"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "5.7.5",
         "id": "24a2902d339963fb"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 2 shots before a mandatory reload point, 4 shots after it without reloading, and 2 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "8.3.2",
+        "prompt": "The Range Officer asks “Are You Ready?” The competitor has not settled into the required start position and needs more time. What should they say?",
+        "correct": "Not Ready",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Not Ready",
+          "Standby",
+          "Stop",
+          "Range Is Clear"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "8.3.2",
         "id": "a63d7cb694c1e4e7"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "2",
+        "rule": "8.3.3",
+        "prompt": "You are operating the timer as the Range Officer. How long after saying “Standby” should the start signal sound?",
+        "correct": "1 to 4 seconds",
         "options": [
-          "2",
-          "1",
-          "3",
-          "4"
+          "1 to 4 seconds",
+          "1 to 2 seconds",
+          "2 to 5 seconds",
+          "3 to 6 seconds"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "8.3.3",
         "id": "d4412d59638309cc"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 12 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "120 points",
+        "rule": "8.3.4",
+        "prompt": "The timer beeps, but the competitor does not react. The Range Officer confirms the competitor is ready. Which command restarts the sequence?",
+        "correct": "Are You Ready?",
         "options": [
-          "120 points",
-          "100 points",
-          "110 points",
-          "130 points"
+          "Are You Ready?",
+          "Make Ready",
+          "Standby",
+          "If You Are Finished, Unload And Show Clear"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "8.3.4",
         "id": "2da427e627a18668"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 3 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "8.6.1",
+        "prompt": "During a run, an assigned Range Officer gives a safety warning. The competitor asks for a reshoot solely because of the warning. Is that a valid reason?",
+        "correct": "No, the safety warning alone does not justify a reshoot",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "No, the safety warning alone does not justify a reshoot",
+          "Yes, whenever a warning is given after the start signal",
+          "Yes, if the warning was audible to the squad",
+          "Yes, if the competitor took action in response to the warning"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "8.6.1",
         "id": "21bc41077313a1fb"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:27. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:27",
+        "rule": "8.6.2",
+        "prompt": "A squad member calls out a missed target during the run without Range Officer approval. The competitor hears and uses the help. Who may receive a procedural penalty?",
+        "correct": "Both the person who gave the help and the competitor",
         "options": [
-          "12:27",
-          "12:12",
-          "12:42",
-          "12:57"
+          "Both the person who gave the help and the competitor",
+          "Only the person who gave the help",
+          "Only the competitor",
+          "Neither person if the target was then hit"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "8.6.2",
         "id": "8b94d01c354e3638"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:33, but were actually posted at 14:45. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:45",
+        "rule": "8.6.3",
+        "prompt": "A spectator shouts to distract a competitor mid-stage. The Range Officer believes this significantly affected the run. Who decides whether to offer a reshoot for that interference?",
+        "correct": "Range Master",
         "options": [
-          "15:45",
-          "15:30",
-          "16:00",
-          "16:15"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "8.6.3",
         "id": "7aba270f1596c966"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$139. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$100",
+        "rule": "8.6.4",
+        "prompt": "The Range Officer accidentally bumps a competitor during the run and offers a reshoot. When must the competitor decide whether to take it?",
+        "correct": "Before seeing either the time or the score",
         "options": [
-          "US$100",
-          "US$139",
-          "US$95",
-          "US$105"
+          "Before seeing either the time or the score",
+          "After seeing the time but before seeing the score",
+          "After seeing the score but before seeing the time",
+          "After seeing both, but before signing the score sheet"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "8.6.4",
         "id": "5bb2c4fc1e28915c"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "40 points",
+        "rule": "9.1.2",
+        "prompt": "While a paper target is being scored, the competitor’s delegate wants to touch the target to inspect a hole. What must the delegate do first?",
+        "correct": "Obtain the Range Officer’s permission",
         "options": [
-          "40 points",
-          "30 points",
-          "45 points",
-          "50 points"
+          "Obtain the Range Officer’s permission",
+          "Ask the competitor to confirm the hit",
+          "Ask the target patcher for permission",
+          "Wait until the time is entered, then touch it without asking"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "9.1.2",
         "id": "2ce804cf7d3c65a5"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 4 non-disappearing scoring targets completely unengaged. They engage the other 11 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "4",
+        "rule": "9.1.6.1",
+        "prompt": "The Range Officer identifies a hit on a paper scoring target made by a shot that passed entirely through hard cover. How should that identified hit be scored?",
+        "correct": "Ignore the hit",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Ignore the hit",
+          "Award its normal zone value",
+          "Award the lowest zone value",
+          "Treat the hit as a no-shoot penalty"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "9.1.6.1",
         "id": "6a197c545df016c0"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 16 shots and gains a significant advantage. From that position a maximum of 11 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "11",
+        "rule": "9.5.3",
+        "prompt": "A paper scoring target overlaps a paper no-shoot. The diameter of a hit touches the scoring area of both. What should be recorded for that hit?",
+        "correct": "The applicable scoring hit and no-shoot penalty",
         "options": [
-          "11",
-          "10",
-          "12",
-          "13"
+          "The applicable scoring hit and no-shoot penalty",
+          "The scoring hit only",
+          "The no-shoot penalty only",
+          "Neither the scoring hit nor the no-shoot penalty"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "9.5.3",
         "id": "ee190b22289ebab1"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:51 on Saturday. The Match Director will declare the results final at 13:11 on Sunday. What deadline applies to the committee’s decision?",
-        "correct": "By 12:51 on Sunday",
+        "rule": "9.5.4",
+        "prompt": "A hit hole sits entirely in the lower-value zone. A tear extends from the hole into the higher-value zone, but the hole itself does not touch the scoring line. Which value counts?",
+        "correct": "The lower zone value",
         "options": [
-          "By 12:51 on Sunday",
-          "Before 13:11 on Sunday",
-          "By 12:31 on Sunday",
-          "By 12:51 on Monday"
+          "The lower zone value",
+          "The higher zone value",
+          "Both zone values",
+          "Neither zone value"
         ],
-        "note": "The 24-hour deadline arrives before the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.5.4",
         "id": "87475e17dc3ff41f"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 85 target points, receives 20 penalty points and finishes in 7.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "9.2857",
+        "rule": "9.5.5",
+        "prompt": "A competitor’s penalties exceed their scoring points on a stage. What is the lowest stage score that can be recorded?",
+        "correct": "Zero",
         "options": [
-          "9.2857",
-          "12.1429",
-          "10.7143",
-          "15.0000"
+          "Zero",
+          "Minus the amount by which penalties exceeded points",
+          "Minus 10 points",
+          "The lowest positive stage score in the division"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "9.5.5",
         "id": "b85cb293f700cca4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 140-point stage is won with a hit factor of 9. A competitor records a hit factor of 7.2. How many stage points does the competitor earn?",
-        "correct": "112.00",
+        "rule": "9.6.5",
+        "prompt": "The Range Officer has scored a disputed paper hit as C and upholds that call. The target is still available. Who should the competitor ask next for a ruling?",
+        "correct": "Chief Range Officer",
         "options": [
-          "112.00",
-          "110.00",
-          "111.00",
-          "113.00"
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director",
+          "Arbitration Committee"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "9.6.5",
         "id": "80da1262251a8622"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 51.2750, 34.6425 and 49.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "135.3025",
+        "rule": "9.6.6",
+        "prompt": "The Range Master rules that a disputed hit touched the no-shoot scoring area. Can the competitor appeal that hit-scoring decision further?",
+        "correct": "No, the Range Master’s ruling on the hit is final",
         "options": [
-          "135.3025",
-          "135.4025",
-          "135.2025",
-          "136.3025"
+          "No, the Range Master’s ruling on the hit is final",
+          "Yes, to the Arbitration Committee",
+          "Yes, to the Match Director",
+          "Yes, to the Stats Officer when provisional results are posted"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "9.6.6",
         "id": "dc93ed95ac38a11e"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 3 shots before a mandatory reload point, 4 shots after it without reloading, and 3 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "9.6.7",
+        "prompt": "A paper target is under a scoring challenge. A patcher is about to cover the disputed hole. What should happen?",
+        "correct": "Keep the target untouched until the challenge is settled",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Keep the target untouched until the challenge is settled",
+          "Patch only the disputed hole after photographing it",
+          "Patch the whole target after recording the Range Officer’s first call",
+          "Patch the target once the competitor has seen the hole"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "9.6.7",
         "id": "ff81f0ebb90fa7fe"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "9.6.7",
+        "prompt": "The Range Officer removes a disputed paper target so the squad can continue. Who must sign the target and mark which hits are disputed?",
+        "correct": "The competitor and the Range Officer",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor and the Range Officer",
+          "The Range Officer and the Chief Range Officer",
+          "The competitor and the Stats Officer",
+          "The Range Officer and the Match Director"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "9.6.7",
         "id": "a69a26a0962324c0"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 13 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "130 points",
+        "rule": "9.6.8",
+        "prompt": "A hit lies close to a scoring line and an overlay is needed. Which overlay may the official use?",
+        "correct": "An overlay approved by the Range Master",
         "options": [
-          "130 points",
-          "110 points",
-          "120 points",
-          "140 points"
+          "An overlay approved by the Range Master",
+          "Any overlay supplied by the competitor",
+          "Any overlay of the right calibre, regardless of approval",
+          "An overlay approved only by the squad leader"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "9.6.8",
         "id": "f2b4498c35093061"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 4 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "4",
+        "rule": "9.7.1",
+        "prompt": "You are checking the score sheet before signing it. The official elapsed time is 16.20 seconds. How should that time be recorded?",
+        "correct": "16.20 seconds",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "16.20 seconds",
+          "16.2 seconds",
+          "16 seconds",
+          "16.200 seconds"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "9.7.1",
         "id": "bcbc115517493d04"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:50. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:50",
+        "rule": "9.7.2",
+        "prompt": "Before signing a paper score sheet, the competitor and Range Officer agree that the recorded hits need correcting. What should they do?",
+        "correct": "Enter the correction on the original and copies and both initial it",
         "options": [
-          "12:50",
-          "12:35",
-          "13:05",
-          "13:20"
+          "Enter the correction on the original and copies and both initial it",
+          "Change only the original and have only the Range Officer initial it",
+          "Change only the competitor’s copy and both initial it",
+          "Change the copies without initialling the correction"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "9.7.2",
         "id": "5fa6865654c74be5"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:50, but were actually posted at 15:03. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "16:03",
+        "rule": "9.7.3",
+        "prompt": "A competitor refuses to sign a score sheet. Who reviews the matter before deciding whether the unsigned sheet may be submitted?",
+        "correct": "Range Master",
         "options": [
-          "16:03",
-          "15:48",
-          "16:18",
-          "16:33"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "9.7.3",
         "id": "2bb26fd96d3d99e0"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$78. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$78",
+        "rule": "9.10.1",
+        "prompt": "The Range Officer confirms the official timing equipment is faulty. No accurate elapsed time can be assigned to the run. What must happen?",
+        "correct": "The competitor must reshoot",
         "options": [
-          "US$78",
-          "US$100",
-          "US$73",
-          "US$83"
+          "The competitor must reshoot",
+          "Use a spectator’s stopwatch time",
+          "Use the average time of the squad",
+          "Keep the target points and record no time"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "9.10.1",
         "id": "b0c07a4dded3ae57"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "10.1.3",
+        "prompt": "A competitor challenges the number of procedural penalties, and the Chief Range Officer and Range Master have considered the matter. Which avenue remains if the competitor is still dissatisfied?",
+        "correct": "Arbitration",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Arbitration",
+          "A fresh ruling by the Stats Officer",
+          "A new scoring decision by the squad leader",
+          "A tiebreaker stage"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "10.1.3",
         "id": "b8d2a9da680ff132"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 5 non-disappearing scoring targets completely unengaged. They engage the other 12 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "5",
+        "rule": "10.3.1",
+        "prompt": "A competitor has been disqualified for a safety violation and is waiting for an arbitration decision. Can they shoot the remaining stages in the meantime?",
+        "correct": "No, they may not shoot the remaining stages while the appeal is pending",
         "options": [
-          "5",
-          "4",
-          "6",
-          "7"
+          "No, they may not shoot the remaining stages while the appeal is pending",
+          "Yes, but only on stages in a different bay",
+          "Yes, if the remaining scores are marked provisional",
+          "Yes, if a Range Officer supervises their remaining attempts"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "10.3.1",
         "id": "6027dec45b5000f3"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 17 shots and gains a significant advantage. From that position a maximum of 12 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "12",
+        "rule": "2.4.4",
+        "prompt": "At a Safety Area, a competitor takes out a loaded magazine to check it. Is that permitted there?",
+        "correct": "No, a loaded magazine may not be handled in the Safety Area",
         "options": [
-          "12",
-          "11",
-          "13",
-          "14"
+          "No, a loaded magazine may not be handled in the Safety Area",
+          "Yes, provided it stays separate from the firearm",
+          "Yes, if it is pointed toward the designated safe direction",
+          "Yes, if no ammunition or projectiles are removed from it"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "2.4.4",
         "id": "8ba2c28d0727460d"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 13:10 on Saturday. Final results are scheduled to be declared at 12:50 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:50 on Sunday",
+        "rule": "9.8.1",
+        "prompt": "Provisional results are posted. Who is responsible for checking that a competitor’s own scores are recorded accurately?",
+        "correct": "The competitor",
         "options": [
-          "Before 12:50 on Sunday",
-          "By 13:10 on Sunday",
-          "By 13:30 on Sunday",
-          "Before 12:50 on Monday"
+          "The competitor",
+          "The squad leader",
+          "The Range Officer from the final stage",
+          "The Match Director"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.8.1",
         "id": "75069bcdc82cd29e"
       }
     ]
@@ -24319,7 +24319,7 @@ const disciplines = [
       },
       {
         "rule": "2.1.3",
-        "prompt": "While rigid targets are being shot, what minimum distance must be maintained?",
+        "prompt": "You are checking the stage layout. Where rigid targets will be shot, what minimum distance must be maintained while they are being shot?",
         "correct": "2 m",
         "options": [
           "2 m",
@@ -24417,7 +24417,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.2",
-        "prompt": "To how many decimal places are individual stage points calculated for stage ranking?",
+        "prompt": "Two competitors are very close on a stage. To how many decimal places are their stage points calculated for ranking?",
         "correct": "4",
         "options": [
           "4",
@@ -24431,7 +24431,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Who sets the duration of the squad’s stage walkthrough?",
+        "prompt": "A squad wants extra walkthrough time before its first run. Who sets the walkthrough duration?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -24445,7 +24445,7 @@ const disciplines = [
       },
       {
         "rule": "3.2.4",
-        "prompt": "Moving targets are demonstrated during walkthroughs. What must be consistent across competitors?",
+        "prompt": "Two squads are shown the same moving target during their walkthroughs. What should be the same about the demonstrations?",
         "correct": "Both duration and frequency",
         "options": [
           "Both duration and frequency",
@@ -24501,7 +24501,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.1",
-        "prompt": "Who declares a competitor’s time, scores and penalties on the stage and verifies they are recorded correctly?",
+        "prompt": "The run is over and the score sheet is open. Which official announces the competitor’s time, score and penalties and checks the entries?",
         "correct": "Range Officer",
         "options": [
           "Range Officer",
@@ -24515,7 +24515,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.2",
-        "prompt": "Which official has primary authority over the courses of fire specifically assigned to them, under the Range Master?",
+        "prompt": "Two squads report that a stage is being run differently in the same bay. Which official has primary authority over that stage under the Range Master?",
         "correct": "Chief Range Officer",
         "options": [
           "Chief Range Officer",
@@ -24529,7 +24529,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.3",
-        "prompt": "Who supervises the team that processes score sheets and produces provisional and final results?",
+        "prompt": "Score sheets have been submitted and the provisional results are being prepared. Which official supervises the team processing them?",
         "correct": "Stats Officer",
         "options": [
           "Stats Officer",
@@ -24543,7 +24543,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.4",
-        "prompt": "Who is responsible for distributing and maintaining targets, timers and other range equipment?",
+        "prompt": "The stage crew runs out of target patches and a timer needs replacing. Which official is responsible for supplying and maintaining that equipment?",
         "correct": "Quartermaster",
         "options": [
           "Quartermaster",
@@ -24557,7 +24557,7 @@ const disciplines = [
       },
       {
         "rule": "7.1.5",
-        "prompt": "Which official has overall authority for range safety and rule application across the entire match range?",
+        "prompt": "A safety issue affects several bays and requires a match-wide ruling. Which official has overall authority across the range?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -24655,7 +24655,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Under Comstock, which calculation produces a hit factor?",
+        "prompt": "You have the target points, penalty points and elapsed time for a Comstock run. In what order do you use them to calculate hit factor?",
         "correct": "Target points minus penalties, then divide by time",
         "options": [
           "Target points minus penalties, then divide by time",
@@ -24669,7 +24669,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.1.1",
-        "prompt": "Which competitor receives the maximum stage points available under Comstock?",
+        "prompt": "One competitor shoots the fastest time and another records the highest hit factor. Who gets the full stage points under Comstock?",
         "correct": "The competitor with the highest hit factor",
         "options": [
           "The competitor with the highest hit factor",
@@ -24683,7 +24683,7 @@ const disciplines = [
       },
       {
         "rule": "9.2.3",
-        "prompt": "Which quantity determines the final ranking within a Division?",
+        "prompt": "You are checking the final standings after the last stage. Which total determines each competitor’s ranking within their division?",
         "correct": "The sum of individual stage points",
         "options": [
           "The sum of individual stage points",
@@ -24767,7 +24767,7 @@ const disciplines = [
       },
       {
         "rule": "9.7.4",
-        "prompt": "A score sheet is signed by both the competitor and Range Officer. With no mutual consent and no arbitration decision, which change is explicitly permitted?",
+        "prompt": "Both the competitor and the Range Officer have signed. They have not agreed to a change, and there is no arbitration decision. Which of these corrections can still be made?",
         "correct": "Correcting an arithmetic error",
         "options": [
           "Correcting an arithmetic error",
@@ -24893,7 +24893,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.1",
-        "prompt": "What must be recorded for procedural penalties on the score sheet?",
+        "prompt": "A Range Officer assesses three procedurals for a stage procedure breach. What must be written on the score sheet about those penalties?",
         "correct": "Both the number and the reason",
         "options": [
           "Both the number and the reason",
@@ -24907,7 +24907,7 @@ const disciplines = [
       },
       {
         "rule": "10.1.4",
-        "prompt": "A competitor fires while faulting a line, then fires at the same target from inside the line. What happens to the original applicable fault penalty?",
+        "prompt": "A competitor fires while touching the ground beyond a fault line, then shoots the same target again from inside the line. What happens to the original fault penalty?",
         "correct": "It still applies",
         "options": [
           "It still applies",
@@ -24935,7 +24935,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.2",
-        "prompt": "A competitor ignores a written stage procedure and gains a significant advantage. What penalty basis may apply in place of a single penalty for the occurrence?",
+        "prompt": "A competitor shoots from standing where the written briefing requires kneeling and gains a significant advantage. How may the procedural penalties be counted?",
         "correct": "One per shot fired during the breach, subject to the applicable cap",
         "options": [
           "One per shot fired during the breach, subject to the applicable cap",
@@ -24977,7 +24977,7 @@ const disciplines = [
       },
       {
         "rule": "10.3.2",
-        "prompt": "After issuing a disqualification, who must be notified as soon as possible?",
+        "prompt": "A Range Officer has just disqualified a competitor. Who must be notified as soon as possible?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -25005,7 +25005,7 @@ const disciplines = [
       },
       {
         "rule": "11.3.2",
-        "prompt": "When must the Arbitration Committee reach its decision?",
+        "prompt": "The arbitration request has been filed, and the Match Director plans to declare the results final soon. Which deadline governs the committee’s decision?",
         "correct": "Within 24 hours of the request or before final results are declared, whichever comes first",
         "options": [
           "Within 24 hours of the request or before final results are declared, whichever comes first",
@@ -25033,7 +25033,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.2",
-        "prompt": "Who implements and posts the Arbitration Committee’s decision?",
+        "prompt": "The Arbitration Committee has issued its decision. Which official puts it into effect and posts it for competitors?",
         "correct": "Range Master",
         "options": [
           "Range Master",
@@ -25047,7 +25047,7 @@ const disciplines = [
       },
       {
         "rule": "11.6.4",
-        "prompt": "For what can a recorded Arbitration Committee decision serve as precedent?",
+        "prompt": "The same issue comes up again later in the match after an arbitration decision has been recorded. When can that decision be used as precedent?",
         "correct": "A similar subsequent incident at the same match",
         "options": [
           "A similar subsequent incident at the same match",
@@ -25061,7 +25061,7 @@ const disciplines = [
       },
       {
         "rule": "11.7.1",
-        "prompt": "May someone other than the competitor involved submit an appeal on a third-party basis?",
+        "prompt": "A competitor witnesses an incident involving someone else and wants to submit an appeal. Can the competitor appeal as a third party?",
         "correct": "Yes, under the same Chapter 11 provisions",
         "options": [
           "Yes, under the same Chapter 11 provisions",
@@ -25187,7 +25187,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -25243,7 +25243,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:00, but were actually posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:00, but they were posted at 12:11. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:11",
         "options": [
           "13:11",
@@ -25271,7 +25271,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "20 points",
         "options": [
           "20 points",
@@ -25299,7 +25299,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 7 shots and gains a significant advantage. From that position a maximum of 2 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "2",
         "options": [
           "2",
@@ -25383,7 +25383,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -25439,7 +25439,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:17, but were actually posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:17, but they were posted at 12:29. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:29",
         "options": [
           "13:29",
@@ -25467,7 +25467,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -25495,7 +25495,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 8 shots and gains a significant advantage. From that position a maximum of 3 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "3",
         "options": [
           "3",
@@ -25579,7 +25579,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -25635,7 +25635,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:34, but were actually posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:34, but they were posted at 12:47. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "13:47",
         "options": [
           "13:47",
@@ -25663,7 +25663,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 1 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 1 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -25691,7 +25691,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 9 shots and gains a significant advantage. From that position a maximum of 4 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "4",
         "options": [
           "4",
@@ -25775,7 +25775,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 1. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 1. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -25831,7 +25831,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 12:51, but were actually posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 12:51, but they were posted at 13:05. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:05",
         "options": [
           "14:05",
@@ -25859,7 +25859,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "30 points",
         "options": [
           "30 points",
@@ -25887,7 +25887,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 10 shots and gains a significant advantage. From that position a maximum of 5 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "5",
         "options": [
           "5",
@@ -25971,7 +25971,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -26027,7 +26027,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:08, but were actually posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:08, but they were posted at 13:19. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:19",
         "options": [
           "14:19",
@@ -26055,7 +26055,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -26083,7 +26083,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 11 shots and gains a significant advantage. From that position a maximum of 6 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "6",
         "options": [
           "6",
@@ -26167,7 +26167,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 2 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "2",
         "options": [
           "2",
@@ -26223,7 +26223,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:25, but were actually posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:25, but they were posted at 13:37. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:37",
         "options": [
           "14:37",
@@ -26251,7 +26251,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 2 and 0 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 3, 2 and 0 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -26279,7 +26279,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 12 shots and gains a significant advantage. From that position a maximum of 7 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "7",
         "options": [
           "7",
@@ -26363,7 +26363,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 3 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "3",
         "options": [
           "3",
@@ -26419,7 +26419,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:42, but were actually posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:42, but they were posted at 13:55. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "14:55",
         "options": [
           "14:55",
@@ -26447,7 +26447,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 1, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "40 points",
         "options": [
           "40 points",
@@ -26475,7 +26475,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 13 shots and gains a significant advantage. From that position a maximum of 8 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "8",
         "options": [
           "8",
@@ -26559,7 +26559,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 4 pieces. Bumping an upright drops another 2. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 4 pieces. They then bump an upright, dislodging another 2. How many procedural penalties apply?",
         "correct": "4",
         "options": [
           "4",
@@ -26615,7 +26615,7 @@ const disciplines = [
       },
       {
         "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 13:59, but were actually posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
+        "prompt": "The provisional results were printed at 13:59, but they were posted at 14:13. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
         "correct": "15:13",
         "options": [
           "15:13",
@@ -26643,7 +26643,7 @@ const disciplines = [
       },
       {
         "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
+        "prompt": "Three paper no-shoots have 2, 3 and 1 hits in their scoring areas, respectively. What is the total penalty in points?",
         "correct": "50 points",
         "options": [
           "50 points",
@@ -26671,7 +26671,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
+        "prompt": "While shooting while touching the ground beyond a fault line, a competitor fires 14 shots and gains a significant advantage. From that position a maximum of 9 scoring hits can be attained. What is the maximum number of procedural penalties for that fault?",
         "correct": "9",
         "options": [
           "9",
@@ -26755,7 +26755,7 @@ const disciplines = [
       },
       {
         "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 1 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
+        "prompt": "In a Cooper Tunnel, the competitor touches the overhead material and dislodges 1 pieces. They then bump an upright, dislodging another 3. How many procedural penalties apply?",
         "correct": "1",
         "options": [
           "1",
@@ -26796,493 +26796,493 @@ const disciplines = [
         "id": "0fdc8b40955167f4"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:04. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:04",
+        "rule": "3.2.1",
+        "prompt": "The online stage preview says to start seated. The written stage briefing approved by the Range Master and posted at the stage says to start standing. Which start position applies?",
+        "correct": "Standing, as specified in the posted briefing",
         "options": [
-          "12:04",
-          "11:49",
-          "12:19",
-          "12:34"
+          "Standing, as specified in the posted briefing",
+          "Seated, because the preview was published first",
+          "Either position, if used consistently within the squad",
+          "The position used by the first competitor"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "3.2.1",
         "id": "74c72e17cf94ace9"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:16, but were actually posted at 14:27. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:27",
+        "rule": "3.2.2",
+        "prompt": "The Range Officer has read out the briefing but has not shown the start position. A competitor asks to see it. What should the Range Officer do?",
+        "correct": "Show the acceptable position in person or using a picture",
         "options": [
-          "15:27",
-          "15:12",
-          "15:42",
-          "15:57"
+          "Show the acceptable position in person or using a picture",
+          "Show it only at Level III or above",
+          "Repeat the text without showing the position",
+          "Let the first competitor decide what the position looks like"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "3.2.2",
         "id": "7218042e14ad7648"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$74. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$74",
+        "rule": "2.2.1.5",
+        "prompt": "On a clearly marked path between shooting positions, a competitor takes a shortcut outside the markings. They fire twice after re-entering the path. How many procedural penalties apply for the shortcut?",
+        "correct": "Two",
         "options": [
-          "US$74",
-          "US$100",
-          "US$69",
-          "US$79"
+          "Two",
+          "One",
+          "Zero",
+          "Three"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "2.2.1.5",
         "id": "84a17151ec6235aa"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 3, 3 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "4.7.1",
+        "prompt": "A moving target activates early because its latch fails before the competitor operates it. How should the latch failure be classified?",
+        "correct": "Range equipment failure",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Range equipment failure",
+          "A competitor equipment malfunction",
+          "A failure to engage the target",
+          "A breach of the start position"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "4.7.1",
         "id": "9362ece878e6df51"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 3 non-disappearing scoring targets completely unengaged. They engage the other 10 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "3",
+        "rule": "4.7.2",
+        "prompt": "A moving target was left unset after the previous competitor. The Range Officer discovers this during the next attempt. What must happen after the target is reset?",
+        "correct": "The competitor must reshoot the entire stage",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor must reshoot the entire stage",
+          "The competitor must shoot only the affected target",
+          "The competitor can choose whether to keep the first run",
+          "The first run stands and the affected target is removed from scoring"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "4.7.2",
         "id": "f187f41432c19f9e"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 15 shots and gains a significant advantage. From that position a maximum of 10 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "10",
+        "rule": "4.7.2",
+        "prompt": "A stage prop breaks and prevents the competitor from completing the stage. The Range Officer confirms range equipment failure. What is the remedy?",
+        "correct": "Repair the prop and require a full reshoot",
         "options": [
-          "10",
-          "9",
-          "11",
-          "12"
+          "Repair the prop and require a full reshoot",
+          "Repair the prop and restart from where the competitor stopped",
+          "Keep the score and ignore any targets that could not be shot",
+          "Keep the score and remove the misses for those targets"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "4.7.2",
         "id": "1d0b8f7c31502eb7"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:32 on Saturday. Final results are scheduled to be declared at 12:12 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:12 on Sunday",
+        "rule": "5.4.3",
+        "prompt": "During a run, the Range Officer sees the competitor’s safety glasses fall off. What should the Range Officer do?",
+        "correct": "Stop the competitor immediately and require a reshoot once eye protection is restored",
         "options": [
-          "Before 12:12 on Sunday",
-          "By 12:32 on Sunday",
-          "By 12:52 on Sunday",
-          "Before 12:12 on Monday"
+          "Stop the competitor immediately and require a reshoot once eye protection is restored",
+          "Let the competitor finish and then offer a reshoot",
+          "Pause the timer and resume the same run after the glasses are restored",
+          "Stop the competitor and score the run as shot"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "5.4.3",
         "id": "0a04767b90011120"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 80 target points, receives 10 penalty points and finishes in 6.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "11.6667",
+        "rule": "5.4.4",
+        "prompt": "A competitor notices that their safety glasses have slipped off during the run. What can the competitor do?",
+        "correct": "Stop, point the firearm safely and tell the Range Officer",
         "options": [
-          "11.6667",
-          "13.3333",
-          "12.5000",
-          "15.0000"
+          "Stop, point the firearm safely and tell the Range Officer",
+          "Continue and ask for a reshoot after seeing the score",
+          "Pause, restore the glasses and resume the same attempt",
+          "Move to the next position before reporting the problem"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "5.4.4",
         "id": "0a8487a56defd7d4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 130-point stage is won with a hit factor of 8. A competitor records a hit factor of 6.00. How many stage points does the competitor earn?",
-        "correct": "97.50",
+        "rule": "5.4.5",
+        "prompt": "A competitor deliberately removes their safety glasses to get another attempt after a poor run. How is that conduct treated?",
+        "correct": "As unsportsmanlike conduct",
         "options": [
-          "97.50",
-          "95.50",
-          "96.50",
-          "98.50"
+          "As unsportsmanlike conduct",
+          "As accidental loss of eye protection",
+          "As range equipment failure",
+          "As a start-position violation"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "5.4.5",
         "id": "581a8fb3529e434e"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 49.2750, 33.6425 and 46.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "129.3025",
+        "rule": "5.7.5",
+        "prompt": "A competitor’s own Action Air gun malfunctions during a run and cannot be put back into service. The Range Officer confirms there was no range equipment failure. Is a reshoot allowed for the malfunction?",
+        "correct": "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
         "options": [
-          "129.3025",
-          "129.4025",
-          "129.2025",
-          "130.3025"
+          "No, the competitor’s own firearm malfunction does not entitle them to a reshoot",
+          "Yes, if the firearm failed before half the targets were engaged",
+          "Yes, if a replacement firearm is available",
+          "Yes, if the malfunction was the first one in that match"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "5.7.5",
         "id": "24a2902d339963fb"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 2 shots before a mandatory reload point, 4 shots after it without reloading, and 2 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "8.3.2",
+        "prompt": "The Range Officer asks “Are You Ready?” The competitor has not settled into the required start position and needs more time. What should they say?",
+        "correct": "Not Ready",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Not Ready",
+          "Standby",
+          "Stop",
+          "Range Is Clear"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "8.3.2",
         "id": "a63d7cb694c1e4e7"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 2 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "2",
+        "rule": "8.3.3",
+        "prompt": "You are operating the timer as the Range Officer. How long after saying “Standby” should the start signal sound?",
+        "correct": "1 to 4 seconds",
         "options": [
-          "2",
-          "1",
-          "3",
-          "4"
+          "1 to 4 seconds",
+          "1 to 2 seconds",
+          "2 to 5 seconds",
+          "3 to 6 seconds"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "8.3.3",
         "id": "d4412d59638309cc"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 12 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "120 points",
+        "rule": "8.3.4",
+        "prompt": "The timer beeps, but the competitor does not react. The Range Officer confirms the competitor is ready. Which command restarts the sequence?",
+        "correct": "Are You Ready?",
         "options": [
-          "120 points",
-          "100 points",
-          "110 points",
-          "130 points"
+          "Are You Ready?",
+          "Make Ready",
+          "Standby",
+          "If You Are Finished, Unload And Show Clear"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "8.3.4",
         "id": "2da427e627a18668"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 3 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "8.6.1",
+        "prompt": "During a run, an assigned Range Officer gives a safety warning. The competitor asks for a reshoot solely because of the warning. Is that a valid reason?",
+        "correct": "No, the safety warning alone does not justify a reshoot",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "No, the safety warning alone does not justify a reshoot",
+          "Yes, whenever a warning is given after the start signal",
+          "Yes, if the warning was audible to the squad",
+          "Yes, if the competitor took action in response to the warning"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "8.6.1",
         "id": "21bc41077313a1fb"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:27. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:27",
+        "rule": "8.6.2",
+        "prompt": "A squad member calls out a missed target during the run without Range Officer approval. The competitor hears and uses the help. Who may receive a procedural penalty?",
+        "correct": "Both the person who gave the help and the competitor",
         "options": [
-          "12:27",
-          "12:12",
-          "12:42",
-          "12:57"
+          "Both the person who gave the help and the competitor",
+          "Only the person who gave the help",
+          "Only the competitor",
+          "Neither person if the target was then hit"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "8.6.2",
         "id": "8b94d01c354e3638"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:33, but were actually posted at 14:45. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "15:45",
+        "rule": "8.6.3",
+        "prompt": "A spectator shouts to distract a competitor mid-stage. The Range Officer believes this significantly affected the run. Who decides whether to offer a reshoot for that interference?",
+        "correct": "Range Master",
         "options": [
-          "15:45",
-          "15:30",
-          "16:00",
-          "16:15"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "8.6.3",
         "id": "7aba270f1596c966"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$139. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$100",
+        "rule": "8.6.4",
+        "prompt": "The Range Officer accidentally bumps a competitor during the run and offers a reshoot. When must the competitor decide whether to take it?",
+        "correct": "Before seeing either the time or the score",
         "options": [
-          "US$100",
-          "US$139",
-          "US$95",
-          "US$105"
+          "Before seeing either the time or the score",
+          "After seeing the time but before seeing the score",
+          "After seeing the score but before seeing the time",
+          "After seeing both, but before signing the score sheet"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "8.6.4",
         "id": "5bb2c4fc1e28915c"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 1, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "40 points",
+        "rule": "9.1.2",
+        "prompt": "While a paper target is being scored, the competitor’s delegate wants to touch the target to inspect a hole. What must the delegate do first?",
+        "correct": "Obtain the Range Officer’s permission",
         "options": [
-          "40 points",
-          "30 points",
-          "45 points",
-          "50 points"
+          "Obtain the Range Officer’s permission",
+          "Ask the competitor to confirm the hit",
+          "Ask the target patcher for permission",
+          "Wait until the time is entered, then touch it without asking"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "9.1.2",
         "id": "2ce804cf7d3c65a5"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 4 non-disappearing scoring targets completely unengaged. They engage the other 11 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "4",
+        "rule": "9.1.6.1",
+        "prompt": "The Range Officer identifies a hit on a paper scoring target made by a shot that passed entirely through hard cover. How should that identified hit be scored?",
+        "correct": "Ignore the hit",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Ignore the hit",
+          "Award its normal zone value",
+          "Award the lowest zone value",
+          "Treat the hit as a no-shoot penalty"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "9.1.6.1",
         "id": "6a197c545df016c0"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 16 shots and gains a significant advantage. From that position a maximum of 11 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "11",
+        "rule": "9.5.3",
+        "prompt": "A paper scoring target overlaps a paper no-shoot. The diameter of a hit touches the scoring area of both. What should be recorded for that hit?",
+        "correct": "The applicable scoring hit and no-shoot penalty",
         "options": [
-          "11",
-          "10",
-          "12",
-          "13"
+          "The applicable scoring hit and no-shoot penalty",
+          "The scoring hit only",
+          "The no-shoot penalty only",
+          "Neither the scoring hit nor the no-shoot penalty"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "9.5.3",
         "id": "ee190b22289ebab1"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 12:51 on Saturday. The Match Director will declare the results final at 13:11 on Sunday. What deadline applies to the committee’s decision?",
-        "correct": "By 12:51 on Sunday",
+        "rule": "9.5.4",
+        "prompt": "A hit hole sits entirely in the lower-value zone. A tear extends from the hole into the higher-value zone, but the hole itself does not touch the scoring line. Which value counts?",
+        "correct": "The lower zone value",
         "options": [
-          "By 12:51 on Sunday",
-          "Before 13:11 on Sunday",
-          "By 12:31 on Sunday",
-          "By 12:51 on Monday"
+          "The lower zone value",
+          "The higher zone value",
+          "Both zone values",
+          "Neither zone value"
         ],
-        "note": "The 24-hour deadline arrives before the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.5.4",
         "id": "87475e17dc3ff41f"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "Under Comstock, a competitor earns 85 target points, receives 20 penalty points and finishes in 7.00 seconds. What is the hit factor, rounded to four decimals?",
-        "correct": "9.2857",
+        "rule": "9.5.5",
+        "prompt": "A competitor’s penalties exceed their scoring points on a stage. What is the lowest stage score that can be recorded?",
+        "correct": "Zero",
         "options": [
-          "9.2857",
-          "12.1429",
-          "10.7143",
-          "15.0000"
+          "Zero",
+          "Minus the amount by which penalties exceeded points",
+          "Minus 10 points",
+          "The lowest positive stage score in the division"
         ],
-        "note": "Subtract penalties from target points before dividing by time.",
-        "family": "comstock-hit-factor",
+        "note": "",
+        "family": "9.5.5",
         "id": "b85cb293f700cca4"
       },
       {
-        "rule": "9.2.1.1",
-        "prompt": "A 140-point stage is won with a hit factor of 9. A competitor records a hit factor of 7.2. How many stage points does the competitor earn?",
-        "correct": "112.00",
+        "rule": "9.6.5",
+        "prompt": "The Range Officer has scored a disputed paper hit as C and upholds that call. The target is still available. Who should the competitor ask next for a ruling?",
+        "correct": "Chief Range Officer",
         "options": [
-          "112.00",
-          "110.00",
-          "111.00",
-          "113.00"
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director",
+          "Arbitration Committee"
         ],
-        "note": "Multiply the available stage points by the competitor’s hit factor divided by the winner’s hit factor.",
-        "family": "comstock-stage-points",
+        "note": "",
+        "family": "9.6.5",
         "id": "80da1262251a8622"
       },
       {
-        "rule": "9.2.3",
-        "prompt": "A competitor earns 51.2750, 34.6425 and 49.3850 stage points in the three stages of a match. What is the match total?",
-        "correct": "135.3025",
+        "rule": "9.6.6",
+        "prompt": "The Range Master rules that a disputed hit touched the no-shoot scoring area. Can the competitor appeal that hit-scoring decision further?",
+        "correct": "No, the Range Master’s ruling on the hit is final",
         "options": [
-          "135.3025",
-          "135.4025",
-          "135.2025",
-          "136.3025"
+          "No, the Range Master’s ruling on the hit is final",
+          "Yes, to the Arbitration Committee",
+          "Yes, to the Match Director",
+          "Yes, to the Stats Officer when provisional results are posted"
         ],
         "note": "",
-        "family": "match-total",
+        "family": "9.6.6",
         "id": "dc93ed95ac38a11e"
       },
       {
-        "rule": "10.2.4",
-        "prompt": "A competitor fires 3 shots before a mandatory reload point, 4 shots after it without reloading, and 3 shots after finally reloading. How many procedural penalties apply to the reload violation?",
-        "correct": "4",
+        "rule": "9.6.7",
+        "prompt": "A paper target is under a scoring challenge. A patcher is about to cover the disputed hole. What should happen?",
+        "correct": "Keep the target untouched until the challenge is settled",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "Keep the target untouched until the challenge is settled",
+          "Patch only the disputed hole after photographing it",
+          "Patch the whole target after recording the Range Officer’s first call",
+          "Patch the target once the competitor has seen the hole"
         ],
-        "note": "Count only shots after the required reload point and before the reload.",
-        "family": "10.2.4",
+        "note": "",
+        "family": "9.6.7",
         "id": "ff81f0ebb90fa7fe"
       },
       {
-        "rule": "10.2.5",
-        "prompt": "In a Cooper Tunnel, direct contact with the overhead material drops 3 pieces. Bumping an upright drops another 3. How many procedural penalties apply?",
-        "correct": "3",
+        "rule": "9.6.7",
+        "prompt": "The Range Officer removes a disputed paper target so the squad can continue. Who must sign the target and mark which hits are disputed?",
+        "correct": "The competitor and the Range Officer",
         "options": [
-          "3",
-          "2",
-          "4",
-          "5"
+          "The competitor and the Range Officer",
+          "The Range Officer and the Chief Range Officer",
+          "The competitor and the Stats Officer",
+          "The Range Officer and the Match Director"
         ],
-        "note": "Pieces that fall from striking an upright are exempt.",
-        "family": "10.2.5",
+        "note": "",
+        "family": "9.6.7",
         "id": "a69a26a0962324c0"
       },
       {
-        "rule": "10.1.2",
-        "prompt": "The Range Officer assesses 13 procedural penalties. What is the total point deduction for these penalties?",
-        "correct": "130 points",
+        "rule": "9.6.8",
+        "prompt": "A hit lies close to a scoring line and an overlay is needed. Which overlay may the official use?",
+        "correct": "An overlay approved by the Range Master",
         "options": [
-          "130 points",
-          "110 points",
-          "120 points",
-          "140 points"
+          "An overlay approved by the Range Master",
+          "Any overlay supplied by the competitor",
+          "Any overlay of the right calibre, regardless of approval",
+          "An overlay approved only by the squad leader"
         ],
         "note": "",
-        "family": "10.1.2",
+        "family": "9.6.8",
         "id": "f2b4498c35093061"
       },
       {
-        "rule": "10.2.1",
-        "prompt": "A competitor fires 4 shots on each of 4 separate Fault Line breaches, re-entering fully between breaches and gaining no significant advantage. How many procedural penalties apply?",
-        "correct": "4",
+        "rule": "9.7.1",
+        "prompt": "You are checking the score sheet before signing it. The official elapsed time is 16.20 seconds. How should that time be recorded?",
+        "correct": "16.20 seconds",
         "options": [
-          "4",
-          "3",
-          "5",
-          "6"
+          "16.20 seconds",
+          "16.2 seconds",
+          "16 seconds",
+          "16.200 seconds"
         ],
-        "note": "With no significant advantage, count the separate occurrences.",
-        "family": "10.2.1",
+        "note": "",
+        "family": "9.7.1",
         "id": "bcbc115517493d04"
       },
       {
-        "rule": "11.3.1",
-        "prompt": "Match Officials record a disputed call at 11:50. The competitor talks to the Chief Range Officer 15 minutes later. What is the deadline to submit a written arbitration appeal and fee to the Range Master?",
-        "correct": "12:50",
+        "rule": "9.7.2",
+        "prompt": "Before signing a paper score sheet, the competitor and Range Officer agree that the recorded hits need correcting. What should they do?",
+        "correct": "Enter the correction on the original and copies and both initial it",
         "options": [
-          "12:50",
-          "12:35",
-          "13:05",
-          "13:20"
+          "Enter the correction on the original and copies and both initial it",
+          "Change only the original and have only the Range Officer initial it",
+          "Change only the competitor’s copy and both initial it",
+          "Change the copies without initialling the correction"
         ],
         "note": "",
-        "family": "11.3.1",
+        "family": "9.7.2",
         "id": "5fa6865654c74be5"
       },
       {
-        "rule": "9.8.3",
-        "prompt": "The provisional results show a timestamp of 14:50, but were actually posted at 15:03. What is the deadline for a competitor to file a results appeal with the Stats Officer?",
-        "correct": "16:03",
+        "rule": "9.7.3",
+        "prompt": "A competitor refuses to sign a score sheet. Who reviews the matter before deciding whether the unsigned sheet may be submitted?",
+        "correct": "Range Master",
         "options": [
-          "16:03",
-          "15:48",
-          "16:18",
-          "16:33"
+          "Range Master",
+          "Chief Range Officer",
+          "Stats Officer",
+          "Match Director"
         ],
         "note": "",
-        "family": "9.8.3",
+        "family": "9.7.3",
         "id": "2bb26fd96d3d99e0"
       },
       {
-        "rule": "11.4.1",
-        "prompt": "At a Level III match the maximum individual entry fee is equivalent to US$78. What is the arbitration fee equivalent in local currency?",
-        "correct": "US$78",
+        "rule": "9.10.1",
+        "prompt": "The Range Officer confirms the official timing equipment is faulty. No accurate elapsed time can be assigned to the run. What must happen?",
+        "correct": "The competitor must reshoot",
         "options": [
-          "US$78",
-          "US$100",
-          "US$73",
-          "US$83"
+          "The competitor must reshoot",
+          "Use a spectator’s stopwatch time",
+          "Use the average time of the squad",
+          "Keep the target points and record no time"
         ],
-        "note": "Use the lower of US$100 and the maximum individual entry fee.",
-        "family": "11.4.1",
+        "note": "",
+        "family": "9.10.1",
         "id": "b0c07a4dded3ae57"
       },
       {
-        "rule": "9.4.2",
-        "prompt": "Three paper no-shoots show 2, 4 and 1 hits in their scoring areas, respectively. What is the combined point deduction?",
-        "correct": "50 points",
+        "rule": "10.1.3",
+        "prompt": "A competitor challenges the number of procedural penalties, and the Chief Range Officer and Range Master have considered the matter. Which avenue remains if the competitor is still dissatisfied?",
+        "correct": "Arbitration",
         "options": [
-          "50 points",
-          "40 points",
-          "55 points",
-          "60 points"
+          "Arbitration",
+          "A fresh ruling by the Stats Officer",
+          "A new scoring decision by the squad leader",
+          "A tiebreaker stage"
         ],
-        "note": "Count 10 points per hit, capped at two hits on each paper no-shoot.",
-        "family": "9.4.2",
+        "note": "",
+        "family": "10.1.3",
         "id": "b8d2a9da680ff132"
       },
       {
-        "rule": "10.2.7",
-        "prompt": "A competitor leaves 5 non-disappearing scoring targets completely unengaged. They engage the other 12 targets. Before adding any misses, how many failure-to-engage procedurals apply?",
-        "correct": "5",
+        "rule": "10.3.1",
+        "prompt": "A competitor has been disqualified for a safety violation and is waiting for an arbitration decision. Can they shoot the remaining stages in the meantime?",
+        "correct": "No, they may not shoot the remaining stages while the appeal is pending",
         "options": [
-          "5",
-          "4",
-          "6",
-          "7"
+          "No, they may not shoot the remaining stages while the appeal is pending",
+          "Yes, but only on stages in a different bay",
+          "Yes, if the remaining scores are marked provisional",
+          "Yes, if a Range Officer supervises their remaining attempts"
         ],
         "note": "",
-        "family": "10.2.7",
+        "family": "10.3.1",
         "id": "6027dec45b5000f3"
       },
       {
-        "rule": "10.2.3",
-        "prompt": "While faulting a line, a competitor fires 17 shots and gains a significant advantage. From that position a maximum of 12 scoring hits can be attained. What is the maximum number of procedurals for that fault?",
-        "correct": "12",
+        "rule": "2.4.4",
+        "prompt": "At a Safety Area, a competitor takes out a loaded magazine to check it. Is that permitted there?",
+        "correct": "No, a loaded magazine may not be handled in the Safety Area",
         "options": [
-          "12",
-          "11",
-          "13",
-          "14"
+          "No, a loaded magazine may not be handled in the Safety Area",
+          "Yes, provided it stays separate from the firearm",
+          "Yes, if it is pointed toward the designated safe direction",
+          "Yes, if no ammunition or projectiles are removed from it"
         ],
-        "note": "Multiple penalties for the fault are capped by the scoring hits attainable.",
-        "family": "10.2.3",
+        "note": "",
+        "family": "2.4.4",
         "id": "8ba2c28d0727460d"
       },
       {
-        "rule": "11.3.2",
-        "prompt": "The Arbitration Committee receives a request at 13:10 on Saturday. Final results are scheduled to be declared at 12:50 on Sunday. What is the latest time the committee may rule under that schedule?",
-        "correct": "Before 12:50 on Sunday",
+        "rule": "9.8.1",
+        "prompt": "Provisional results are posted. Who is responsible for checking that a competitor’s own scores are recorded accurately?",
+        "correct": "The competitor",
         "options": [
-          "Before 12:50 on Sunday",
-          "By 13:10 on Sunday",
-          "By 13:30 on Sunday",
-          "Before 12:50 on Monday"
+          "The competitor",
+          "The squad leader",
+          "The Range Officer from the final stage",
+          "The Match Director"
         ],
-        "note": "The earlier limit is the declaration of final results.",
-        "family": "11.3.2",
+        "note": "",
+        "family": "9.8.1",
         "id": "75069bcdc82cd29e"
       }
     ]
