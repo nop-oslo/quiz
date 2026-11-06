@@ -44,7 +44,7 @@ function home(focus = true) {
   const view = node('section');
   view.append(node('p', 'COMPETITION RULES PRACTICE', 'kicker'),
     node('h1', 'Know the rules.'),
-    node('p', 'Choose a discipline and answer 12 questions from its 216-question bank. Then check your score and see the rule behind each answer.', 'intro'));
+    node('p', 'Choose a discipline and answer 12 questions drawn from a large question bank. Try again for a fresh set of questions. After each answer, see the rule behind it, and get your score at the end.', 'intro'));
   for (const group of ['Centerfire', 'Rimfire', 'Action Air']) {
     const grid = node('div', undefined, 'grid');
     for (const discipline of disciplines.filter(item => item.group === group)) {
