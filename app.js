@@ -207,7 +207,13 @@ function ruleExplanation(question, discipline) {
   return section;
 }
 
-function resultImage(discipline, score, total, percent) {
+const quizAwards = {
+  10: {label: 'Bronze', color: '#f1b98e'},
+  11: {label: 'Silver', color: '#dbe4f0'},
+  12: {label: 'Gold + President’s Medal', color: '#ffe18a'},
+};
+
+function resultImage(discipline, score, total, percent, award) {
   const canvas = document.createElement('canvas');
   canvas.width = 1080;
   canvas.height = 630;
@@ -228,7 +234,8 @@ function resultImage(discipline, score, total, percent) {
   label(discipline.name, 210, 60, '#f3f5ef');
   label(`${score} / ${total}`, 388, 145, '#e2fb85', 850);
   label(`${score} correct  ·  ${total - score} incorrect  ·  ${percent}% correct`, 455, 36, '#f3f5ef');
-  label('JANUARY 2026 EDITION  ·  INDEPENDENT RULES PRACTICE', 560, 21, '#b1c0bb');
+  if (award) label(`QUIZ AWARD  ·  ${award.label}`, 519, 30, award.color);
+  label('JANUARY 2026 EDITION  ·  INDEPENDENT RULES PRACTICE', 575, 21, '#b1c0bb');
   return new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
 }
 
@@ -237,6 +244,7 @@ function results() {
   const score = questions.filter((question, index) => question.correct === answers[index]).length;
   const total = questions.length;
   const percent = Math.round(score / total * 100);
+  const award = quizAwards[score];
   const view = node('section', undefined, 'narrow');
   const card = node('div', undefined, 'result-card');
   const breakdown = node('p', `${score} correct · ${total - score} incorrect · ${percent}% correct`, 'score-breakdown');
@@ -244,10 +252,17 @@ function results() {
     node('h1', `${discipline.name} results`),
     node('p', `${score} / ${total}`, 'score'), breakdown);
 
+  if (award) {
+    const badge = node('div', undefined, 'quiz-award');
+    badge.style.setProperty('--award-color', award.color);
+    badge.append(node('span', 'Quiz award', 'meta'), node('strong', award.label));
+    card.append(badge);
+  }
+
   const status = node('p', '', 'status');
   status.setAttribute('role', 'status');
   const fileName = `ipsc-${discipline.id}-result.png`;
-  const image = resultImage(discipline, score, total, percent).then(blob => {
+  const image = resultImage(discipline, score, total, percent, award).then(blob => {
     if (!blob) return null;
     return new File([blob], fileName, {type: 'image/png'});
   });
