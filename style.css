@@ -1,0 +1,56 @@
+:root{color-scheme:dark;--bg:#11191a;--panel:#182324;--line:#344746;--text:#f3f5ef;--muted:#b1c0bb;--accent:#e2fb85;--ink:#152019}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 85% 2%,#293c32 0%,transparent 42rem),var(--bg);color:var(--text);font:16px/1.5 system-ui,sans-serif;min-height:100vh}
+a{color:var(--accent);text-underline-offset:.25em}
+button{font:inherit;cursor:pointer}
+button:disabled{cursor:default;opacity:.46}
+:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.shell{width:min(1080px,calc(100% - 40px));margin-inline:auto}
+.top{border-bottom:1px solid var(--line)}
+.top .shell,.footer{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:67px}
+.brand{font-size:.86rem;letter-spacing:.13em;text-decoration:none;color:var(--text);font-weight:850}
+.brand span,.kicker{color:var(--accent)}
+.edition,.kicker,.group-label,.meta{font-size:.75rem;letter-spacing:.13em;text-transform:uppercase;font-weight:750}
+.edition,.group-label,.meta,.muted{color:var(--muted)}
+main{padding-block:clamp(36px,8vw,85px) 54px}
+h1,h2,p{margin:0}
+h1{font-size:clamp(2.6rem,8vw,6rem);letter-spacing:-.06em;line-height:.98;margin:.2em 0 .27em}
+.intro{max-width:42rem;color:var(--muted);font-size:1.08rem}
+.group-label{margin:28px 0 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,225px),1fr));gap:10px}
+.tile,.option{color:var(--text);background:var(--panel);border:1px solid var(--line);text-align:left;border-radius:12px}
+.tile{padding:17px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:4px 8px;min-height:86px}
+.tile:hover,.option:hover{border-color:var(--accent)}
+.tile strong{font-size:1.04rem;line-height:1.25}
+.tile .meta{grid-column:1;font-size:.63rem}
+.arrow{grid-column:2;grid-row:1/span 2;color:var(--accent)}
+.narrow{max-width:720px;margin-inline:auto}
+.narrow h1{font-size:clamp(1.9rem,5vw,3.2rem);letter-spacing:-.035em;line-height:1.12;margin:18px 0 20px}
+.progress{height:5px;background:var(--line);border-radius:20px;overflow:hidden;margin:12px 0 22px}
+.progress span{height:100%;display:block;background:var(--accent)}
+.options{display:grid;gap:9px;margin:16px 0 22px}
+.option{width:100%;display:flex;gap:12px;align-items:center;min-height:59px;padding:10px 14px}
+.option[aria-pressed=true]{border-color:var(--accent);background:#2d3d29}
+.letter{display:grid;place-items:center;flex:none;width:31px;height:31px;border-radius:8px;border:1px solid var(--line);font-weight:750}
+.option[aria-pressed=true] .letter{background:var(--accent);color:var(--ink);border-color:var(--accent)}
+.actions{display:flex;gap:9px;flex-wrap:wrap;align-items:center}
+.btn{border-radius:9px;background:var(--accent);color:var(--ink);font-weight:800;border:1px solid transparent;padding:10px 15px;min-height:44px;text-decoration:none}
+.secondary{color:var(--text);background:var(--panel);border-color:var(--line)}
+.result-card{background:linear-gradient(145deg,#293c32,#182324);border:1px solid #556953;border-top:5px solid var(--accent);padding:clamp(22px,6vw,43px);border-radius:17px;margin:0 0 17px}
+.result-card h1{margin:.35em 0 .15em}
+.score{font-size:clamp(3.7rem,12vw,6.5rem);line-height:1.13;font-weight:880;letter-spacing:-.075em;color:var(--accent)}
+.result-info{margin:12px 0 25px}
+.review{margin:25px 0 10px;border-top:1px solid var(--line);padding-top:18px}
+.review details{border-bottom:1px solid var(--line);padding:12px 0}
+.review summary{cursor:pointer;font-weight:650}
+.review p{margin:8px 0 0}
+.review-body{padding-left:18px}
+.status{color:var(--muted);margin-top:9px}
+.footer{border-top:1px solid var(--line);color:var(--muted);font-size:.82rem}
+@media(max-width:420px){.shell{width:calc(100% - 28px)}.footer{align-items:flex-start;flex-direction:column;justify-content:center;padding-block:12px;gap:4px}.edition{font-size:.65rem}}
+.feedback{border:1px solid var(--line);border-inline-start:4px solid var(--accent);border-radius:10px;background:var(--panel);padding:14px 16px;margin-bottom:16px}
+.feedback.incorrect{border-inline-start-color:#ffb7a9}
+.feedback h2{font-size:1.25rem;margin-bottom:6px}
+.feedback p,.feedback a{margin-top:4px}
+.feedback a{display:inline-block}
+.score-breakdown{font-weight:750}
