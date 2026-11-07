@@ -4,7 +4,7 @@ const interpretations = {
   'May 2026': 'https://drive.google.com/file/d/1A8fsxtPs_SeuG4pOKXAO8VfFz01A7hAq/view',
 };
 const roundSize = 12;
-const historyVersion = 'v1';
+const historyVersion = 'v2';
 const sessionHistory = new Map();
 let attempt;
 
@@ -77,18 +77,52 @@ function shuffle(values) {
   return result;
 }
 
+function ruleChapter(question) {
+  return question.rule.match(/^\d+(?=\.)/)?.[0] ?? 'Appendices';
+}
+
 function buildRounds(questions, previousIds) {
   const roundCount = questions.length / roundSize;
-  const rounds = Array.from({length: roundCount}, () => []);
-  const families = new Map();
+  const chapters = new Map();
   for (const question of questions) {
+    const chapter = ruleChapter(question);
+    if (!chapters.has(chapter)) chapters.set(chapter, new Map());
+    const families = chapters.get(chapter);
     if (!families.has(question.family)) families.set(question.family, []);
-    families.get(question.family).push(question.id);
+    families.get(question.family).push(question);
   }
-  // A family occupies consecutive slots, which land in different rounds.
-  const ids = shuffle([...families.values()]).flatMap(shuffle);
-  ids.forEach((id, index) => rounds[index % roundCount].push(id));
-  const randomized = shuffle(rounds);
+
+  // Consecutive slots rotate through the rounds. This spreads each chapter
+  // evenly and puts each variant in a different round from its siblings.
+  let bestRounds;
+  let bestMinimum = -1;
+  let bestVariation = Infinity;
+  const chapterGroups = [...chapters.values()];
+  for (let trial = 0; trial < 96; trial++) {
+    const candidate = Array.from({length: roundCount}, () => []);
+    const coverage = Array.from({length: roundCount}, () => new Set());
+    let slot = 0;
+    for (const families of shuffle(chapterGroups)) {
+      for (const family of shuffle([...families.values()])) {
+        for (const question of shuffle(family)) {
+          const round = slot++ % roundCount;
+          candidate[round].push(question.id);
+          coverage[round].add(ruleChapter(question));
+        }
+      }
+    }
+    const sizes = coverage.map(chaptersInRound => chaptersInRound.size);
+    const minimum = Math.min(...sizes);
+    // Total coverage is fixed by the chapter counts. Prefer fewer low-coverage rounds.
+    const variation = sizes.reduce((sum, size) => sum + size * size, 0);
+    if (minimum > bestMinimum || (minimum === bestMinimum && variation < bestVariation)) {
+      bestRounds = candidate;
+      bestMinimum = minimum;
+      bestVariation = variation;
+    }
+  }
+
+  const randomized = shuffle(bestRounds);
   const previous = new Set(previousIds);
   const first = randomized.findIndex(round => round.every(id => !previous.has(id)));
   // Each previous ID can block at most one round, and the deck has 18 rounds.
@@ -113,7 +147,8 @@ function drawRound(discipline) {
   const saved = readHistory(key);
   const validRound = round => Array.isArray(round) && round.length === roundSize
     && new Set(round).size === roundSize && round.every(id => questions.has(id));
-  const last = validRound(saved?.last) ? saved.last : [];
+  const previous = saved?.last ?? readHistory(`ipsc-quiz:v1:${discipline.id}`)?.last;
+  const last = validRound(previous) ? previous : [];
   const remaining = saved?.remaining;
   const validDeck = Array.isArray(remaining) && remaining.every(validRound)
     && new Set([...last, ...remaining.flat()]).size === last.length + remaining.length * roundSize;
