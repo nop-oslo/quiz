@@ -71,3 +71,5 @@ h1{font-size:clamp(2.6rem,8vw,6rem);letter-spacing:-.06em;line-height:.98;margin
   .home-hero{grid-template-columns:1fr;gap:16px}
   .hero-logo{grid-row:1;width:86px}
 }
+
+.result-feedback{max-width:52ch;margin-top:16px;color:var(--muted);line-height:1.55}

@@ -222,12 +222,21 @@ const quizAwards = {
   12: {label: 'Gold + President’s Medal', color: '#ffe18a'},
 };
 
-function resultImage(discipline, score, total, percent, award) {
+function rulesFeedback(score, disciplineName) {
+  if (score === 12) return `Excellent knowledge of the ${disciplineName} rules. You got every question right!`;
+  if (score === 11) return `Very strong knowledge of the ${disciplineName} rules. Review the one answer you missed and go for a perfect round.`;
+  if (score === 10) return `Strong knowledge of the ${disciplineName} rules. Review the two answers you missed to build on this result.`;
+  if (score >= 8) return `Good knowledge of the ${disciplineName} rules. Review the answers you missed, then try a fresh round.`;
+  if (score >= 5) return `You’re building your knowledge of the ${disciplineName} rules. Use the answer explanations to see what to practice next.`;
+  return `There’s room to build your knowledge of the ${disciplineName} rules. Start with the answer explanations and try again when you’re ready.`;
+}
+
+function resultImage(discipline, score, total, percent, award, feedback) {
   const canvas = document.createElement('canvas');
   canvas.width = 1080;
-  canvas.height = 630;
+  canvas.height = 720;
   const ctx = canvas.getContext('2d');
-  const gradient = ctx.createLinearGradient(0, 0, 1080, 630);
+  const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
   gradient.addColorStop(0, '#38332d');
   gradient.addColorStop(1, '#171717');
   ctx.fillStyle = gradient;
@@ -244,7 +253,21 @@ function resultImage(discipline, score, total, percent, award) {
   label(`${score} / ${total}`, 388, 145, '#f0d5a5', 850);
   label(`${score} correct  ·  ${total - score} incorrect  ·  ${percent}% correct`, 455, 36, '#f7f4ee');
   if (award) label(`QUIZ AWARD  ·  ${award.label}`, 519, 30, award.color);
-  label('JANUARY 2026 EDITION  ·  INDEPENDENT RULES PRACTICE', 575, 21, '#c6beb2');
+  let line = '';
+  let feedbackY = award ? 568 : 521;
+  ctx.font = '550 26px system-ui, sans-serif';
+  for (const word of feedback.split(' ')) {
+    const next = line ? `${line} ${word}` : word;
+    if (line && ctx.measureText(next).width > 944) {
+      label(line, feedbackY, 26, '#f7f4ee', 550);
+      feedbackY += 34;
+      line = word;
+    } else {
+      line = next;
+    }
+  }
+  label(line, feedbackY, 26, '#f7f4ee', 550);
+  label('JANUARY 2026 EDITION  ·  INDEPENDENT RULES PRACTICE', 683, 21, '#c6beb2');
   return new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
 }
 
@@ -254,6 +277,7 @@ function results() {
   const total = questions.length;
   const percent = Math.round(score / total * 100);
   const award = quizAwards[score];
+  const feedback = rulesFeedback(score, discipline.name);
   const view = node('section', undefined, 'narrow');
   const card = node('div', undefined, 'result-card');
   const breakdown = node('p', `${score} correct · ${total - score} incorrect · ${percent}% correct`, 'score-breakdown');
@@ -268,10 +292,12 @@ function results() {
     card.append(badge);
   }
 
+  card.append(node('p', feedback, 'result-feedback'));
+
   const status = node('p', '', 'status');
   status.setAttribute('role', 'status');
   const fileName = `ipsc-${discipline.id}-result.png`;
-  const image = resultImage(discipline, score, total, percent, award).then(blob => {
+  const image = resultImage(discipline, score, total, percent, award, feedback).then(blob => {
     if (!blob) return null;
     return new File([blob], fileName, {type: 'image/png'});
   });
