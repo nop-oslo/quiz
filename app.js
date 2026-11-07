@@ -42,9 +42,18 @@ function show(view, focus = true, headingSelector = 'h1') {
 function home(focus = true) {
   attempt = undefined;
   const view = node('section');
-  view.append(node('p', 'COMPETITION RULES PRACTICE', 'kicker'),
-    node('h1', 'Know the rules.'),
-    node('p', 'Choose a discipline and answer 12 questions drawn from a large question bank. Try again for a fresh set of questions. After each answer, see the rule behind it, and get your score at the end.', 'intro'));
+  const hero = node('div', undefined, 'home-hero');
+  const copy = node('div');
+  copy.append(node('p', 'RULES QUIZ FOR IPSC SHOOTERS', 'kicker'),
+    node('h1', 'Test your knowledge of the IPSC rules'),
+    node('p', 'Choose a shooting discipline and answer 12 questions based on its rulebook. Try again for a fresh set of questions, and see the rule behind each answer.', 'intro'));
+  const logo = node('img', undefined, 'hero-logo');
+  logo.src = 'nop-logo.webp';
+  logo.alt = 'NOP club emblem';
+  logo.width = 400;
+  logo.height = 406;
+  hero.append(copy, logo);
+  view.append(hero);
   for (const group of ['Centerfire', 'Rimfire', 'Action Air']) {
     const grid = node('div', undefined, 'grid');
     for (const discipline of disciplines.filter(item => item.group === group)) {
@@ -219,23 +228,23 @@ function resultImage(discipline, score, total, percent, award) {
   canvas.height = 630;
   const ctx = canvas.getContext('2d');
   const gradient = ctx.createLinearGradient(0, 0, 1080, 630);
-  gradient.addColorStop(0, '#293c32');
-  gradient.addColorStop(1, '#11191a');
+  gradient.addColorStop(0, '#38332d');
+  gradient.addColorStop(1, '#171717');
   ctx.fillStyle = gradient;
   ctx.fillRect(0, 0, 1080, 630);
-  ctx.fillStyle = '#e2fb85';
+  ctx.fillStyle = '#f0d5a5';
   ctx.fillRect(0, 0, 1080, 12);
   function label(text, y, size, color, weight = 750) {
     ctx.fillStyle = color;
     ctx.font = `${weight} ${size}px system-ui, sans-serif`;
     ctx.fillText(text, 68, y, 944);
   }
-  label('IPSC / RULES QUIZ', 105, 26, '#e2fb85');
-  label(discipline.name, 210, 60, '#f3f5ef');
-  label(`${score} / ${total}`, 388, 145, '#e2fb85', 850);
-  label(`${score} correct  ·  ${total - score} incorrect  ·  ${percent}% correct`, 455, 36, '#f3f5ef');
+  label('IPSC / RULES QUIZ', 105, 26, '#f0d5a5');
+  label(discipline.name, 210, 60, '#f7f4ee');
+  label(`${score} / ${total}`, 388, 145, '#f0d5a5', 850);
+  label(`${score} correct  ·  ${total - score} incorrect  ·  ${percent}% correct`, 455, 36, '#f7f4ee');
   if (award) label(`QUIZ AWARD  ·  ${award.label}`, 519, 30, award.color);
-  label('JANUARY 2026 EDITION  ·  INDEPENDENT RULES PRACTICE', 575, 21, '#b1c0bb');
+  label('JANUARY 2026 EDITION  ·  INDEPENDENT RULES PRACTICE', 575, 21, '#c6beb2');
   return new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
 }
 
